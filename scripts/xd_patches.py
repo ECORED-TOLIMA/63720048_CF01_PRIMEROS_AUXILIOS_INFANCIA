@@ -270,3 +270,33 @@ def apply():
                           ('cropped_pattern_bytes', cropped_pattern_bytes)):
         _orig[nombre] = getattr(X, nombre)
         setattr(X, nombre, nuevo)
+
+
+# ---------------------------------------------------------------------------
+# Remapeo de la PALETA VIEJA que quedó en el arte del XD
+# ---------------------------------------------------------------------------
+# La hoja de especificación del XD tiene, al lado de cada rect de muestra, el hex ESCRITO, y los
+# dos NO coinciden: el arte (rellenos de los nodos, círculos de los íconos, badges…) se dibujó con
+# los colores del rect, o sea con la paleta vieja. Manda el hex escrito (regla de Luis, 2026-07-29:
+# «el acento-botones es #85E336, no el #16D95E del rect, aunque el PDF pinte el rect»).
+#
+# Si sólo se corrigen las variables de SASS, las superficies que pinta el CSS quedan en la paleta
+# nueva y los assets rasterizados en la vieja -> un círculo #DBC2FA sobre una tarjeta #E3D7FF, o
+# un botón salmón junto a uno naranja. Así que el remapeo se hace **en el SVG, antes de
+# rasterizar**: los colores van como `rgb(r,g,b)` literales, así que es una sustitución exacta y
+# no deja bordes mal antialiasados (que es lo que pasaría remapeando el PNG).
+PALETA_VIEJA_A_NUEVA = {
+    (219, 194, 250): (227, 215, 255),   # #DBC2FA -> #E3D7FF  secundario
+    (255, 192, 172): (255, 184, 102),   # #FFC0AC -> #FFB866  acento contenido
+    (22, 217, 94): (133, 227, 54),      # #16D95E -> #85E336  acento botón
+    (255, 230, 222): (255, 234, 209),   # #FFE6DE -> #FFEAD1  3-VC
+    (244, 237, 254): (247, 243, 255),   # #F4EDFE -> #F7F3FF  2-VC
+    (184, 244, 206): (218, 247, 195),   # #B8F4CE -> #DAF7C3  tinte 30 % del acento botón
+}
+
+
+def remapear_paleta(svg):
+    """Sustituye en el SVG los `rgb(...)` de la paleta vieja por los de la hoja de spec."""
+    for (r, g, b), (r2, g2, b2) in PALETA_VIEJA_A_NUEVA.items():
+        svg = svg.replace(f'rgb({r},{g},{b})', f'rgb({r2},{g2},{b2})')
+    return svg

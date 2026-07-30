@@ -30,6 +30,7 @@ import config as C  # noqa: E402
 C.pipeline()
 import xd_export as X  # noqa: E402
 import xd_patches  # noqa: E402
+import xd_patches as P  # noqa: E402
 
 XDDIR = C.XDDIR
 RES = C.RES
@@ -59,6 +60,7 @@ def buscar(raiz, nombres):
 
 
 def rasterizar(svg, w, h, escala):
+    svg = P.remapear_paleta(svg)   # paleta vieja del arte -> hoja de spec
     tmp = tempfile.mkdtemp()
     open(f'{tmp}/a.svg', 'w').write(svg)
     W, H = round(w * escala), round(h * escala)

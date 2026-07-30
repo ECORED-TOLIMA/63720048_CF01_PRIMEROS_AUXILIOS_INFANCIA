@@ -101,9 +101,133 @@ figcaption
 // ============================================================================
 
 // Fondos planos, numerados en el orden en que aparecen. El hex es el de la spec, no el del arte.
+// (Entre paréntesis, el color con el que está dibujado el nodo en el XD.)
 .bg-1
-  background-color: $color-3-vc          // aviso salmón claro (en el XD #FFE6DE)
+  background-color: $color-3-vc          // #FFEAD1  aviso salmón claro   (XD #FFE6DE)
   border-radius: 10px
+.bg-2
+  background-color: $color-2-vc          // #F7F3FF  lila muy claro       (XD #F4EDFE)
+  border-radius: 10px
+.bg-3
+  background-color: $color-1-vc          // #DDEEFE  azul muy claro       (XD #DDEEFE, ya coincide)
+  border-radius: 10px
+.bg-4
+  background-color: $color-primario      // #8EC5FC  azul de las tarjetas (XD #8EC5FC)
+  border-radius: 10px
+.bg-5
+  background-color: $color-4-30          // #DAF7C3  verde claro          (XD #B8F4CE)
+  border-radius: 10px
+.bg-6
+  background-color: $color-secundario    // #E3D7FF  lila                 (XD #DBC2FA)
+  border-radius: 10px
+.bg-7
+  background-color: $color-acento-contenido  // #FFB866 naranja           (XD #FFC0AC)
+  border-radius: 10px
+
+// `.cajon` de este curso: caja 1-VC con la pestaña arriba a la izquierda en primario.
+// Medido en el XD: la pestaña es un rect de 25x8 (el kit trae 25x10).
+.cajon.color1
+  background-color: $color-1-vc
+  border-radius: 10px
+  &:before
+    height: 8px
+    background-color: $color-primario
+
+// Fondos decorativos full-bleed: son PNG exportados del XD, no colores planos.
+// Receta de Luis: .row.bg-fondo-N > .col-12 > .p-5
+.bg-fondo-1, .bg-fondo-2, .bg-fondo-3
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+.bg-fondo-1
+  background-image: url(../assets/curso/temas/bg/1.png)
+.bg-fondo-2
+  background-image: url(../assets/curso/temas/bg/2.png)
+.bg-fondo-3
+  background-image: url(../assets/curso/temas/bg/3.png)
+
+// Lista numerada del XD: el cuadro de la viñeta va CLARO con el número oscuro (el kit lo pinta
+// acento-contenido con el número blanco) y los ítems separados por una línea fina.
+.lista-numerada--clara
+  .lista-ol--cuadro__vineta
+    background-color: $color-3-vc
+    color: $color-sistema-texto
+    border-radius: 4px
+  li
+    border-bottom-color: $color-sistema-f !important
+
+// Viñetas de corazón del XD (color del acento-contenido) y sin el margen de 10px del kit
+.lista-ul--compacta
+  li
+    margin-bottom: 0
+    > i:first-of-type
+      color: $color-acento-contenido
+
+// Caja con el badge del ícono montado SOBRE el borde superior, centrado (XD: caja 1020x140 con
+// un cuadro de 70x70 que arranca 35px por encima).
+.tarjeta--badge-arriba
+  border-radius: 10px
+  margin-top: 35px
+  padding-top: 0
+  figure
+    margin: -35px 0 20px
+    text-align: center
+    img
+      width: 70px
+
+// Acordeón de los principios (1.2): el kit deja las tarjetas grises; el XD las pinta con el
+// tinte 30 % del acento-botón y la abierta en 2-VC.
+.acordion--principios
+  .acordion__item, .tarjeta
+    background-color: $color-4-30 !important
+    border-radius: 10px
+  .acordion__activo
+    background-color: $color-2-vc !important
+  .acordion__accion__btn--a, .acordion__accion__btn--b   // en el XD es un círculo del acento-botón
+    background-color: $color-acento-botones
+    color: $color-sistema-texto
+    width: 36px
+    height: 36px
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 1.25rem
+
+// LineaTiempoD de las características (1.3): badges y barras con los colores del XD
+// (badge del abierto = acento-botón; cerrados y barras = tinte 30 %).
+.linea-tiempo--caracteristicas
+  .linea-tiempo-d__item__number
+    background-color: $color-4-30
+    color: $color-sistema-texto
+    border-radius: 4px
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-botones !important
+      color: $color-sistema-texto !important
+    .tarjeta
+      background-color: $color-2-vc !important
+  .tarjeta
+    background-color: $color-4-30 !important
+    border-radius: 4px
+
+// Chevrones del SlyderF de los principios (1.4): en el XD son del acento-botón
+.slyder--principios
+  .slyder-f__btn i
+    color: $color-acento-botones
+
+// Tarjeta con el círculo del ícono montado SOBRE el borde superior (medido en el XD:
+// tarjeta 292x260, círculo de 150 que arranca 75px por encima del borde).
+.tarjeta--icono-arriba
+  border-radius: 10px
+  margin-top: 75px
+  padding: 0 20px 24px
+  height: 100%
+  figure
+    margin: -75px 0 0
+    text-align: center
+    img
+      width: 150px
 
 .p-full-width
   padding: 3rem 3.5rem!important;

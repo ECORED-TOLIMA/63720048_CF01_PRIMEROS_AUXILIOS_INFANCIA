@@ -41,6 +41,7 @@ import config as C  # noqa: E402
 C.pipeline()
 import xd_export as X  # noqa: E402
 import xd_patches  # noqa: E402
+import xd_patches as P  # noqa: E402
 
 XDDIR = C.XDDIR
 RES = C.RES
@@ -172,7 +173,7 @@ def rasterizar(svg, salida, w, h, escala=1):
     """SVG -> PNG con Chrome. La ventana se pide 200px más alta y se recorta (bug de headless)."""
     from PIL import Image
     tmp = tempfile.mkdtemp()
-    svg = svg.replace('<svg ', '<svg ', 1)
+    svg = P.remapear_paleta(svg)   # paleta vieja del arte -> hoja de spec
     style = f'<style>{fuentes_css()}</style>'
     svg = svg.replace('>', '>' + style, 1)
     open(f'{tmp}/a.svg', 'w').write(svg)

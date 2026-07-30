@@ -106,6 +106,36 @@ Variables (VC = clara, V = variable, VO = oscura): 1 `#DDEEFE`/`#F3F9FF`/`#394F6
   nombra `Guion_Introduccion_Video_CF01_63720047`). Se deja el embed por defecto que trae el
   scaffold y queda anotado como pendiente.
 
+## Tema 1 (pág 3) — hecho
+
+Artboard `4e18ab8b`, `XD_DX=10506 XD_DY=11700`, tarjeta 1328×7760. 4 subtemas.
+
+**Assets: 25, todos verificados por correlación contra la pág 3.** Fotos enmascaradas con
+`regen_fotos.py` (`f2` 0.992, `f3` 0.981, `f4` 0.991, `f5` 0.987); íconos y aviso 84
+(0.94-0.98); fondos decorativos y Figura 1 con `--grupo`.
+
+- **`f6` (la ilustración del 1.3) es una COMPOSICIÓN de hermanos**, no un grupo: forma de color
+  `Trazado 1003382` + recorte `Enmascarar grupo 1119237` + adorno `Trazado 1003383`. Con
+  `--grupo` daba **0.524**; con `fit_composicion.py` (que selecciona las capas por NOMBRE y busca
+  escala/offset por correlación), **0.9771** — y la escala que encuentra (0.773× del nodo) es el
+  `scaleX` del pattern que el pipeline ignora.
+- **Tres fondos decorativos full-bleed** (`Grupo 1184123` 1328×254, `Grupo 1178002` 1328×483,
+  `Grupo 1184136` 1328×254) con la receta `.row.bg-fondo-N > .col-12 > .p-5`. Su correlación sale
+  ~0.00 porque en el PDF llevan ENCIMA las tarjetas y el acordeón que pone el HTML: es normal.
+- **Las pestañas de 25×8 existen y son 3**: `Rectángulo 401461` (290,1142), `456434` (498,4067) y
+  `456438` (186,5341) → esos tres avisos son `.cajon`, y ningún otro. Los demás son rects con
+  `r=10` sin pestaña.
+- **La Figura 1 SÍ tiene variante móvil en el pasteboard**: `Grupo 1183114`, 400×1130, con el
+  mismo contenido apilado en vertical. Va con el `img` móvil PRIMERO
+  (`d-block.d-md-none` + `d-none.d-md-block`).
+- Componentes: `AcordionA(tipo="b")` para los 5 principios del 1.2 (botón = círculo del
+  acento-botón a la derecha, comprobado en el PDF), `LineaTiempoD` para las 5 características del
+  1.3, `SlyderF` para los 5 principios del 1.4 (el XD dibuja 3 y las flechas; los otros 2 salen
+  del DI.docx).
+- El **tinte del arte `#B8F4CE` es el 30 % del VIEJO `#16D95E`**; con el hex bueno (`#85E336`) el
+  equivalente es **`#DAF7C3`** → `$color-4-30`. Está en la tabla de remapeo.
+- 26 elementos con `data-aos`, **0 sin `aos-animate`** con el viewport cubriendo la página.
+
 ## Traducción de la paleta VIEJA del arte a la de la spec
 
 Los nodos del XD siguen rellenos con los colores de los **rects de muestra**. Barriendo los

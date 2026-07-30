@@ -38,10 +38,20 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
 |---|---|
 | Portada (`/`) | hecha |
 | Introducción | hecha |
-| Temas 1-6 | pendientes |
+| Tema 1 | hecho |
+| Temas 2-6 | pendientes |
 | Síntesis | pendiente |
 | Actividad didáctica | pendiente |
 | Glosario / Referencias | pendientes (del DI.docx a `global.js`) |
 | Créditos | los del scaffold, por confirmar contra el DI.docx |
+
+7. **El arte del XD se remapea a la paleta de la spec también DENTRO de los assets.** Los círculos
+   de los íconos, los badges y los tintes están dibujados con la paleta vieja; si sólo se corrigen
+   las variables de SASS, un círculo `#DBC2FA` queda junto a una tarjeta `#E3D7FF`. El remapeo se
+   hace en el SVG antes de rasterizar (`xd_patches.remapear_paleta`), así que no deja bordes mal
+   antialiasados. El tinte `#B8F4CE` del arte (30 % del viejo verde) pasa a `#DAF7C3`.
+8. **A 390 px de ancho el contenido se corta por la derecha** en todas las pantallas: viene del
+   ancho mínimo efectivo (~480 px) de la infraestructura del kit, no de la maquetación. A 768 px
+   todo apila bien.
 
 Las 13 rutas comprobadas una a una contra el overlay de error de Vite: ninguna rota.
