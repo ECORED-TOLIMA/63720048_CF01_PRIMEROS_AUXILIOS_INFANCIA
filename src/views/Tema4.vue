@@ -172,8 +172,30 @@
         .p-5
           .row.justify-content-center
             .col-11
-              figure(data-aos="fade-down")
-                img(src="@/assets/curso/temas/t4/info-riesgos.png" alt="Manejo adecuado de los riesgos biológicos. Alrededor de una ilustración central se disponen seis acciones: 1. Identificar el riesgo, 2. Aplicar medidas de protección, 3. Evitar el contacto directo, 4. Controlar la fuente de riesgo, 5. Disponer adecuadamente los residuos y 6. Realizar higiene de manos." style="width: 1020px").m-auto
+              .row.justify-content-center
+                .col-lg-6
+    ImagenInfografica.color-primario
+                    template(v-slot:imagen)
+                      figure
+                        img(src="@/assets/curso/temas/t4/info-riesgos.png" alt="Manejo adecuado de los riesgos biológicos. Un anillo de seis colores con seis acciones: 1. Identificar el riesgo, 2. Aplicar medidas de protección, 3. Evitar el contacto directo, 4. Controlar la fuente de riesgo, 5. Disponer adecuadamente los residuos y 6. Realizar higiene de manos." ).w-100
+                    .tarjeta.color-primario.p-3(x="17.8%" y="10.5%" numero="1")
+                      .h5.mb-2 Identificar el riesgo
+                      p.mb-0 Reconocer la presencia de sangre, secreciones o materiales contaminados antes de intervenir.
+                    .tarjeta.color-primario.p-3(x="8.7%" y="50%" numero="2")
+                      .h5.mb-2 Aplicar medidas de protección
+                      p.mb-0 Utilizar elementos de protección personal según el tipo de exposición.
+                    .tarjeta.color-primario.p-3(x="17.8%" y="89.5%" numero="3")
+                      .h5.mb-2 Evitar el contacto directo
+                      p.mb-0 Emplear barreras de protección para reducir la probabilidad de contaminación.
+                    .tarjeta.color-primario.p-3(x="80.4%" y="10.5%" numero="4")
+                      .h5.mb-2 Controlar la fuente de riesgo
+                      p.mb-0 Cubrir heridas o contener fluidos, cuando sea posible, sin generar daño adicional.
+                    .tarjeta.color-primario.p-3(x="91.3%" y="50%" numero="5")
+                      .h5.mb-2 Disponer adecuadamente los residuos
+                      p.mb-0 Eliminar de forma segura los materiales utilizados durante la atención.
+                    .tarjeta.color-primario.p-3(x="80.4%" y="89.5%" numero="6")
+                      .h5.mb-2 Realizar higiene de manos
+                      p.mb-0 Lavarse las manos antes y después de la intervención como medida fundamental de prevención.
 
     p.mt-5(data-aos="fade-down") Estas acciones permiten reducir la probabilidad de transmisión de enfermedades y garantizan condiciones seguras durante la atención en primeros auxilios. Además, fortalecen la actuación del primer respondiente, asegurando que su intervención sea responsable, segura y acorde con los principios de bioseguridad.
 
@@ -206,52 +228,34 @@
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-4.mb-4
         .bg-1.r-10.p-4.h-100
-          .row.align-items-center
-            .col-auto
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/i8.png" alt="" style="width: 60px")
-            .col
-              p.mb-0 Evaluar el entorno y verificar la seguridad de la escena antes de intervenir.
+          figure.mb-3
+            img(src="@/assets/curso/temas/t4/i8.png" alt="" style="width: 60px")
+          p.mb-0 Evaluar el entorno y verificar la seguridad de la escena antes de intervenir.
       .col-md-6.col-lg-4.mb-4
         .bg-1.r-10.p-4.h-100
-          .row.align-items-center
-            .col-auto
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/i9.png" alt="" style="width: 60px")
-            .col
-              p.mb-0 Identificar el tipo de emergencia y el estado de la persona afectada.
+          figure.mb-3
+            img(src="@/assets/curso/temas/t4/i9.png" alt="" style="width: 60px")
+          p.mb-0 Identificar el tipo de emergencia y el estado de la persona afectada.
       .col-md-6.col-lg-4.mb-4
         .bg-1.r-10.p-4.h-100
-          .row.align-items-center
-            .col-auto
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/i10.png" alt="" style="width: 60px")
-            .col
-              p.mb-0 Aplicar medidas básicas de primeros auxilios según la situación.
+          figure.mb-3
+            img(src="@/assets/curso/temas/t4/i10.png" alt="" style="width: 60px")
+          p.mb-0 Aplicar medidas básicas de primeros auxilios según la situación.
       .col-md-6.col-lg-4.mb-4
         .bg-1.r-10.p-4.h-100
-          .row.align-items-center
-            .col-auto
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/i11.png" alt="" style="width: 60px")
-            .col
-              p.mb-0 Activar el sistema de emergencias (línea 123).
+          figure.mb-3
+            img(src="@/assets/curso/temas/t4/i11.png" alt="" style="width: 60px")
+          p.mb-0 Activar el sistema de emergencias (línea 123).
       .col-md-6.col-lg-4.mb-4
         .bg-1.r-10.p-4.h-100
-          .row.align-items-center
-            .col-auto
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/i12.png" alt="" style="width: 60px")
-            .col
-              p.mb-0 Brindar acompañamiento y apoyo emocional a la víctima.
+          figure.mb-3
+            img(src="@/assets/curso/temas/t4/i12.png" alt="" style="width: 60px")
+          p.mb-0 Brindar acompañamiento y apoyo emocional a la víctima.
       .col-md-6.col-lg-4.mb-4
         .bg-1.r-10.p-4.h-100
-          .row.align-items-center
-            .col-auto
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/i13.png" alt="" style="width: 60px")
-            .col
-              p.mb-0 Facilitar el acceso y la información a los servicios de salud.
+          figure.mb-3
+            img(src="@/assets/curso/temas/t4/i13.png" alt="" style="width: 60px")
+          p.mb-0 Facilitar el acceso y la información a los servicios de salud.
 
     p.mt-4(data-aos="fade-down") En la primera infancia, estas funciones deben realizarse con mayor cuidado, asegurando un trato respetuoso, tranquilo y protector.
 
