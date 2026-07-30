@@ -289,7 +289,7 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-9
         p La activación del sistema de emergencias es el proceso mediante el cual el primer respondiente solicita apoyo especializado para la atención de una situación que supera su capacidad de intervención. Este paso es fundamental para garantizar la continuidad de la atención y asegurar una respuesta oportuna por parte de los servicios de salud y organismos de socorro.
-        .cajon.color1.p-4.mt-4
+        .bg-3.r-10.p-4.mt-4
           .row.align-items-start
             .col-auto
               figure.mb-0

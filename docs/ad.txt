@@ -1,0 +1,161 @@
+=== TABLA ===
+| ACTIVIDAD DIDÁCTICA CUESTIONARIO |
+| Generalidades de la actividad ¶ Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona. ¶ Diligenciar solo los espacios en blanco. ¶ El aprendiz recibe una retroalimentación cuando responde de manera correcta o incorrecta cada pregunta. ¶ Señale en la columna Rta. Correcta con una (x) de acuerdo con las opciones presentadas. ¶ Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70 % de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje. ¶ Para sugerir este tipo de actividad tener presente equipo de Diseño Instruccional, que solo debe haber máximo doce opciones de pregunta y que cada campo tiene un límite de palabras permitidas para garantizar el responsive web. |
+| Instrucciones para el aprendiz | Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo:  Principios de primeros auxilios en primera infancia. ¶ Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarse todas las veces que se desee. ¶ Lea la pregunta de cada ítem y seleccione la respuesta correcta. |
+| Nombre de la Actividad | Ruta de protección en primera infancia. |
+| Objetivo de la actividad | Reconocer los principios de los primeros auxilios en primera infancia mediante la identificación de conceptos, riesgos, medidas de bioseguridad y acciones iniciales que orientan una actuación segura y responsable ante situaciones de emergencia. |
+| Texto descriptivo | Lea la pregunta de cada ítem y seleccione la respuesta correcta. |
+| PREGUNTAS |
+| Pregunta 1 | ¿Qué son los primeros auxilios? | Rta(s) correcta(s) (x) |
+| Opción a) | Atención médica especializada. |  |
+| Opción b) | Atención psicológica. |  |
+| Opción c) | Atención inmediata antes del hospital. | X |
+| Opción d) | Atención prolongada. |  |
+| Comentario respuesta correcta | ¡Correcto! Los primeros auxilios son la atención inmediata que se brinda antes de la llegada de la atención especializada. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 2 | ¿Cuál es el principal objetivo de los primeros auxilios? |
+| Opción a) | Dar medicamentos. |  |
+| Opción b) | Preservar la vida. | X |
+| Opción c) | Diagnosticar enfermedades. |  |
+| Opción d) | Reemplazar al médico. |  |
+| Comentario respuesta correcta | ¡Correcto! El objetivo principal es proteger la vida y evitar complicaciones. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 3 | La primera acción del primer respondiente es: |
+| Opción a) | Atender a la víctima. |  |
+| Opción b) | Llamar a la familia. |  |
+| Opción c) | Dar agua. |  |
+| Opción d) | Evaluar la escena. | X |
+| Comentario respuesta correcta | ¡Correcto! Evaluar el entorno evita riesgos adicionales para quien atiende y para la víctima. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 4 | ¿Qué principio busca evitar empeorar la condición de la víctima? |
+| Opción a) | Responsabilidad. |  |
+| Opción b) | No causar daño. | X |
+| Opción c) | Seguridad. |  |
+| Opción d) | Oportunidad. |  |
+| Comentario respuesta correcta | ¡Correcto! El principio de no causar daño evita intervenciones inadecuadas. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 5 | ¿Qué caracteriza la atención inicial? |
+| Opción a) | Es inmediata. | X |
+| Opción b) | Es especializada. |  |
+| Opción c) | Es opcional. |  |
+| Opción d) | Es prolongada. |  |
+| Comentario respuesta correcta | ¡Correcto! La inmediatez es clave para prevenir complicaciones. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 6 | En primera infancia, el riesgo es mayor porque: |
+| Opción a) | Son independientes. |  |
+| Opción b) | Son más vulnerables. | X |
+| Opción c) | Son más fuertes. |  |
+| Opción d) | Tienen más experiencia. |  |
+| Comentario respuesta correcta | ¡Correcto! En la primera infancia, el proceso de desarrollo aumenta la vulnerabilidad frente a los accidentes. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 7 | ¿Qué elemento es clave en bioseguridad? |
+| Opción a) | Gasas. |  |
+| Opción b) | Tijeras. |  |
+| Opción c) | Guantes. | X |
+| Opción d) | Alcohol. |  |
+| Comentario respuesta correcta | ¡Correcto! Los guantes protegen tanto al primer respondiente como a la víctima. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 8 | ¿Cuándo se debe activar el sistema de emergencias? |
+| Opción a) | Cuando la situación es grave. | X |
+| Opción b) | Solo si hay adultos. |  |
+| Opción c) | Siempre. |  |
+| Opción d) | Cuando no hay riesgo. |  |
+| Comentario respuesta correcta | ¡Correcto! El sistema de emergencias se activa cuando existe riesgo para la vida o la salud. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 9 | La línea de emergencias en Colombia es: |
+| Opción a) | 123. | X |
+| Opción b) | 911. |  |
+| Opción c) | 111. |  |
+| Opción d) | 101. |  |
+| Comentario respuesta correcta | ¡Correcto! La línea 123 es el canal único de atención de emergencias en Colombia. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 10 | ¿Qué se debe informar al llamar a emergencias? |
+| Opción a) | Solo el nombre. |  |
+| Opción b) | Información completa del evento. | X |
+| Opción c) | Solo el número de teléfono. |  |
+| Opción d) | Nada. |  |
+| Comentario respuesta correcta | ¡Correcto! Se debe brindar información completa y clara del evento para facilitar la atención oportuna. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+=== /TABLA ===
+=== TABLA ===
+| Pregunta 11 | El botiquín sirve para: |
+| Opción a) | Hospitalización. |  |
+| Opción b) | Curar enfermedades. |  |
+| Opción c) | Diagnóstico. |  |
+| Opción d) | Atención inicial. | X |
+| Comentario respuesta correcta | ¡Correcto! El botiquín permite brindar una atención inicial mientras llega la ayuda especializada. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 12 | ¿Qué NO debe hacer el primer respondiente? |
+| Opción a) | Activar emergencias. |  |
+| Opción b) | Evaluar. |  |
+| Opción c) | Actuar con seguridad. |  |
+| Opción d) | Realizar procedimientos avanzados. | X |
+| Comentario respuesta correcta | ¡Correcto! El primer respondiente debe actuar dentro de los límites de sus competencias. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 13 | ¿Qué es una emergencia? |
+| Opción a) | Situación normal. |  |
+| Opción b) | Situación que pone en riesgo la vida. | X |
+| Opción c) | Situación leve. |  |
+| Opción d) | Situación sin riesgo. |  |
+| Comentario respuesta correcta | ¡Correcto! Una emergencia es una situación que pone en riesgo la vida y requiere atención inmediata. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 14 | La valoración inicial permite: |
+| Opción a) | Medicar. |  |
+| Opción b) | Hospitalizar. |  |
+| Opción c) | Priorizar atención. | X |
+| Opción d) | Diagnosticar. |  |
+| Comentario respuesta correcta | ¡Correcto! La valoración inicial permite priorizar la atención según la gravedad de cada caso. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 15 | ¿Qué se debe verificar primero en la víctima? |
+| Opción a) | Dirección. |  |
+| Opción b) | Conciencia y respiración. | X |
+| Opción c) | Nombre. |  |
+| Opción d) | Edad. |  |
+| Comentario respuesta correcta | ¡Correcto! La conciencia y la respiración son indicadores clave de vida. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 16 | La gestión del riesgo busca: |
+| Opción a) | Identificar y controlar riesgos. | X |
+| Opción b) | Evitar atención. |  |
+| Opción c) | Aumentar riesgos. |  |
+| Opción d) | Ignorar peligros. |  |
+| Comentario respuesta correcta | ¡Correcto! La gestión del riesgo busca identificar y controlar los riesgos para prevenir accidentes. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 17 | ¿Qué es bioseguridad? |
+| Opción a) | Limpieza. |  |
+| Opción b) | Atención médica. |  |
+| Opción c) | Protección frente a riesgos biológicos. | X |
+| Opción d) | Diagnóstico. |  |
+| Comentario respuesta correcta | ¡Correcto! La bioseguridad protege frente a riesgos biológicos y reduce el contagio. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 18 | El primer respondiente debe: |
+| Opción a) | Ignorar protocolos. |  |
+| Opción b) | Actuar con responsabilidad. | X |
+| Opción c) | Reemplazar al médico. |  |
+| Opción d) | Actuar sin pensar. |  |
+| Comentario respuesta correcta | ¡Correcto! El primer respondiente debe actuar con responsabilidad y ética. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 19 | Las redes de atención permiten: |
+| Opción a) | Reemplazar hospitales. |  |
+| Opción b) | Reducir personal. |  |
+| Opción c) | Continuidad del cuidado. | X |
+| Opción d) | Evitar atención. |  |
+| Comentario respuesta correcta | ¡Correcto! Las redes de atención garantizan la continuidad y la articulación del cuidado. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 20 | La toma de decisiones en primeros auxilios implica: |
+| Opción a) | Esperar siempre. |  |
+| Opción b) | Actuar sin analizar. |  |
+| Opción c) | Analizar y actuar con criterio. | X |
+| Opción d) | Seguir intuición. |  |
+| Comentario respuesta correcta | ¡Correcto! Tomar decisiones acertadas exige analizar la situación antes de actuar. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+=== /TABLA ===
+=== TABLA ===
+| MENSAJE FINAL ACTIVIDAD |
+| Mensaje cuando supera el 70 % de respuestas correctas | ¡Excelente resultado! Se evidencia una comprensión adecuada de los principios de los primeros auxilios en la primera infancia, así como la capacidad para reconocer situaciones de riesgo y tomar decisiones oportunas frente a una emergencia. |
+| Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 % | No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica. |
+=== /TABLA ===
+=== TABLA ===
+| CONTROL DE REVISIÓN |
+|  | Responsable | Fecha |
+| Revisión Evaluadora instruccional | Gloria Lida Alzate Suárez | Julio de 2026 |
+=== /TABLA ===

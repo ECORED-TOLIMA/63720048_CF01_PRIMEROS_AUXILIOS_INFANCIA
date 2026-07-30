@@ -1,0 +1,495 @@
+ANEXO FORMATO COMPONENTE FORMATIVO
+=== TABLA ===
+| PROGRAMA DE FORMACIÓN | Primeros auxilios aplicados a la primera infancia |
+=== /TABLA ===
+=== TABLA ===
+| COMPETENCIA | 230101310 Asistir personas de acuerdo con guías de atención y protocolos de primer respondiente. | RESULTADOS DE APRENDIZAJE | 230101310-01. Reconocer marco normativo general de la atención en primeros auxilios teniendo en cuenta características especiales de la primera infancia y lineamientos vigentes. ¶ 230101310-02. Asegurar el escenario de emergencia y/o urgencia teniendo en cuenta situación, recursos disponibles y protocolos establecidos. |
+=== /TABLA ===
+=== TABLA ===
+| NÚMERO DEL COMPONENTE FORMATIVO | 01 |
+| NOMBRE DEL COMPONENTE FORMATIVO | Principios de primeros auxilios en primera infancia |
+| BREVE DESCRIPCIÓN | Este componente desarrolla los Principios de primeros auxilios en primera infancia, abordando la normativa, conceptos básicos, bioseguridad y gestión del riesgo. Permite reconocer situaciones de emergencia, evaluar condiciones del entorno y aplicar acciones iniciales seguras. Fortalece el rol del primer respondiente para actuar de manera oportuna, responsable y acorde con lineamientos técnicos en contextos de atención infantil. |
+| PALABRAS CLAVE | Primeros auxilios, infancia, riesgo, bioseguridad, emergencia. |
+=== /TABLA ===
+=== TABLA ===
+| ÁREA OCUPACIONAL | Salud. |
+| IDIOMA | Español. |
+=== /TABLA ===
+TABLA DE CONTENIDOS:
+Generalidades de los primeros auxilios
+Importancia de los primeros auxilios en la primera infancia
+Concepto, objetivos y principios
+Características de la atención inicial
+Principios de los primeros auxilios
+Marco normativo y ético
+Lineamientos técnicos SDIS
+Normativa en salud y emergencias
+Derechos del paciente
+Responsabilidad del primer respondiente
+Redes de atención
+Fundamentos conceptuales y gestión del riesgo
+Fundamentos conceptuales
+Gestión del riesgo
+Bioseguridad y rol del primer respondiente
+Concepto y normas básicas
+Elementos de protección personal
+Manejo de riesgos biológicos
+Rol del primer respondiente
+Botiquín de primeros auxilios
+Concepto y normativa
+Clasificación y elementos del botiquín
+Evaluación del escenario y toma de decisiones
+Tipos de emergencia
+Valoración inicial
+Seguridad de la escena
+Activación del sistema de emergencias
+Aplicación en contextos infantiles
+Toma de decisiones en primeros auxilios
+INTRODUCCIÓN
+Los primeros auxilios son la respuesta inmediata, provisional y organizada que se brinda ante una emergencia o urgencia. En la primera infancia, etapa de alta vulnerabilidad, esta actuación oportuna puede marcar la diferencia entre proteger la vida de niñas y niños o agravar una situación de riesgo.
+A lo largo de este componente formativo, encontrará los fundamentos que le permitirán actuar con seguridad como primer respondiente: el marco normativo vigente, los conceptos esenciales, las medidas de bioseguridad y la gestión del riesgo en entornos infantiles. Estos saberes fortalecerán su capacidad para evaluar el entorno, tomar decisiones acertadas y activar los servicios de emergencia, tanto en su rol laboral como en la vida cotidiana.
+Los contenidos se abordan desde un enfoque práctico y adaptado a las características de la primera infancia, con ejemplos aplicados a contextos de atención infantil que orientan el paso a paso de una actuación segura, responsable y humanizada. Por ello, el estudio de este componente se complementa con un recurso audiovisual que contextualiza los temas abordados, facilita la comprensión de su relevancia en situaciones reales y orienta el proceso de aprendizaje desde una perspectiva práctica. Para acceder a este recurso, se recomienda consultar el material audiovisual que acompaña esta sección.
+Guion_Introduccion_Video_CF01_63720047Guion_Introduccion_Video_CF01_63720047
+DESARROLLO DE CONTENIDOS:
+Generalidades de los primeros auxilios
+Los primeros auxilios corresponden a los cuidados inmediatos, adecuados y provisionales que se brindan a una persona accidentada o que presenta una enfermedad repentina, antes de recibir atención en un centro asistencial. Estas acciones buscan preservar la vida, prevenir complicaciones y favorecer una actuación organizada y segura ante una emergencia (Ministerio de Salud y Protección Social [MSPS] & Universidad de Antioquia, 2012).
+Esta atención se caracteriza por ser básica pero fundamental, ya que constituye el primer eslabón en la cadena de atención en salud. Su correcta aplicación permite estabilizar a la persona, reducir riesgos asociados al evento y facilitar la continuidad del cuidado mediante la activación oportuna de los servicios de emergencia.
+En el contexto de la primera infancia, los primeros auxilios adquieren especial relevancia debido a las características propias del desarrollo físico, cognitivo y emocional de niñas y niños, quienes presentan mayor vulnerabilidad frente a accidentes y riesgos en su entorno. Entre las características que aumentan esta vulnerabilidad se encuentran:
+Curiosidad: impulsa la exploración de objetos, espacios y situaciones desconocidas.
+Exploración constante: favorece el contacto con elementos o lugares que pueden representar peligro.
+Percepción limitada del riesgo: dificulta reconocer los peligros y anticipar las consecuencias de determinadas acciones.
+Dependencia del adulto: requiere acompañamiento y supervisión para prevenir accidentes y actuar oportunamente.
+El reconocimiento de estas características permite identificar los riesgos del entorno y fortalecer las medidas de prevención y protección durante la primera infancia.
+Por ello, la actuación del primer respondiente debe ser oportuna, segura y basada en lineamientos técnicos que garanticen una atención adecuada, teniendo en cuenta las condiciones particulares de la infancia, como la comunicación, el manejo emocional y la dependencia del adulto. Esto permite brindar una atención más pertinente y humanizada frente a situaciones de emergencia.
+Asimismo, los primeros auxilios se fundamentan en principios que orientan una actuación ética, segura y respetuosa. Para brindar una atención adecuada en situaciones de emergencia, se deben tener en cuenta los siguientes principios:
+Proteger la integridad: preservar el bienestar físico y emocional de la niña o el niño durante la atención.
+Respetar la confidencialidad: proteger la información personal conocida durante la emergencia.
+Prevenir daños adicionales: realizar únicamente acciones seguras que no agraven la condición de la persona afectada.
+Evaluar el entorno: identificar los riesgos presentes antes de acercarse y brindar ayuda.
+Reconocer los límites de actuación: evitar procedimientos desconocidos y solicitar apoyo especializado oportunamente.
+Tomar decisiones responsables: actuar con calma, prudencia y criterio de acuerdo con las condiciones de la emergencia.
+La aplicación de estos principios permite responder de manera organizada, proteger a las personas involucradas y brindar una atención inicial humanizada mientras llegan los servicios especializados.
+Comprender los fundamentos y principios de los primeros auxilios permite reconocer su función en la protección de la vida y la prevención de complicaciones. A continuación, se aborda su importancia durante la primera infancia, etapa que requiere una atención segura, oportuna y acorde con las características de desarrollo.
+Importancia de los primeros auxilios en la primera infancia
+La primera infancia, comprendida desde la gestación hasta los seis años, es una etapa fundamental del ciclo vital, caracterizada por rápidos procesos de desarrollo físico, cognitivo y emocional. Durante este periodo, la exploración constante del entorno, la percepción limitada del riesgo y la dependencia del cuidado adulto aumentan la exposición a accidentes.
+En este contexto, los primeros auxilios son esenciales para brindar una respuesta inicial ante situaciones de emergencia o urgencia que pueden afectar la salud o poner en riesgo la vida. Las caídas, las quemaduras, las asfixias, las intoxicaciones y los golpes son eventos frecuentes en esta etapa; por ello, una actuación oportuna y adecuada puede prevenir complicaciones y favorecer la recuperación.
+La atención inicial también comprende la prevención de riesgos. El conocimiento de los primeros auxilios permite identificar peligros en el entorno, anticipar situaciones que puedan ocasionar daños y promover prácticas seguras en el hogar, los jardines infantiles, los parques y otros espacios de cuidado y aprendizaje.
+La actuación del primer respondiente debe adaptarse a las características físicas y emocionales propias de la primera infancia. Para brindar una atención segura y humanizada, se deben considerar los siguientes aspectos:
+Comunicación calmada: utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
+Manejo de las emociones: conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
+Generación de confianza: mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
+Protección integral: cuidar la integridad física y el bienestar emocional de la persona afectada durante la atención.
+La aplicación de estos aspectos favorece una respuesta respetuosa, empática y acorde con las necesidades de la primera infancia.
+Los primeros auxilios permiten proteger la vida y fortalecer la capacidad de respuesta ante una emergencia. Su conocimiento favorece la creación de entornos seguros y protectores para la primera infancia.Los primeros auxilios permiten proteger la vida y fortalecer la capacidad de respuesta ante una emergencia. Su conocimiento favorece la creación de entornos seguros y protectores para la primera infancia.
+La importancia de los primeros auxilios en esta etapa se relaciona con la capacidad de prevenir riesgos y responder oportunamente ante una emergencia. Para consolidar esta comprensión, es necesario precisar su concepto, los objetivos que orientan la atención inicial y los principios que sustentan la actuación del primer respondiente.
+Concepto, objetivos y principios
+Los primeros auxilios comprenden la atención inmediata y temporal que se brinda a una persona ante un accidente, una enfermedad repentina o una emergencia, mientras recibe asistencia especializada. Su aplicación busca proteger la vida, prevenir complicaciones y favorecer una respuesta segura y oportuna.
+La aplicación de los primeros auxilios responde a objetivos que orientan la actuación del primer respondiente y permiten brindar una atención inicial organizada. La aplicación de los primeros auxilios responde a los siguientes objetivos:
+Preservar la vida de la persona afectada mediante una actuación oportuna.
+Prevenir el agravamiento de la lesión o la aparición de otras complicaciones.
+Favorecer la recuperación mediante cuidados iniciales adecuados.
+Facilitar el traslado seguro y oportuno a un servicio de salud.
+Como se evidencia, los primeros auxilios se orientan a preservar la vida, evitar complicaciones, promover la recuperación y facilitar el acceso a servicios de salud. Estos objetivos constituyen la base para una atención inicial efectiva y permiten al primer respondiente actuar de manera organizada y segura. En este sentido, no basta con conocer qué hacer, sino que es necesario comprender bajo qué principios se debe actuar, los cuales orientan la toma de decisiones en situaciones reales de emergencia.
+Para cumplir los objetivos de los primeros auxilios, la actuación del primer respondiente debe fundamentarse en principios que orienten la toma de decisiones y permitan brindar una atención organizada, oportuna y respetuosa. A continuación, se presentan estos principios con ejemplos aplicados a situaciones de la primera infancia en el contexto colombiano:
+Seguridad: consiste en verificar que el lugar no presente peligros para la persona afectada, el primer respondiente ni quienes acompañan la atención. Ejemplo: si una niña cae cerca de una instalación eléctrica en un jardín infantil, se debe suspender la energía antes de acercarse y solicitar ayuda de inmediato.
+Oportunidad: implica actuar con rapidez, calma y organización, de acuerdo con las necesidades identificadas y sin retrasar la solicitud de ayuda especializada. Ejemplo: si un niño presenta dificultad para respirar en un hogar comunitario colombiano, se activa inmediatamente la línea 123 y se aplican únicamente las acciones conocidas y seguras.
+Eficacia: consiste en aplicar acciones pertinentes, seguras y acordes con la situación para favorecer una respuesta adecuada, sin realizar procedimientos innecesarios. Ejemplo: ante una herida leve durante una actividad escolar, se controla el sangrado con una gasa limpia y se informa a la familia y al personal responsable.
+Responsabilidad: implica actuar según los conocimientos del primer respondiente, reconocer sus límites y solicitar apoyo especializado cuando sea necesario. Ejemplo: si una niña pierde el conocimiento en un parque colombiano, no se le administran medicamentos; se verifica su estado, se activa la línea 123 y se acompaña hasta recibir ayuda.
+No causar daño: significa evitar maniobras, medicamentos o procedimientos que puedan agravar la condición de la persona afectada o generar riesgos. Ejemplo: si un niño sufre una posible fractura durante una actividad deportiva, no se mueve la extremidad; se mantiene en reposo y se solicita atención especializada inmediatamente.
+La aplicación conjunta de estos principios permite brindar una respuesta inicial segura y pertinente, proteger la integridad de la población infantil y reconocer cuándo se requiere la intervención de los servicios especializados.
+La aplicación de estos principios orienta una respuesta inicial segura, responsable y adecuada ante una emergencia. Para fortalecer esta actuación, es necesario reconocer las características que debe reunir la atención inicial y la manera en que estas contribuyen a proteger a la persona afectada.
+Características de la atención inicial
+La atención inicial en primeros auxilios corresponde a una intervención inmediata, básica y organizada que se brinda en el lugar de los hechos, antes de la llegada de personal de salud especializado. Su propósito principal es preservar la vida, estabilizar a la persona afectada y disminuir los riesgos derivados de la situación de emergencia.
+La actuación del primer respondiente ante una emergencia requiere observar la situación y tomar decisiones responsables antes de brindar ayuda. La siguiente figura presenta una ruta práctica para orientar su intervención y reducir la posibilidad de riesgos adicionales.
+Figura 1. Ruta de actuación del primer respondiente
+La atención inicial se orienta mediante características que favorecen una respuesta organizada, segura y adecuada ante una emergencia. Su comprensión permite actuar oportunamente y responder según las necesidades identificadas en primera infancia y su entorno.
+Inmediatez: implica actuar sin demoras ante una emergencia, con el propósito de proteger la vida, evitar el agravamiento de la condición y solicitar oportunamente el apoyo de los servicios especializados cuando sea necesario para brindar ayuda.
+Temporalidad: corresponde al periodo limitado durante el cual se brindan cuidados básicos y provisionales, desde que ocurre la emergencia hasta que la persona afectada recibe valoración y atención por parte del personal especializado competente en salud.
+Secuencialidad: consiste en desarrollar la intervención mediante pasos ordenados y lógicos: verificar la seguridad del entorno, valorar el estado de la persona afectada, activar la ayuda especializada y aplicar únicamente las acciones prioritarias que resulten necesarias.
+Seguridad: exige identificar y controlar los peligros antes de intervenir, con el fin de proteger al primer respondiente, a la persona afectada y a quienes se encuentran cerca, evitando riesgos o lesiones adicionales durante la atención.
+Pertinencia: requiere adaptar las acciones a la situación, la edad, el estado y las necesidades de la persona afectada, aplicando solo procedimientos conocidos, seguros y adecuados, sin realizar maniobras innecesarias que puedan agravar su condición actual.
+El reconocimiento de estas características permite comprender cómo debe desarrollarse la intervención ante una emergencia. Para orientar esta actuación y tomar decisiones responsables, es necesario abordar los principios que sustentan la aplicación de los primeros auxilios.
+Principios de los primeros auxilios
+Los primeros auxilios se orientan por un conjunto de principios que guían la actuación del primer respondiente, permitiendo brindar una atención segura, oportuna y adecuada frente a situaciones de emergencia. Estos principios constituyen la base para la toma de decisiones y garantizan que la intervención se realice de manera responsable, especialmente en contextos de primera infancia.
+Entre los principales principios se destacan:
+Seguridad: antes de intervenir, el primer respondiente debe verificar que el entorno no represente un riesgo para sí mismo, la víctima o terceros, garantizando condiciones seguras para la atención.
+No causar daño: toda intervención debe evitar agravar la condición de la persona afectada. El primer respondiente debe actuar dentro de sus competencias, absteniéndose de realizar procedimientos para los cuales no está capacitado y aplicando únicamente medidas básicas de primeros auxilios.
+Actuación oportuna: la atención debe brindarse de manera rápida y eficaz, teniendo en cuenta la urgencia de la situación, con el fin de prevenir complicaciones o el deterioro del estado de la víctima.
+Prioridad de la vida: las acciones deben enfocarse en preservar la vida y mantener las funciones vitales, priorizando la atención según la gravedad de la situación.
+Responsabilidad: el primer respondiente debe actuar con compromiso, ética y respeto, siguiendo lineamientos técnicos y normativos, y reconociendo sus límites de actuación.
+La aplicación conjunta de estos principios permite brindar una respuesta segura, oportuna y responsable, acorde con las necesidades de la persona afectada y las condiciones de la emergencia. Para complementar esta actuación, es necesario reconocer las disposiciones legales y los criterios éticos que orientan la atención y establecen los límites de intervención del primer respondiente.
+Marco normativo y ético
+La atención en primeros auxilios en la primera infancia se sustenta en un marco normativo y ético que orienta la actuación del primer respondiente, garantizando intervenciones seguras, responsables y acordes con la protección integral de niñas y niños. Este marco establece los lineamientos que regulan la atención en salud, los derechos del paciente y las condiciones mínimas para una respuesta oportuna ante situaciones de emergencia.
+El conocimiento del componente normativo permite al primer respondiente comprender el alcance y los límites de su actuación, así como las responsabilidades asociadas a la atención inicial. A su vez, el componente ético orienta la conducta durante la intervención, promoviendo una atención basada en el respeto por la dignidad humana, la protección de la vida y la no generación de daño adicional.
+En este sentido, la actuación en primeros auxilios no solo implica saber qué hacer, sino actuar conforme a principios legales y éticos que aseguren una atención adecuada, especialmente en la primera infancia, donde se requiere un enfoque diferencial y de especial protección.
+Lineamientos técnicos SDIS
+Los lineamientos técnicos establecidos por la Secretaría Distrital de Integración Social (SDIS) orientan la prestación de los servicios dirigidos a la primera infancia, especialmente en jardines infantiles y otros entornos de atención integral. Estas orientaciones buscan promover condiciones seguras, prevenir situaciones de riesgo y proteger la vida, la integridad y el bienestar de la población infantil.
+En este marco, el talento humano debe contar con conocimientos básicos de primeros auxilios, reconocer los factores de riesgo presentes en el entorno y actuar oportunamente ante una emergencia. Esta preparación permite brindar una respuesta inicial segura, activar las rutas institucionales y articular la atención con los servicios de salud y emergencia del Distrito.
+La gestión del riesgo permite identificar peligros y prevenir accidentes. También favorece la supervisión permanente y la creación de entornos seguros para la primera infancia.La gestión del riesgo permite identificar peligros y prevenir accidentes. También favorece la supervisión permanente y la creación de entornos seguros para la primera infancia.
+La aplicación de estas orientaciones requiere integrar acciones preventivas y procedimientos básicos de respuesta. A continuación, se presentan los principales aspectos que debe considerar el talento humano en los servicios de atención a la primera infancia:
+Prevención: consiste en identificar los peligros presentes en los espacios de atención y aplicar medidas que disminuyan la posibilidad de accidentes. Incluye supervisar las actividades, conservar los elementos peligrosos fuera de alcance y promover prácticas de cuidado acordes con la edad y el desarrollo de la población infantil.
+Seguridad del entorno: implica verificar las condiciones del lugar antes de brindar ayuda. Se deben reconocer riesgos como fuego, electricidad, sustancias tóxicas, objetos inestables o tránsito vehicular, y restringir el ingreso al área afectada cuando sea seguro hacerlo.
+Respuesta inicial: corresponde a los cuidados inmediatos y provisionales que se brindan ante un accidente o una enfermedad repentina. Comprende valorar el estado general y aplicar únicamente acciones conocidas y seguras, mientras se solicita la intervención del personal especializado.
+Protección integral: comprende el cuidado de la integridad física y del bienestar emocional durante la emergencia. Requiere mantener una comunicación calmada, proteger la privacidad, evitar intervenciones que puedan causar daños y considerar las características propias de la primera infancia.
+Activación de la ruta de emergencia: consiste en solicitar oportunamente el apoyo especializado cuando la situación supera la capacidad de actuación del primer respondiente. Se debe activar la línea 123, proporcionar información clara, comunicar la ubicación exacta y seguir las indicaciones recibidas.
+La integración de estos aspectos favorece la prevención de accidentes y una actuación organizada. Su aplicación debe articularse con los protocolos, el plan de emergencias y las rutas de atención definidas en cada servicio de la SDIS.
+Para sustentar estas actuaciones y garantizar la protección integral de la primera infancia, a continuación, se presentan las principales disposiciones normativas aplicables en materia de salud y emergencias.
+Normativa en salud y emergencias
+La atención en primeros auxilios en Colombia se enmarca en disposiciones que reconocen el derecho fundamental a la salud y la protección integral de la primera infancia. La Ley Estatutaria 1751 de 2015 garantiza el acceso oportuno, eficaz y con calidad a los servicios de salud; por su parte, la Ley 1098 de 2006 reconoce a las niñas y los niños como sujetos de especial protección. Estas disposiciones orientan una respuesta oportuna, segura y sin barreras ante situaciones que puedan afectar su vida e integridad (Ley 1098 de 2006; Ley Estatutaria 1751 de 2015).
+A continuación, se presentan las principales normas que sustentan la atención en primeros auxilios y emergencias en el contexto colombiano:
+Tabla 1. Normativa en salud y emergencias aplicable a primeros auxilios
+=== TABLA ===
+| Norma | Año | Descripción | Aplicación en primeros auxilios |
+| Ley 1751 | 2015 | Establece la salud como derecho fundamental y garantiza el acceso a servicios de salud sin barreras. | Obliga a brindar atención inmediata en urgencias, priorizando la vida y la integridad. |
+| Ley 1098 (Código de Infancia y Adolescencia) | 2006 | Reconoce a niñas y niños como sujetos de especial protección. | Exige actuación oportuna para proteger la vida, salud e integridad de la infancia. |
+| Resolución 3100 | 2019 | Define las condiciones de habilitación y calidad de los servicios de salud en Colombia. | Garantiza que la atención de urgencias se realice bajo estándares de calidad y seguridad. |
+| Resolución 3280 | 2018 | Establece el modelo de atención integral en salud con enfoque preventivo y diferencial. | Orienta la atención con enfoque en promoción, prevención y atención integral en infancia. |
+| Sistema General de Seguridad Social en Salud (SGSSS) | Vigente | Regula la prestación de servicios de salud en Colombia. | Garantiza la atención inicial de urgencias sin importar afiliación. |
+| Sistema de Emergencias Médicas (SEM) | Vigente | Organiza la respuesta ante emergencias mediante redes articuladas de atención. | Permite activar servicios de emergencia a través de la línea 123 para respuesta oportuna. |
+=== /TABLA ===
+Este marco normativo orienta la atención en primeros auxilios hacia una actuación responsable, oportuna y centrada en la protección de derechos, especialmente en la primera infancia. Su conocimiento permite al primer respondiente actuar con mayor seguridad, articulando la atención inicial con los servicios de salud y garantizando una respuesta adecuada ante situaciones de emergencia.
+El conocimiento del marco normativo permite orientar la actuación del primer respondiente y proteger integralmente a la primera infancia. A partir de estas disposiciones, es necesario reconocer los derechos que deben respetarse durante la prestación de los primeros auxilios.
+Derechos del paciente
+En la atención de primeros auxilios es fundamental garantizar el respeto por los derechos del paciente, especialmente en el caso de niñas y niños, quienes son sujetos de especial protección. Estos derechos orientan la actuación del primer respondiente hacia una atención digna, segura y centrada en la persona, evitando prácticas que vulneren su integridad física, emocional o psicológica.
+En el contexto colombiano, los derechos del paciente están respaldados por la Ley 1751 de 2015, que reconoce la salud como un derecho fundamental autónomo, y por la Ley 1098 de 2006 – Código de la Infancia y la Adolescencia, que establece la protección integral de niñas, niños y adolescentes como un deber del Estado, la familia y la sociedad. En este sentido, toda intervención en primeros auxilios debe realizarse conforme a estos principios, incluso en situaciones de emergencia, garantizando el respeto por la dignidad humana y el interés superior del niño.
+El respeto por los derechos del paciente orienta una actuación humanizada, segura y responsable durante la prestación de los primeros auxilios. A continuación, se presentan estos derechos mediante definiciones breves y ejemplos que facilitan su aplicación en situaciones relacionadas con la primera infancia.
+Derecho a la vida y a la integridad personal: garantiza que toda actuación proteja la vida y evite daños físicos o emocionales. Por ejemplo, ante una caída, se mantiene al niño en una posición segura y no se realizan movimientos que puedan agravar una posible lesión.
+Derecho a recibir atención oportuna: permite brindar ayuda inmediata ante una situación que pueda comprometer la salud o la vida. Por ejemplo, si una niña presenta dificultad para respirar, se activa la ruta de emergencia y se aplican acciones básicas seguras.
+Derecho a la confidencialidad: protege la información personal y médica conocida durante la atención, evitando divulgarla sin autorización. Por ejemplo, los datos sobre el accidente de un niño se comunican únicamente a sus responsables y al personal autorizado que brinda apoyo.
+Derecho al consentimiento informado: permite explicar las acciones que se realizarán y solicitar autorización cuando las circunstancias lo permitan. Por ejemplo, antes de revisar una lesión leve, se informa al responsable del niño sobre el procedimiento y su finalidad de manera clara.
+Derecho a no ser abandonado: garantiza acompañamiento continuo hasta que la atención quede a cargo de una persona responsable o del servicio especializado. Por ejemplo, el primer respondiente permanece junto a la niña, la tranquiliza y espera la llegada del apoyo solicitado.
+El respeto de estos derechos permite brindar una atención humanizada, segura y centrada en el bienestar de la primera infancia. A partir de este enfoque, es necesario reconocer las responsabilidades que orientan la actuación del primer respondiente durante una emergencia.
+Responsabilidad del primer respondiente
+El primer respondiente es la persona que brinda atención inicial en una situación de emergencia o urgencia antes de la llegada de los servicios de salud. Su actuación implica una responsabilidad fundamental orientada a proteger la vida, reducir riesgos y garantizar una atención adecuada dentro de sus capacidades.
+En el contexto de la primera infancia, esta responsabilidad adquiere mayor relevancia debido a la condición de vulnerabilidad de niñas y niños, quienes requieren una atención oportuna, segura y respetuosa de sus derechos. Por ello, el primer respondiente debe actuar con criterio, prudencia y responsabilidad, evitando intervenciones que puedan generar daño o agravar la situación.
+El primer respondiente debe reconocer las responsabilidades que orientan su actuación durante una emergencia. Estas permiten organizar la atención inicial, proteger a las personas involucradas y actuar dentro de los límites de su formación. A continuación, se presentan las principales responsabilidades y su alcance:
+Actuar de manera oportuna: consiste en responder sin demoras injustificadas ante una emergencia, después de verificar que el entorno sea seguro. Requiere reconocer las necesidades prioritarias, tomar decisiones responsables y brindar la ayuda inicial necesaria, de acuerdo con la situación y las capacidades del primer respondiente en ese momento.
+Garantizar la seguridad: implica proteger al primer respondiente, a la persona afectada y a quienes se encuentran cerca. Exige identificar peligros, controlar riesgos cuando sea posible y evitar acciones que puedan ocasionar nuevas lesiones o agravar las condiciones presentes durante la atención inicial de la situación de emergencia.
+Proteger la vida: consiste en priorizar las acciones orientadas a conservar las funciones vitales y prevenir el agravamiento de la persona afectada. Requiere valorar su estado general, reconocer signos de alarma y brindar únicamente la atención inicial necesaria mientras llega el apoyo especializado solicitado oportunamente.
+Activar el sistema de emergencias: implica solicitar apoyo especializado cuando la situación supera las capacidades del primer respondiente. Requiere comunicar claramente lo ocurrido, proporcionar la ubicación exacta, describir el estado de la persona afectada y seguir las instrucciones suministradas por el personal encargado del servicio de emergencias.
+Evaluar la situación: consiste en observar cuidadosamente el entorno y valorar el estado general de la persona afectada antes de intervenir. Permite identificar peligros, reconocer necesidades prioritarias, determinar la ayuda requerida y tomar decisiones seguras, evitando actuaciones apresuradas que puedan aumentar los riesgos existentes durante la emergencia.
+Actuar dentro de sus competencias: implica realizar únicamente procedimientos conocidos, seguros y acordes con la formación recibida. El primer respondiente debe reconocer sus límites, evitar maniobras para las cuales no está capacitado y solicitar ayuda especializada cuando las necesidades de atención superen su capacidad de actuación durante la emergencia.
+Brindar acompañamiento: consiste en permanecer junto a la persona afectada, transmitir tranquilidad y mantener una comunicación respetuosa durante la atención. También requiere observar posibles cambios en su estado, proteger su privacidad y facilitar la entrega de información al personal especializado cuando asuma la atención de la emergencia.
+El cumplimiento de estas responsabilidades favorece una atención inicial organizada, segura y centrada en la protección de la vida. Su aplicación permite actuar con criterio, respetar los límites de intervención y facilitar la continuidad de la atención por parte del personal especializado.
+Para fortalecer la comprensión de estos contenidos, se presenta un recurso de audio sobre la actuación del primer respondiente ante una emergencia en primera infancia. En este se explican sus responsabilidades, los límites de su intervención y la importancia de actuar con seguridad, ética y serenidad mientras llega la atención especializada.
+63720048_CF01_Guion_podcast63720048_CF01_Guion_podcast
+La actuación responsable del primer respondiente contribuye a proteger la vida, prevenir complicaciones y brindar apoyo inicial a la niña o al niño afectado. Sin embargo, esta atención requiere la articulación con instituciones y servicios especializados; por ello, a continuación, se presentan las redes de atención y su importancia en la respuesta oportuna ante una emergencia.
+Redes de atención
+Las redes de atención en salud corresponden al conjunto organizado de servicios, instituciones y actores que intervienen de manera articulada para dar respuesta oportuna, continua y eficaz ante una situación de emergencia. Estas redes permiten coordinar acciones desde la atención inicial brindada por el primer respondiente hasta la intervención especializada en los servicios de salud, garantizando la continuidad del cuidado y la protección de la vida.
+El reconocimiento de los actores que conforman las redes de atención permite comprender cómo se coordinan durante una emergencia. A continuación, se presenta un recurso infográfico interactivo que explica sus funciones y su aporte a la atención oportuna y a la continuidad del cuidado.
+Redes de atención ante emergencias
+En el contexto de la primera infancia, las redes de atención adquieren especial relevancia, ya que permiten activar rutas de atención prioritaria que responden a las necesidades específicas de niñas y niños, garantizando una intervención rápida, segura y adecuada a su condición. Además, contribuyen a fortalecer la articulación entre los entornos de cuidado, como jardines infantiles y centros educativos, con los servicios de salud y protección.
+A continuación, se presentan los principales actores de las redes de atención y su función en el contexto de los primeros auxilios.
+Tabla 2. Redes de atención en emergencias
+=== TABLA ===
+| Actor / Servicio | Función | Aplicación en primeros auxilios |
+| Línea 123 | Canal de atención de emergencias a nivel nacional. | Permite activar de manera inmediata los servicios de emergencia. |
+| Servicios de Emergencias Médicas (SEM) | Coordinan la respuesta prehospitalaria y traslado de pacientes. | Garantiza la atención oportuna y traslado seguro a centros de salud. |
+| IPS (Instituciones Prestadoras de Servicios de Salud) | Brindan atención médica especializada. | Recibe y continúa la atención iniciada por el primer respondiente. |
+| Bomberos | Atención de incendios, rescates y manejo de incidentes. | Apoya en situaciones de riesgo como atrapamientos o incendios. |
+| Defensa Civil | Apoyo en emergencias, rescate y atención comunitaria. | Interviene en situaciones de desastre o emergencias masivas. |
+| Cruz Roja | Atención prehospitalaria y apoyo humanitario. | Brinda primeros auxilios y apoyo en la atención de víctimas. |
+| Policía Nacional | Apoyo en seguridad y control de la escena. | Facilita el acceso y la seguridad durante la atención de la emergencia. |
+=== /TABLA ===
+La adecuada activación de estas redes es fundamental para garantizar una respuesta integral, oportuna y segura, especialmente en la primera infancia. El primer respondiente debe reconocer cuándo la situación supera su capacidad de intervención y activar de manera inmediata los servicios de emergencia, proporcionando información clara y precisa. De esta manera, se asegura la continuidad del proceso de atención y la protección de la vida e integridad de niñas y niños.
+La articulación de las redes de atención favorece la continuidad del cuidado y la protección de la primera infancia. Para avanzar en este proceso, es necesario comprender los conceptos básicos de primeros auxilios y las acciones relacionadas con la identificación, el análisis y el control de los riesgos.
+Fundamentos conceptuales y gestión del riesgo
+Este eje temático integra los conceptos básicos de primeros auxilios y las acciones necesarias para identificar, analizar y controlar los factores de riesgo. Su comprensión permite interpretar una emergencia, emplear la terminología adecuada y orientar una respuesta inicial segura y oportuna.
+En el contexto de la primera infancia, la comprensión de estos fundamentos adquiere especial relevancia debido a la vulnerabilidad de las niñas y los niños frente a los riesgos del entorno. Para orientar una respuesta inicial segura y oportuna, se deben reconocer los siguientes conceptos:
+Emergencia: situación crítica que amenaza la vida y requiere atención inmediata de servicios especializados.
+Urgencia: situación que necesita atención pronta, aunque no representa peligro vital inmediato para alguien.
+Peligro: fuente, condición o acción con capacidad de causar lesiones, daños o afectaciones graves.
+Riesgo: probabilidad de que un peligro cause daño, según la exposición y vulnerabilidad existentes.
+La diferenciación de estos conceptos permite interpretar rápidamente lo ocurrido, tomar decisiones responsables y evitar actuaciones improvisadas que puedan agravar la situación.
+Asimismo, la gestión del riesgo aporta una mirada preventiva que complementa la atención inicial. Identificar y controlar de manera anticipada los factores de riesgo presentes en hogares, jardines infantiles y centros de desarrollo integral contribuye a reducir la ocurrencia de accidentes y a proteger la vida de la población infantil.
+De esta manera, los fundamentos conceptuales y la gestión del riesgo se articulan como la base sobre la cual se construye una respuesta segura, organizada y oportuna.
+Fundamentos conceptuales
+Los fundamentos conceptuales permiten comprender los términos básicos necesarios para la atención en primeros auxilios, facilitando la identificación de situaciones de emergencia, la valoración del riesgo y la toma de decisiones adecuadas. Estos conceptos son esenciales para actuar de manera organizada, segura y coherente frente a eventos que puedan afectar la salud, especialmente en la primera infancia.
+A continuación, se presentan los principales conceptos aplicados en primeros auxilios:
+Tabla 3. Conceptos básicos en primeros auxilios
+=== TABLA ===
+| Concepto | Definición | Aplicación en primeros auxilios |
+| Emergencia | Situación que pone en riesgo la vida de una persona y requiere atención inmediata. | Permite priorizar la atención y actuar de forma urgente para preservar la vida. |
+| Urgencia | Situación que requiere atención rápida, pero no compromete de manera inmediata la vida. | Permite organizar la atención según la gravedad del caso. |
+| Negligencia | Falta de cuidado o de atención ante una situación que lo requiere. | Evitar omitir acciones necesarias en la atención de la persona afectada. |
+| Imprudencia | Actuar sin precaución o sin considerar los riesgos. | Evitar acciones apresuradas que puedan generar daño. |
+| Impericia | Falta de conocimiento o habilidad para realizar una acción. | No realizar procedimientos para los cuales no se está capacitado. |
+| Peligro | Situación o condición con potencial de causar daño. | Identificar riesgos en el entorno antes de intervenir. |
+| Riesgo | Probabilidad de que un peligro cause daño. | Evaluar la posibilidad de afectación para tomar decisiones. |
+| Accidente | Evento inesperado que causa lesión o daño. | Reconocer situaciones que requieren atención inmediata. |
+| Factor de riesgo | Condición que aumenta la probabilidad de un accidente. | Identificar condiciones inseguras en entornos infantiles. |
+=== /TABLA ===
+Estos conceptos permiten al primer respondiente interpretar adecuadamente las situaciones que se presentan, diferenciando entre niveles de gravedad y reconociendo los riesgos asociados al entorno. Su comprensión facilita una actuación más segura, evitando errores como la negligencia, la imprudencia o la impericia.
+En el contexto de la primera infancia, la aplicación de estos fundamentos permite:
+Identificar los factores de riesgo presentes en el entorno.
+Diferenciar una urgencia de una emergencia.
+Reconocer situaciones que requieren atención inmediata.
+Prevenir accidentes frecuentes.
+Valorar las condiciones de seguridad antes de intervenir.
+Tomar decisiones oportunas y responsables.
+Evitar actuaciones que puedan agravar la situación.
+Aplicar medidas básicas de prevención y protección.
+Solicitar apoyo especializado cuando sea necesario.
+Fortalecer la protección integral de niñas y niños.
+La aplicación de estos fundamentos favorece la prevención de accidentes y orienta una actuación inicial segura, organizada y acorde con las necesidades de la primera infancia.
+A partir del reconocimiento de los conceptos y factores de riesgo, es necesario comprender las acciones orientadas a identificar, analizar y controlar las condiciones que pueden ocasionar daños. Por ello, a continuación, se aborda la gestión del riesgo.
+Gestión del riesgo
+La gestión del riesgo en primeros auxilios corresponde al conjunto de acciones orientadas a identificar, analizar y controlar los factores que pueden generar daño en una situación de emergencia. En el contexto de la primera infancia, su aplicación es fundamental debido a la mayor vulnerabilidad de niñas y niños frente a condiciones inseguras en su entorno.
+Este proceso inicia con la identificación de los riesgos presentes en el lugar, los cuales pueden ser de tipo físico, biológico, ambiental o humano. Posteriormente, se realiza un análisis del riesgo, valorando la probabilidad de que ocurra un evento adverso y las posibles consecuencias para la persona afectada. Esta valoración permite priorizar las acciones de atención y establecer medidas de control adecuadas.
+La gestión del riesgo también incluye la implementación de acciones preventivas orientadas a reducir la ocurrencia de accidentes. Estas acciones pueden involucrar la eliminación de peligros, la adecuación de espacios seguros y la supervisión constante, especialmente en entornos donde se encuentran niñas y niños.
+En el marco de los primeros auxilios, es fundamental que el primer respondiente evalúe el entorno antes de intervenir, identificando posibles peligros que puedan afectar tanto a la víctima como a sí mismo.En el marco de los primeros auxilios, es fundamental que el primer respondiente evalúe el entorno antes de intervenir, identificando posibles peligros que puedan afectar tanto a la víctima como a sí mismo.
+La gestión del riesgo se desarrolla mediante acciones relacionadas que permiten reconocer los peligros, valorar sus posibles consecuencias y establecer medidas de protección. A continuación, se presentan las principales acciones que orientan este proceso:
+Identificación del peligro: reconoce las condiciones, los objetos o las acciones que pueden causar daño.
+Análisis del riesgo: valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
+Control del riesgo: aplica medidas para eliminar el peligro o reducir sus posibles efectos.
+Prevención: implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.
+La aplicación articulada de estas acciones permite reducir la exposición a situaciones peligrosas y fortalecer la seguridad en los entornos de atención a la primera infancia.
+Este proceso orienta la toma de decisiones del primer respondiente y favorece una actuación organizada ante situaciones de emergencia. En la primera infancia, permite anticipar condiciones que pueden afectar la vida y la integridad. Para su aplicación, se consideran las siguientes acciones:
+Identificar los peligros presentes en el entorno.
+Analizar las situaciones que pueden ocasionar daños.
+Valorar las posibles consecuencias.
+Establecer medidas preventivas.
+Eliminar o reducir las condiciones peligrosas.
+Verificar la seguridad del lugar.
+Priorizar las necesidades de atención.
+Aplicar los protocolos establecidos.
+Solicitar apoyo especializado.
+Verificar la efectividad de las medidas implementadas.
+La aplicación ordenada de estas acciones facilita la toma de decisiones y fortalece la protección integral de las niñas y los niños, de acuerdo con los protocolos institucionales y las rutas de atención establecidas en Colombia.
+En la primera infancia, la gestión del riesgo requiere especial atención debido a la curiosidad, la movilidad y la dependencia del cuidado adulto. La consideración de estas características permite anticipar situaciones peligrosas, establecer medidas preventivas y proteger la vida y la integridad de las niñas y los niños.
+Una vez reconocidas las acciones para gestionar los riesgos del entorno, es necesario considerar las medidas que protegen al primer respondiente y a la persona afectada durante la atención. Por ello, a continuación, se abordan la bioseguridad y el rol del primer respondiente.
+Bioseguridad y rol del primer respondiente
+La bioseguridad en primeros auxilios comprende el conjunto de medidas preventivas orientadas a proteger la salud del primer respondiente y de la persona afectada, evitando la exposición a riesgos biológicos durante la atención inicial. Su aplicación es fundamental en cualquier intervención, ya que reduce la probabilidad de transmisión de enfermedades a través del contacto con fluidos corporales.
+En la primera infancia, la bioseguridad adquiere mayor relevancia debido a la vulnerabilidad de niñas y niños y a la frecuente exposición a situaciones que pueden implicar contacto con sangre, secreciones u otros agentes potencialmente infecciosos. Por ello, es necesario aplicar medidas básicas que garanticen una atención segura y adecuada.
+Para aplicar la bioseguridad durante la atención inicial, el primer respondiente debe adoptar medidas básicas que reduzcan la exposición a agentes biológicos. Entre las principales se encuentran:
+Higiene de manos: realizar el lavado con agua y jabón antes y después de brindar atención. Por ejemplo, después de limpiar una herida superficial.
+Uso de guantes: emplear guantes desechables cuando exista posibilidad de contacto con sangre, secreciones o heridas. Por ejemplo, al controlar un sangrado nasal.
+Protección respiratoria: utilizar tapabocas cuando exista riesgo de exposición a gotas respiratorias. Por ejemplo, al atender a una niña con tos persistente.
+Manejo seguro de residuos: desechar gasas, guantes y otros materiales contaminados en recipientes adecuados. Por ejemplo, depositar una gasa con sangre sin dejarla sobre otras superficies.
+Limpieza de elementos: desinfectar los objetos y las superficies utilizados durante la atención. Por ejemplo, limpiar una camilla después de atender a un niño lesionado.
+La aplicación de estas medidas disminuye el riesgo de contaminación y protege tanto al primer respondiente como a la persona afectada. Para comprender su fundamento y aplicación, a continuación, se presentan el concepto y las normas básicas de bioseguridad.
+Concepto y normas básicas
+La bioseguridad comprende el conjunto de principios, normas y prácticas orientadas a prevenir, minimizar o controlar los riesgos biológicos derivados de la exposición a agentes potencialmente infecciosos durante la atención en salud o en situaciones de emergencia. En los primeros auxilios, su aplicación protege al primer respondiente y a la persona afectada, y favorece una intervención segura.
+Las normas básicas de bioseguridad se fundamentan en el principio de precaución universal, según el cual toda persona debe considerarse potencialmente portadora de agentes infecciosos. Por esta razón, las medidas de protección deben aplicarse antes, durante y después de cada intervención, aun cuando no exista una infección confirmada.
+Para reducir la exposición a agentes biológicos durante la atención inicial, se deben aplicar las siguientes normas:
+Realizar la higiene de manos: las manos deben lavarse antes y después de cada intervención, incluso cuando se utilicen guantes. En un hogar colombiano, esta medida se aplica antes de atender una herida y después de desechar los materiales utilizados durante la atención.
+Evitar el contacto directo: la sangre, las secreciones y otros fluidos corporales no deben tocarse sin protección. Por ejemplo, si una niña presenta sangrado nasal en casa, se emplea una barrera limpia para controlar el sangrado y prevenir la exposición.
+Utilizar barreras de protección: cuando exista riesgo de contacto con agentes biológicos, deben emplearse los elementos disponibles y adecuados. Por ejemplo, al atender una cortadura en el hogar, se utilizan guantes desechables para proteger al primer respondiente y a la persona afectada.
+Mantener condiciones de asepsia: el área y los elementos utilizados deben conservarse limpios durante toda la atención. Por ejemplo, antes de cubrir una herida, se dispone de una superficie limpia y se evita apoyar gasas o apósitos sobre lugares contaminados.
+Disponer adecuadamente los residuos: los materiales empleados durante la atención deben separarse y desecharse de forma segura. Por ejemplo, las gasas con sangre y los guantes usados se depositan en una bolsa cerrada, fuera del alcance de niñas y niños.
+La aplicación conjunta de estas normas disminuye la posibilidad de transmisión de agentes infecciosos y favorece una atención inicial segura en los hogares colombianos. Su cumplimiento protege a las personas involucradas y facilita el manejo responsable de los elementos utilizados durante la intervención.
+Una vez reconocidas las normas que orientan la prevención de la exposición a agentes biológicos, es necesario identificar las barreras físicas disponibles para complementar la protección durante la atención inicial. Por ello, a continuación, se presentan los elementos de protección personal y los criterios básicos para su selección y uso.
+Elementos de protección personal
+Los elementos de protección personal (EPP) son dispositivos y barreras que disminuyen la exposición del primer respondiente a sangre, secreciones y otros fluidos corporales durante la atención inicial. Su elección depende del tipo de contacto previsto y de las condiciones de la emergencia.
+Estos elementos complementan las normas de bioseguridad, pero no reemplazan la higiene de manos ni el manejo seguro de los materiales utilizados. A continuación, se presentan los principales EPP y ejemplos de su aplicación en situaciones cotidianas:
+Guantes desechables: protegen las manos cuando existe posibilidad de contacto con sangre, heridas, secreciones o fluidos corporales. Por ejemplo, en un hogar colombiano, se utilizan para cubrir una cortadura o controlar un sangrado mientras se solicita apoyo, cuando sea necesario.
+Tapabocas: cubre la nariz y la boca para disminuir la exposición a gotas respiratorias y posibles salpicaduras. Por ejemplo, se utiliza al brindar atención cercana a una niña o un niño que presenta tos, vómito o secreciones respiratorias abundantes.
+Protección ocular: las gafas o la careta protegen los ojos frente a salpicaduras de sangre, secreciones u otros fluidos. Por ejemplo, se emplean cuando existe riesgo de proyección durante la limpieza de una herida o la atención de un sangrado abundante.
+El uso de los EPP debe ser oportuno y ajustarse al riesgo identificado. Después de la atención, los elementos desechables deben retirarse sin tocar las superficies contaminadas y eliminarse de manera segura; los reutilizables requieren limpieza y desinfección según las indicaciones del fabricante.
+El uso adecuado de los elementos de protección personal constituye una barrera frente a posibles exposiciones durante la atención inicial. Para complementar esta medida, a continuación, se presentan las acciones orientadas al manejo seguro de los riesgos biológicos.
+Manejo de riesgos biológicos
+El manejo de riesgos biológicos en primeros auxilios comprende el conjunto de acciones orientadas a identificar, prevenir y controlar la exposición a agentes potencialmente infecciosos durante la atención inicial. Estos riesgos se presentan principalmente por el contacto con sangre, secreciones, fluidos corporales o elementos contaminados, los cuales pueden representar un peligro tanto para el primer respondiente como para la persona afectada.
+En el contexto de la primera infancia, este manejo adquiere especial relevancia debido a la frecuencia de lesiones, caídas o situaciones que implican contacto con fluidos, así como a la mayor vulnerabilidad de niñas y niños frente a infecciones.
+El control de la exposición a agentes biológicos requiere seguir una secuencia de medidas antes, durante y después de la atención inicial. El siguiente recurso presenta las acciones que orientan este proceso, desde la identificación del riesgo hasta la higiene de manos posterior a la intervención.
+Manejo adecuado de los riesgos biológicos
+Estas acciones permiten reducir la probabilidad de transmisión de enfermedades y garantizan condiciones seguras durante la atención en primeros auxilios. Además, fortalecen la actuación del primer respondiente, asegurando que su intervención sea responsable, segura y acorde con los principios de bioseguridad.
+De esta manera, el manejo de los riesgos biológicos complementa el uso de los elementos de protección personal y la aplicación de normas básicas de bioseguridad, consolidando una atención inicial segura. Estos elementos se articulan con el rol del primer respondiente, quien debe actuar con precaución y responsabilidad en la valoración del escenario y la atención de la persona afectada.
+Rol del primer respondiente
+El primer respondiente es la persona que, sin ser necesariamente profesional de la salud, brinda la primera atención a una víctima en una situación de emergencia o urgencia, antes de la llegada de los servicios especializados. Su actuación es fundamental para preservar la vida, reducir riesgos y evitar el agravamiento de la condición de la persona afectada.
+En el contexto de la primera infancia, el rol del primer respondiente adquiere una importancia crítica debido a la vulnerabilidad de niñas y niños, quienes requieren una atención inmediata, segura y adaptada a sus condiciones físicas y emocionales. La intervención debe realizarse con especial cuidado, considerando algunos aspectos como: la edad, el tamaño corporal, la capacidad de comunicación y la dependencia del adulto.
+El primer respondiente debe actuar bajo principios de responsabilidad, seguridad y respeto por los derechos del paciente, garantizando una atención humanizada y evitando prácticas que puedan generar daño adicional. Su actuación no reemplaza la atención médica, sino que constituye una intervención inicial que facilita la continuidad del cuidado.
+Las funciones del primer respondiente en primeros auxilios se orientan a garantizar una atención inicial adecuada y segura. Entre las principales se encuentran:
+En la primera infancia, estas funciones deben realizarse con mayor cuidado, asegurando un trato respetuoso, tranquilo y protector.
+Para reconocer los límites de su actuación, el primer respondiente debe diferenciar las acciones básicas permitidas de aquellas que requieren formación profesional. A continuación, se presentan las principales limitaciones, acompañadas de ejemplos aplicados a situaciones de emergencia en la primera infancia:
+Reconocer los límites de actuación: implica realizar únicamente acciones acordes con la formación recibida. Por ejemplo, ante una caída, el primer respondiente observa el estado de la niña o el niño y solicita ayuda, sin intentar corregir una posible fractura.
+Aplicar primeros auxilios básicos: consiste en brindar medidas iniciales seguras para proteger la vida y evitar el agravamiento. Por ejemplo, ante una herida superficial, se controla el sangrado con una gasa limpia mientras se gestiona la atención requerida.
+Evitar procedimientos invasivos: significa abstenerse de realizar intervenciones que ingresen al cuerpo o requieran conocimientos especializados. Por ejemplo, no se introducen objetos en la boca de una niña o un niño que presenta una convulsión.
+No sustituir la atención profesional: requiere solicitar apoyo especializado cuando la situación supera las capacidades del primer respondiente. Por ejemplo, ante dificultad respiratoria, se activa el servicio de emergencias y se acompaña al niño hasta la llegada del personal capacitado.
+No administrar medicamentos sin indicación profesional: implica evitar el suministro de medicamentos por iniciativa propia. Por ejemplo, ante fiebre o dolor, no se ofrecen antibióticos, analgésicos ni otros productos sin autorización del responsable y orientación del personal de salud.
+El respeto de estos límites previene actuaciones inseguras y favorece una atención inicial responsable. Además, permite proteger a las niñas y los niños mientras se activa la ruta correspondiente y llega el personal especializado.
+Antes de movilizar a la víctima, se deben evaluar los riesgos y las condiciones mínimas de seguridad. Solo se justifica su traslado ante un peligro inminente. Respetar estos límites evita actuaciones apresuradas y favorece una atención responsable y segura.Antes de movilizar a la víctima, se deben evaluar los riesgos y las condiciones mínimas de seguridad. Solo se justifica su traslado ante un peligro inminente. Respetar estos límites evita actuaciones apresuradas y favorece una atención responsable y segura.
+El rol del primer respondiente integra conocimientos, habilidades y actitudes que permiten brindar una atención inicial oportuna y segura. En la primera infancia, este rol se fortalece mediante la comprensión del entorno, la identificación de riesgos, la valoración de la situación y la activación de los servicios de emergencia, con el fin de proteger la vida, la integridad y el bienestar de las niñas y los niños.
+Una vez reconocidas las responsabilidades y los límites que orientan la actuación del primer respondiente, es necesario identificar los elementos básicos que facilitan una atención inicial organizada. Por ello, a continuación, se presenta el botiquín de primeros auxilios, su importancia y las condiciones para su adecuado uso y mantenimiento.
+Botiquín de primeros auxilios
+El botiquín de primeros auxilios es un conjunto organizado de elementos, insumos y materiales básicos destinados a brindar atención inmediata ante situaciones de emergencia o urgencia. Su disponibilidad y adecuado mantenimiento son fundamentales para garantizar una respuesta oportuna y efectiva, especialmente en entornos donde se atiende población infantil.
+En el contexto de la primera infancia, el botiquín debe estar adaptado a las necesidades de niñas y niños, asegurando la presencia de elementos básicos que permitan atender lesiones frecuentes como caídas, heridas, golpes o quemaduras leves. Asimismo, debe ubicarse en un lugar accesible, visible y seguro, evitando el acceso directo por parte de los niños y garantizando su uso por personal capacitado.
+Para comprender su adecuada conformación y uso, es necesario reconocer el concepto de botiquín y las disposiciones que orientan su disponibilidad en los diferentes entornos. En este sentido, se presentan estos fundamentos y su aplicación en la atención de emergencias relacionadas con la primera infancia.
+Concepto y normativa
+El botiquín de primeros auxilios se define como el conjunto organizado de recursos básicos destinados a brindar atención inicial a una persona lesionada o en situación de emergencia, mientras se accede a servicios de atención médica especializada. Su adecuada dotación y disponibilidad permiten una respuesta oportuna que puede disminuir riesgos, complicaciones y consecuencias derivadas de eventos adversos.
+En Colombia, su uso y disposición se enmarcan en los lineamientos del Sistema de Seguridad y Salud en el Trabajo, así como en las condiciones de habilitación de los servicios de salud establecidas en la Resolución 3100 de 2019, la cual fija estándares de calidad y seguridad en la atención. De igual manera, en los entornos de atención a la primera infancia, los lineamientos de la Secretaría Distrital de Integración Social (SDIS) establecen la obligatoriedad de contar con botiquines adecuados, accesibles y en condiciones óptimas para la atención de emergencias (Ministerio de Salud y Protección Social, 2019).
+En Colombia, la disponibilidad y el adecuado manejo del botiquín en los entornos de atención a la primera infancia se sustentan en un conjunto de disposiciones que buscan garantizar condiciones seguras. Estas normas orientan tanto la dotación como el mantenimiento del botiquín, de modo que responda a las necesidades propias de esta población. Entre las principales se encuentran:
+Resolución 3100 de 2019: define las condiciones de habilitación y los estándares de calidad y seguridad de los servicios de salud en Colombia, y establece la disponibilidad de insumos básicos para la atención inicial de urgencias en los diferentes entornos de atención a la población.
+Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST): reglamentado por el Decreto 1072 de 2015, exige que los lugares de trabajo, incluidos jardines y centros infantiles, dispongan de botiquines dotados y accesibles para responder de forma oportuna ante accidentes o situaciones de emergencia.
+Lineamientos técnicos de la SDIS: establecen la obligatoriedad de contar con botiquines adecuados, accesibles y en condiciones óptimas en los servicios de educación inicial dirigidos a la primera infancia, como parte de los estándares de calidad para la atención integral de niñas y niños.
+El cumplimiento de estas disposiciones garantiza que los espacios de atención dispongan de condiciones mínimas de seguridad, permitiendo actuar de manera eficaz ante situaciones que puedan afectar la salud y el bienestar de niñas y niños, y contribuyendo a la protección integral de esta población.
+Clasificación y elementos del botiquín
+La clasificación del botiquín depende de las características del entorno, el número de personas atendidas y los riesgos identificados. En los espacios destinados a la primera infancia, su dotación debe facilitar la atención inicial y permitir una respuesta organizada mientras se determina la necesidad de asistencia especializada.
+En hogares, jardines infantiles y centros de desarrollo infantil, la selección de los elementos debe considerar las lesiones que pueden presentarse con mayor frecuencia:
+Caídas: pueden ocasionar raspaduras, heridas, golpes o lesiones en diferentes partes del cuerpo.
+Heridas: producen ruptura de la piel y pueden generar sangrado o riesgo de contaminación.
+Golpes: pueden causar dolor, inflamación, hematomas o limitación temporal del movimiento.
+Quemaduras leves: afectan superficialmente la piel por contacto con objetos calientes, líquidos u otras fuentes de calor.
+El reconocimiento de estas situaciones permite seleccionar y organizar los elementos básicos del botiquín de acuerdo con las necesidades del entorno. Asimismo, su contenido debe revisarse periódicamente para verificar el estado, la limpieza, la integridad y la fecha de vencimiento de los productos.
+La siguiente tabla presenta la clasificación general de los botiquines, sus características, los entornos en los que pueden utilizarse y sus elementos principales.
+Tabla 4. Clasificación y elementos del botiquín de primeros auxilios
+=== TABLA ===
+| Tipo de botiquín | Características | Uso recomendado | Elementos principales |
+| Tipo A | Botiquín básico para atención inicial en entornos de bajo riesgo. | Jardines infantiles, hogares, oficinas. | Gasas, vendas, esparadrapo, solución salina, guantes, tijeras, termómetro. |
+| Tipo B | Botiquín intermedio con mayor dotación para atención de eventos más complejos. | Instituciones con mayor número de personas o riesgos moderados. | Incluye elementos del tipo A más inmovilizadores, apósitos especiales, entre otros. |
+| Tipo C | Botiquín avanzado para atención de emergencias más complejas. | Ambientes de alto riesgo o brigadas especializadas. | Incluye equipos más completos para atención avanzada (uso restringido). |
+=== /TABLA ===
+La selección del botiquín debe responder a los riesgos identificados y a las características del lugar. Sus elementos permiten brindar atención básica; sin embargo, no sustituyen la valoración del personal de salud cuando la lesión requiere atención especializada.
+Para garantizar su disponibilidad y uso seguro, es necesario mantener el botiquín organizado y verificar periódicamente las condiciones de sus elementos. Con este propósito, se deben considerar los siguientes aspectos:
+Mantener el botiquín limpio, ordenado y en buen estado.
+Revisar periódicamente los productos para identificar aquellos vencidos o deteriorados.
+Reponer oportunamente los elementos después de utilizarlos.
+Ubicarlo en un lugar visible y accesible para las personas responsables.
+Mantenerlo fuera del alcance de las niñas y los niños.
+El cumplimiento de estas condiciones permite conservar adecuadamente los elementos del botiquín y disponer de ellos de manera oportuna durante una emergencia.
+El botiquín de primeros auxilios constituye un recurso esencial que facilita la atención inicial en situaciones de emergencia, permitiendo al primer respondiente actuar de manera oportuna y organizada. Su adecuada dotación y uso se articulan con la bioseguridad y la gestión del riesgo, fortaleciendo la capacidad de respuesta en entornos de atención a la primera infancia.
+La disponibilidad de un botiquín organizado complementa las medidas necesarias para brindar una atención inicial segura. Sin embargo, antes de utilizar sus elementos, el primer respondiente debe analizar las condiciones del lugar, identificar los peligros presentes y establecer las acciones prioritarias. En este sentido, se aborda la evaluación del escenario y la toma de decisiones.
+Evaluación del escenario y toma de decisiones
+La evaluación del escenario es el proceso sistemático mediante el cual el primer respondiente analiza las condiciones del entorno antes de intervenir en una situación de emergencia, con el fin de identificar riesgos, garantizar la seguridad y orientar la toma de decisiones iniciales. Este proceso constituye el primer paso de la atención, ya que permite prevenir accidentes adicionales y asegurar una intervención organizada y efectiva.
+Antes de acercarse a la persona afectada, el primer respondiente debe realizar una observación general del entorno, identificando posibles peligros como objetos inestables, superficies resbalosas, presencia de fuego, sustancias peligrosas u otras condiciones que puedan comprometer la seguridad. Asimismo, debe reconocer el tipo de incidente, el número de personas involucradas y los recursos disponibles en el lugar.
+La evaluación del escenario requiere seguir una secuencia lógica que permita reconocer las condiciones del entorno, establecer prioridades y seleccionar una respuesta segura. Para orientar este proceso, se presentan las siguientes acciones, acompañadas de ejemplos contextualizados en situaciones relacionadas con la primera infancia:
+Observar el entorno: consiste en examinar el lugar antes de acercarse a la persona afectada para reconocer las condiciones generales de seguridad. Por ejemplo, si una niña cae en la cocina, el primer respondiente verifica si existen líquidos derramados, objetos cortantes o recipientes calientes que puedan ocasionar otro accidente.
+Identificar los riesgos: implica reconocer los peligros que pueden afectar al primer respondiente, a la persona lesionada o a quienes se encuentran cerca. Por ejemplo, ante un niño ubicado junto a una toma eléctrica dañada, se evita el acercamiento hasta suspender la corriente y garantizar condiciones seguras para brindar ayuda.
+Reconocer el tipo de incidente: permite establecer qué ocurrió y orientar las acciones iniciales según las características de la situación. Por ejemplo, si un niño presenta una quemadura después de tocar una olla caliente, se identifica el origen de la lesión y se evita aplicar sustancias caseras sobre la zona afectada.
+Verificar el número de víctimas: permite establecer cuántas personas requieren ayuda y determinar el orden de atención según la gravedad de sus condiciones. Por ejemplo, después de la caída de varios niños durante una actividad, se identifica quién presenta dificultad respiratoria, sangrado abundante, pérdida de conciencia o lesiones aparentemente menores.
+Evaluar si es seguro intervenir: requiere comprobar que la atención pueda brindarse sin exponer al primer respondiente ni agravar la condición de la persona afectada. Por ejemplo, si un niño cae cerca de una fuga de gas, se evita ingresar al lugar y se solicita apoyo inmediato a los organismos de emergencia.
+Decidir si se interviene o se activan emergencias: consiste en determinar si la situación puede atenderse mediante primeros auxilios básicos o requiere apoyo especializado. Por ejemplo, ante una niña inconsciente o con dificultad respiratoria, se activa la línea 123, se siguen las indicaciones recibidas y se brinda acompañamiento hasta que llegue el personal capacitado.
+La aplicación ordenada de estas acciones permite valorar el escenario, reducir la exposición a peligros y tomar decisiones acordes con las necesidades de la emergencia. De esta manera, se favorece una intervención inicial responsable y se protege la integridad de las niñas, los niños, el primer respondiente y las demás personas presentes.
+Una vez valoradas las condiciones del escenario y establecidas las acciones prioritarias, es necesario reconocer la naturaleza y la gravedad del evento para orientar la respuesta inicial. En este sentido, se presentan los tipos de emergencia y los criterios básicos que permiten diferenciarlos.
+Tipos de emergencia
+Las emergencias corresponden a situaciones que requieren una intervención inmediata debido al riesgo que representan para la vida, la salud o la integridad de una persona. Estas condiciones pueden presentarse de forma repentina y evolucionar rápidamente, por lo que demandan una respuesta oportuna, organizada y basada en criterios de prioridad.
+La clasificación de las emergencias permite al primer respondiente reconocer el tipo de evento, valorar su gravedad y orientar la toma de decisiones frente a la atención inicial. Este proceso facilita la priorización de acciones, la aplicación de medidas adecuadas y, cuando es necesario, la activación del sistema de emergencias para garantizar una atención especializada.
+En el contexto de la primera infancia, esta clasificación adquiere especial relevancia, ya que niñas y niños presentan mayor vulnerabilidad frente a lesiones, enfermedades súbitas y accidentes. Por ello, es fundamental que el primer respondiente pueda identificar rápidamente el tipo de emergencia y actuar de manera segura, pertinente y ajustada a las características del menor.
+Una vez reconocida la naturaleza y la gravedad del evento, es necesario diferenciar las situaciones que pueden presentarse y la respuesta inicial que requiere cada una. La siguiente tabla clasifica los principales tipos de emergencia, describe sus características, incluye ejemplos relacionados con la primera infancia y orienta su atención inicial.
+Tabla 5. Tipos de emergencia en primeros auxilios
+=== TABLA ===
+| Tipo de emergencia | Descripción | Ejemplos en primera infancia | Aplicación en primeros auxilios |
+| Emergencias médicas | Alteraciones del estado de salud sin causa externa evidente. | Convulsiones, fiebre alta, dificultad respiratoria, pérdida de conciencia. | Permiten identificar condiciones críticas que requieren atención inmediata y activación del sistema de emergencias. |
+| Emergencias traumáticas | Lesiones causadas por agentes externos. | Caídas, golpes, heridas, quemaduras. | Facilitan la atención inicial de lesiones físicas y el control de daños visibles. |
+| Emergencias ambientales | Situaciones relacionadas con factores del entorno. | Incendios, exposición al humo, sustancias peligrosas. | Permiten identificar riesgos externos y asegurar la escena antes de intervenir. |
+| Emergencias por intoxicación o asfixia | Situaciones derivadas de ingestión de sustancias u obstrucción de la vía aérea. | Atragantamiento, ingestión de objetos o sustancias tóxicas. | Requieren actuación inmediata para evitar compromiso vital. |
+=== /TABLA ===
+La identificación adecuada del tipo de emergencia permite al primer respondiente actuar de manera organizada, priorizando la atención según la gravedad del caso y las condiciones del entorno. En la primera infancia, esta clasificación es fundamental, ya que facilita reconocer situaciones frecuentes como caídas, asfixias o intoxicaciones, permitiendo una intervención oportuna que contribuya a la protección de la vida y la integridad de niñas y niños.
+Tras identificar el tipo de emergencia y reconocer las condiciones que requieren atención prioritaria, es necesario examinar el estado de la persona afectada para determinar sus necesidades inmediatas. En este sentido, la valoración inicial orienta las decisiones del primer respondiente y permite establecer una atención organizada y segura.
+Valoración inicial
+La valoración inicial corresponde al proceso inmediato, sistemático y organizado que realiza el primer respondiente al llegar al lugar de la emergencia, con el propósito de identificar rápidamente la situación, establecer prioridades y orientar la toma de decisiones para la atención. Este proceso se enfoca en garantizar la seguridad del respondiente, de la víctima y de las personas presentes, permitiendo una intervención oportuna y adecuada.
+En la primera infancia, la valoración inicial debe considerar las características propias del desarrollo, debido a que estas influyen en la forma de reconocer los signos y comprender lo ocurrido. Entre los principales aspectos se encuentran:
+Tamaño corporal: requiere adaptar las técnicas de valoración y atención a la edad y contextura de la niña o el niño.
+Capacidad de comunicación: puede limitar la descripción de los síntomas, el dolor o las circunstancias del incidente.
+Expresión del malestar: puede manifestarse mediante llanto, irritabilidad, somnolencia, cambios de comportamiento o dificultad para moverse.
+La observación cuidadosa de estas manifestaciones facilita la identificación de cambios en el estado general y orienta una actuación acorde con las necesidades de la niña o el niño.
+Para desarrollar la valoración inicial de forma organizada, se debe aplicar una secuencia que permita reconocer las condiciones del lugar, comprender lo ocurrido y determinar la respuesta necesaria. Este proceso comprende los siguientes pasos:
+Verificar que el lugar sea seguro antes de acercarse.
+Identificar el tipo de incidente ocurrido.
+Comprobar el nivel de conciencia mediante estímulos verbales y táctiles suaves.
+Observar si la niña o el niño respira y reconocer posibles dificultades respiratorias.
+Examinar el estado general e identificar sangrados, lesiones visibles, cambios de coloración o comportamientos inusuales.
+Establecer las prioridades de atención según los signos identificados.
+Brindar los primeros auxilios acordes con la situación y la formación recibida.
+Activar el sistema de emergencias cuando exista pérdida de conciencia, dificultad respiratoria u otro signo de alarma.
+La aplicación ordenada de estos pasos permite reconocer oportunamente las condiciones que comprometen la vida o la integridad de la niña o el niño, orientar la atención inicial y activar el sistema de emergencias cuando sea necesario.
+Después de reconocer los aspectos que orientan la valoración inicial, es necesario verificar que el entorno permita acercarse y brindar ayuda sin generar nuevos riesgos. En este sentido, la seguridad de la escena constituye el primer paso para proteger a la niña o al niño, al primer respondiente y a las demás personas presentes.
+Seguridad de la escena
+La seguridad de la escena es el conjunto de acciones que realiza el primer respondiente para verificar que el entorno donde ocurre la emergencia no represente un riesgo adicional para la víctima, para sí mismo o para otras personas presentes. Este paso es fundamental antes de iniciar cualquier tipo de atención, ya que garantiza una intervención segura y evita que se generen nuevos accidentes.
+Para garantizar la seguridad de la escena, el primer respondiente debe aplicar acciones que permitan controlar los peligros antes de brindar ayuda. Estas medidas se adaptan a las condiciones del lugar y evitan que la emergencia afecte a otras personas:
+Verificar la seguridad del entorno: observar el lugar antes de acercarse para reconocer peligros que puedan ocasionar nuevas lesiones. Por ejemplo, si un niño cae en la cocina, se deben identificar líquidos derramados, vidrios rotos o recipientes calientes.
+Controlar los peligros identificados: retirar o aislar los elementos peligrosos únicamente cuando esta acción pueda realizarse sin exposición. Por ejemplo, ante un juguete ubicado cerca de una escalera, se restringe el paso mientras se atiende a la niña.
+Evitar el ingreso de otras personas: delimitar el área para impedir que familiares, niñas, niños o animales domésticos interfieran durante la atención. Por ejemplo, se solicita a otro adulto mantenerlos alejados de una habitación con objetos rotos.
+Solicitar apoyo ante riesgos mayores: activar los organismos de emergencia cuando existan incendios, fugas de gas, cables eléctricos expuestos o estructuras inestables. Por ejemplo, se llama a la línea 123 y se evita ingresar al lugar afectado.
+Acercarse de manera segura: ingresar al área únicamente después de comprobar que los peligros fueron eliminados o controlados. Por ejemplo, antes de auxiliar a un niño en el baño, se seca el piso para prevenir nuevas caídas.
+La aplicación de estas acciones permite controlar las condiciones del escenario y brindar una atención inicial organizada. Si el peligro no puede eliminarse de forma segura, se debe evitar la intervención directa y solicitar apoyo especializado.
+La seguridad de la escena constituye la base de toda intervención en primeros auxilios, ya que permite al primer respondiente actuar con confianza y reducir la exposición a riesgos. Este proceso se articula con la valoración inicial y la identificación de riesgos, facilitando una atención organizada y preparando el camino para la activación del sistema de emergencias.
+Activación del sistema de emergencias
+La activación del sistema de emergencias es el proceso mediante el cual el primer respondiente solicita apoyo especializado para la atención de una situación que supera su capacidad de intervención. Este paso es fundamental para garantizar la continuidad de la atención y asegurar una respuesta oportuna por parte de los servicios de salud y organismos de socorro.
+Una vez realizada la valoración inicial y asegurada la escena, el primer respondiente debe identificar si la situación requiere la intervención de servicios de emergencia. En caso afirmativo, debe activar de manera inmediata los canales establecidos, siendo la línea 123 el principal medio de acceso al sistema de emergencias en Colombia.
+La activación inmediata del sistema de emergencias es necesaria cuando se identifican signos que pueden comprometer la vida o la integridad de la persona afectada. Entre las principales situaciones que requieren apoyo especializado se encuentran:
+Pérdida de la conciencia: ocurre cuando la niña o el niño no responde al llamado ni a estímulos suaves. Por ejemplo, si permanece inmóvil después de una caída y no abre los ojos, se debe llamar inmediatamente a la línea 123 y vigilar su respiración.
+Dificultad o ausencia de respiración: se reconoce cuando la niña o el niño respira con esfuerzo, emite sonidos extraños o no presenta movimientos respiratorios. Por ejemplo, si después de atragantarse no puede respirar, se debe solicitar ayuda inmediata y seguir las indicaciones recibidas del operador.
+Sangrado abundante: corresponde a una pérdida continua de sangre que no disminuye con medidas iniciales de control. Por ejemplo, si una herida profunda empapa rápidamente las gasas utilizadas, se debe mantener presión directa, llamar a la línea 123 y esperar la llegada del personal especializado.
+Convulsiones: son movimientos involuntarios que pueden acompañarse de rigidez, pérdida de conciencia o alteración de la respiración. Por ejemplo, si un niño convulsiona, se deben retirar los objetos cercanos, proteger su cabeza, evitar introducir elementos en su boca y solicitar ayuda médica de emergencia inmediatamente.
+Lesiones graves: comprenden golpes, caídas o heridas que pueden comprometer la cabeza, el cuello, la columna o las extremidades. Por ejemplo, si una niña cae desde una altura y no puede moverse, se debe evitar trasladarla, activar el sistema de emergencias y acompañarla tranquila y permanentemente.
+Quemaduras extensas: afectan una zona amplia del cuerpo o áreas delicadas, como la cara, las manos o los genitales. Por ejemplo, si un niño derrama agua hirviendo sobre el pecho, se debe retirar la fuente de calor, solicitar ayuda inmediata y evitar aplicar remedios caseros.
+Capacidad de atención superada: se presenta cuando la gravedad, el número de personas afectadas o los riesgos del entorno exceden los conocimientos y recursos disponibles. Por ejemplo, ante niñas y niños lesionados, se debe solicitar apoyo de emergencia, priorizar la seguridad y evitar actuaciones inseguras.
+El reconocimiento oportuno de estos signos permite solicitar ayuda especializada sin retrasos y proteger a la persona afectada. Mientras llega el personal de emergencias, se deben seguir las indicaciones del operador, mantener la seguridad del entorno y brindar únicamente las medidas acordes con la formación recibida.
+Durante la activación del sistema, es fundamental proporcionar información clara, precisa y completa que permita una adecuada respuesta por parte de los servicios de emergencia. Entre los datos que se deben suministrar se encuentran:
+Ubicación exacta del lugar del evento.
+Tipo de emergencia presentada.
+Número de personas afectadas.
+Condición de la víctima (estado de conciencia, respiración, lesiones visibles).
+Riesgos presentes en el entorno.
+Asimismo, es importante mantener la comunicación hasta recibir indicaciones del operador, seguir las instrucciones brindadas y no colgar la llamada hasta que se indique. Esta interacción permite optimizar la respuesta y facilitar la atención de la emergencia.
+En el contexto de la primera infancia, la activación del sistema de emergencias adquiere especial relevancia, ya que las condiciones de niñas y niños pueden cambiar rápidamente, requiriendo atención especializada en el menor tiempo posible. Por ello, una comunicación efectiva y oportuna puede marcar la diferencia en la evolución de la situación.
+La activación del sistema de emergencias complementa la valoración del escenario y la actuación del primer respondiente, permitiendo dar continuidad a la atención mediante la intervención de personal especializado. Este proceso asegura una respuesta integral, oportuna y coordinada, especialmente en situaciones que comprometen la salud y la vida en la primera infancia.
+La orientación recibida por parte del sistema de emergencias facilita la aplicación de medidas seguras mientras llega la ayuda especializada. Después de su activación, el proceso conduce a la aplicación de los primeros auxilios en contextos infantiles, de acuerdo con las características, las necesidades y los riesgos propios de las niñas y los niños en Colombia.
+Aplicación en contextos infantiles
+La aplicación de los primeros auxilios en contextos infantiles implica la adaptación de los conocimientos, habilidades y procedimientos a las condiciones específicas de niñas y niños, considerando su etapa de desarrollo, nivel de dependencia y características del entorno en el que se desenvuelven. Este enfoque permite que la atención inicial sea pertinente, segura y acorde con las necesidades de la primera infancia.
+En estos contextos, es fundamental reconocer que los eventos que requieren primeros auxilios no solo dependen de la ocurrencia de un accidente, sino también, de la interacción entre el niño o la niña y su entorno.
+Los entornos infantiles presentan condiciones particulares que influyen en la aparición de accidentes y en la respuesta del primer respondiente. Para comprender estas situaciones y actuar de manera segura, se deben reconocer los siguientes aspectos, acompañados de ejemplos aplicados a la realidad:
+Riesgos del entorno: son condiciones presentes en el espacio que aumentan la posibilidad de accidentes. Por ejemplo, en un jardín infantil, piso húmedo, un juguete roto o una bebida caliente al alcance de niñas y niños exige controlar el peligro antes de iniciar la atención.
+Características del desarrollo: corresponden a las capacidades físicas, cognitivas y comunicativas propias de cada edad. Por ejemplo, una niña pequeña puede expresar dolor mediante llanto o cambios de comportamiento; por ello, se requiere observar sus reacciones y obtener información de la persona adulta a cargo.
+Comunicación protectora: consiste en explicar lo ocurrido con palabras sencillas y mensajes acordes con la edad. Por ejemplo, antes de revisar una herida, se puede indicar que recibirá ayuda, evitando expresiones alarmantes que aumenten el temor de la niña o el niño durante la atención.
+Acompañamiento emocional: implica reconocer el miedo, brindar tranquilidad y mantener una presencia cercana durante la emergencia. Por ejemplo, si una niña llora después de una caída, se le habla con calma, se evitan regaños y se permite el acompañamiento de una persona adulta de confianza.
+El reconocimiento de estos aspectos permite adaptar la atención a las características de la primera infancia y reducir los factores que pueden agravar la situación. De igual manera, favorece una intervención respetuosa, comprensible y adecuada para las necesidades de cada niña o niño.
+Además de controlar los riesgos y reconocer las características del desarrollo infantil, el primer respondiente debe generar condiciones emocionales que faciliten la atención. Para lograrlo, se recomienda aplicar las siguientes acciones de manera organizada:
+Establecer una comunicación clara: explicar lo que ocurre mediante palabras sencillas, un tono de voz sereno y mensajes acordes con la edad.
+Manejar las emociones: reconocer el miedo, el llanto o la ansiedad sin minimizar estas manifestaciones ni emitir regaños.
+Generar confianza: mantener una actitud calmada, respetuosa y empática que permita a la niña o al niño sentirse protegido durante la atención.
+Favorecer el acompañamiento: permitir, cuando las condiciones lo posibiliten, la presencia de una persona adulta responsable que brinde seguridad emocional.
+La aplicación de estas acciones contribuye a reducir el temor, facilita la valoración inicial y fortalece la colaboración de la niña o el niño. Así, la atención no se limita al manejo de la lesión, sino que también protege su bienestar emocional.
+La adaptación de los primeros auxilios a las características de la primera infancia permite comprender la situación y brindar una atención segura. Sin embargo, cada emergencia exige analizar la información disponible, establecer prioridades y seleccionar la respuesta más adecuada; por ello, el siguiente subtema aborda la toma de decisiones en primeros auxilios.
+Toma de decisiones en primeros auxilios
+La toma de decisiones en primeros auxilios corresponde al proceso mental mediante el cual el primer respondiente analiza la información disponible y selecciona la acción más adecuada frente a una situación de emergencia. Este proceso no se limita a la ejecución de acciones, sino que implica interpretar el contexto, valorar riesgos y actuar con criterio frente a condiciones cambiantes.
+A diferencia de los procedimientos técnicos, la toma de decisiones se basa en la capacidad de juicio del respondiente, quien debe integrar elementos como la seguridad del entorno, la gravedad de la situación, los recursos disponibles y sus propios límites de actuación. Esto permite definir de manera consciente si es seguro intervenir, qué acciones priorizar y en qué momento solicitar apoyo especializado.
+La toma de decisiones en primeros auxilios se desarrolla mediante un proceso continuo que permite comprender la emergencia, seleccionar una respuesta segura y verificar sus resultados. La siguiente figura presenta cinco acciones articuladas que orientan la actuación del primer respondiente ante situaciones relacionadas con la primera infancia.
+Figura 2. Proceso para la toma de decisiones en primeros auxilios
+Estas acciones conforman un ciclo dinámico, porque las condiciones de la emergencia pueden cambiar durante la atención. Por ello, el primer respondiente debe mantener la observación y adaptar sus decisiones para proteger a la niña o al niño sin exceder sus límites de actuación.
+En el contexto de la primera infancia, la toma de decisiones requiere un nivel adicional de atención, debido a la vulnerabilidad de niñas y niños y a la posibilidad de cambios rápidos en su estado de salud. Esto implica actuar con mayor precaución, evitando intervenciones innecesarias y priorizando siempre la seguridad y el bienestar del menor.
+De esta manera, la toma de decisiones se convierte en un elemento transversal en la atención de primeros auxilios, ya que orienta la actuación del primer respondiente hacia intervenciones seguras, pertinentes y responsables, sin sustituir la atención médica especializada.
+SÍNTESIS
+El componente formativo aborda de manera integral los fundamentos de los primeros auxilios en la primera infancia, articulando el marco normativo, los conceptos esenciales, la gestión del riesgo, las medidas de bioseguridad y el rol del primer respondiente. Desde esta perspectiva, se fortalecen las competencias para reconocer situaciones de emergencia, valorar el entorno de forma segura y ejecutar acciones iniciales oportunas que protejan la vida.
+De igual forma, se promueve una cultura de prevención orientada a la reducción de riesgos y a la actuación responsable frente a eventos adversos, así como la adecuada activación del sistema de emergencias. Todo ello con el propósito de garantizar una atención articulada, segura y centrada en la protección integral de la vida, la salud y el bienestar de niñas y niños en los diferentes contextos de cuidado.
+A continuación, el mapa conceptual organiza de manera visual los ejes temáticos del componente formativo y las relaciones que los articulan.
+ACTIVIDADES DIDÁCTICAS
+=== TABLA ===
+| DESCRIPCIÓN DE ACTIVIDAD DIDÁCTICA |
+| Nombre de la Actividad | Ruta de protección en primera infancia. |
+| Objetivo de la actividad | Reconocer los principios de los primeros auxilios en primera infancia mediante la identificación de conceptos, riesgos, medidas de bioseguridad y acciones iniciales que orientan una actuación segura y responsable ante situaciones de emergencia. |
+| Tipo de actividad sugerida |  |
+| Archivo de la actividad ¶ (Anexo donde se describe la actividad propuesta) | 63720048_CF01_AD.docx |
+=== /TABLA ===
+GLOSARIO:
+Atención inicial: acciones inmediatas que se realizan para proteger y asistir a una persona antes de la llegada del personal especializado.
+Bioseguridad: medidas y prácticas destinadas a prevenir la exposición a agentes biológicos y reducir los riesgos durante la atención de una emergencia.
+Botiquín de primeros auxilios: recurso que contiene elementos básicos organizados para brindar atención inicial ante lesiones o emergencias.
+Elementos de protección personal (EPP): equipos y dispositivos que protegen al primer respondiente del contacto con sangre, fluidos corporales u otros agentes que puedan afectar su salud.
+Emergencia: situación que pone en riesgo la vida, la salud o la integridad de una persona y requiere atención oportuna.
+Evaluación del escenario: observación inicial del entorno para identificar peligros y determinar si existen condiciones seguras para acercarse y brindar atención.
+Factor de riesgo: circunstancia que aumenta la probabilidad de que ocurra un accidente, una lesión o una afectación a la salud.
+Gestión del riesgo: proceso orientado a identificar, analizar, prevenir y controlar las situaciones que pueden ocasionar daños.
+Primer respondiente: persona que brinda la atención inicial durante una emergencia mientras llega el personal especializado.
+Primeros auxilios: atención inmediata y temporal que recibe una persona lesionada o enferma repentinamente hasta la llegada de la asistencia especializada.
+Seguridad de la escena: condición que permite brindar atención sin exponer a riesgos adicionales al primer respondiente, a la persona afectada ni a quienes se encuentran en el lugar.
+Sistema de emergencias: red de entidades, recursos y servicios que intervienen de manera coordinada en la atención de urgencias y emergencias.
+REFERENCIAS BIBLIOGRÁFICAS:
+Ley 1098 de 2006. Por la cual se expide el Código de la Infancia y la Adolescencia. 8 de noviembre de 2006. Diario Oficial No. 46.446.
+Ley Estatutaria 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones. 16 de febrero de 2015. Diario Oficial No. 49.427.
+Ministerio de Salud y Protección Social. (2012). Guías básicas de atención médica prehospitalaria (2.ª ed.).
+Ministerio de Salud y Protección Social. (2016, 17 de febrero). Resolución 429 de 2016, por medio de la cual se adopta la Política de Atención Integral en Salud.
+Ministerio de Salud y Protección Social. (2017). Manual de medidas básicas para el control de infecciones asociadas a la atención en salud.
+Ministerio de Salud y Protección Social. (2017, 30 de marzo). Resolución 926 de 2017, por la cual se reglamenta el desarrollo y la operación del Sistema de Emergencias Médicas.
+Ministerio de Salud y Protección Social. (2019, 25 de noviembre). Resolución 3100 de 2019, por la cual se definen los procedimientos y las condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud, y se adopta el Manual de Inscripción de Prestadores y Habilitación de Servicios de Salud.
+CONTROL DEL DOCUMENTO
+=== TABLA ===
+|  | Nombre | Cargo | Dependencia | Fecha |
+| Autor | Laura Briguitte Perea Possos | Experta temática | Centro de Comercio y Servicios. Regional Tolima. | Marzo 2026 |
+| Autor | Gloria Lida Alzate Suárez | Evaluadora instruccional | Regional Tolima. Centro de Comercio y Servicios. | Julio 2026 |
+=== /TABLA ===
+CONTROL DE CAMBIOS (Diligenciar únicamente si realiza ajustes a la Unidad Temática)
+=== TABLA ===
+|  | Nombre | Cargo | Dependencia | Fecha | Razón del Cambio |
+| Autor |  |  |  |  |  |
+=== /TABLA ===
