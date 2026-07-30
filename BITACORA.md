@@ -136,19 +136,40 @@ Artboard `4e18ab8b`, `XD_DX=10506 XD_DY=11700`, tarjeta 1328×7760. 4 subtemas.
   equivalente es **`#DAF7C3`** → `$color-4-30`. Está en la tabla de remapeo.
 - 26 elementos con `data-aos`, **0 sin `aos-animate`** con el viewport cubriendo la página.
 
-## Traducción de la paleta VIEJA del arte a la de la spec
+## ⛔ Corrección del 2026-07-30: COLOR Y RADIO EXACTOS DEL XD
 
-Los nodos del XD siguen rellenos con los colores de los **rects de muestra**. Barriendo los
-rellenos de los 9 artboards, la traducción es:
+Hallazgo de Luis (`Hallazgos(1).docx`): **«los colores de los elementos background deben ser
+exactamente el color propuesto en el XD»** y **«el estilo de los background debe ser exactamente
+como lo plantea el xd, al igual que el estilo de las imágenes, si es con las esquinas redondas o
+sin ellas»**. Se revirtió la traducción de la «paleta vieja» que había hecho (era un error):
 
-| en el arte del XD | va como |
+| elemento | va con el `fill` del nodo |
 |---|---|
-| `#FFC0AC` | `$color-acento-contenido` `#FFB866` |
-| `#FFE6DE` | 3-VC `#FFEAD1` |
-| `#DBC2FA` | `$color-secundario` `#E3D7FF` |
-| `#F4EDFE` | 2-VC `#F7F3FF` |
-| `#16D95E` | `$color-acento-botones` `#85E336` |
-| `#8EC5FC` `#DDEEFE` `#F3F9FF` `#394F65` | ya coinciden con la spec |
+| badge del título / cuadros de ícono 84 / viñetas / thead de tablas / corazones | `#FFC0AC` |
+| avisos salmón | `#FFE6DE` |
+| avisos lila claro / ítem abierto de acordeón y línea de tiempo | `#F4EDFE` |
+| avisos azul claro / cajones | `#DDEEFE` |
+| tarjetas azules / pestaña del cajón | `#8EC5FC` |
+| tarjetas verdes / ítems cerrados | `#B8F4CE` |
+| cajas lila | `#DBC2FA` |
+| filas alternas de tabla | `#F6F6F6` |
+
+`xd_patches.remapear_paleta()` quedó como **identidad** y se regeneraron los 146 assets.
+`$color-acento-botones` se queda en `#85E336` (hex escrito) porque Luis lo corrigió así en su día.
+
+**Radios**: las clases `.bg-N` son sólo color; el radio va aparte en `.r-0/.r-5/.r-10/.r-20`
+leyendo el `r=[...]` del rect (hay cajas sin radio, o sea cuadradas) y el de la máscara para las
+fotos. Barrido que lo resuelve de una pasada: agrupar los rects del artboard por `(fill, r)`.
+
+**Y el degradado del banner iba INVERTIDO**: `xd_export.paint_to_svg` buscaba `x1/y1/x2/y2` en
+`gradient.meta.ux.gradientResources` pero el XD los guarda en el propio `gradient`, así que usaba
+los defaults `0,0→1,0` (horizontal izq→der) en TODOS los degradados lineales. Parche 6 de
+`xd_patches.py`. El rect del hero va además rotado 180°, y con los valores buenos la rotación se
+aplica sola porque el degradado es `objectBoundingBox`.
+
+**Margen negativo que colapsa**: el círculo de 150 montado sobre la tarjeta y el badge de 70 de la
+caja lila no sobresalían porque el `margin-top` negativo del `figure` **colapsaba con el del
+padre**. Se arregla con `display: flow-root` en la tarjeta.
 
 ## Pendiente de decisión de Luis
 - Subtema **2.1 «Lineamientos técnicos SDIS»**: está en la tabla de contenidos del DI.docx pero

@@ -12,19 +12,19 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
    **con el texto `#12263F` del propio XD casi ilegible encima**. Me quedo con el XD: fondo claro y
    texto oscuro (quitando el `color: $white` que fuerza BASE). Mismo criterio en el banner de
    cabecera de todas las secciones, que es otro grupo (1600×220) con la misma receta.
-2. **La paleta es la de los hex ESCRITOS de la hoja de especificación**, no la de los rects de
-   muestra, que están desincronizados. Y **todo el arte del XD sigue relleno con la paleta vieja**,
-   así que se traduce (tabla en `BITACORA.md`): `#FFC0AC`→`#FFB866`, `#FFE6DE`→`#FFEAD1`,
-   `#DBC2FA`→`#E3D7FF`, `#F4EDFE`→`#F7F3FF`, `#16D95E`→`#85E336`.
+2. ~~La paleta es la de los hex ESCRITOS de la hoja de especificación~~ → **REVERTIDO el
+   2026-07-30 por hallazgo de Luis**: «los colores de los elementos background deben ser
+   exactamente el color propuesto en el XD». El `fill` de cada nodo manda para ESE elemento
+   (`#FFC0AC`, `#FFE6DE`, `#F4EDFE`, `#DBC2FA`, `#B8F4CE`); `remapear_paleta()` quedó como
+   identidad y se regeneraron TODOS los assets. La única variable que se queda con el hex escrito
+   es `$color-acento-botones: #85E336`, que él mismo corrigió en su día y no marcó ahora.
 3. **Subtema 2.1 «Lineamientos técnicos SDIS»**: está en la tabla de contenidos del DI.docx, pero
    el artboard del Tema 2 **no dibuja su píldora** (el contenido arranca justo bajo el título del
    tema). Lo dejé en el menú con `hash: 't_2_1'` anclado al primer bloque del tema.
 
-4. **El arte del XD se remapea a la paleta de la spec también DENTRO de los assets.** Los círculos
-   de los íconos, los badges y los tintes están dibujados con la paleta vieja; si sólo se corrigen
-   las variables de SASS, un círculo `#DBC2FA` queda junto a una tarjeta `#E3D7FF`. El remapeo se
-   hace en el SVG antes de rasterizar (`xd_patches.remapear_paleta`), así que no deja bordes mal
-   antialiasados. El tinte `#B8F4CE` del arte (30 % del viejo verde) pasa a `#DAF7C3`.
+4. **El RADIO de cada caja y de cada foto se lee del XD**, no se pone a granel. Las clases `.bg-N`
+   son sólo color; el radio va en `.r-0/.r-5/.r-10/.r-20` según el `r=[...]` del rect o de la
+   máscara. Hay cajas **sin radio** (cuadradas del todo) y fotos **con** radio (10 o 20).
 5. **A 390 px de ancho el contenido se corta por la derecha** en todas las pantallas: viene del
    ancho mínimo efectivo (~480 px) de la infraestructura del kit, no de la maquetación. A 768 px
    todo apila bien.
