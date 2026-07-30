@@ -4,6 +4,17 @@ Repo propio del entregable (`ECORED-TOLIMA/pruebas-plantilla-manuel-v2`, rama `m
 Fuentes en `fuentes/`: `CF1_63720048.xd`, `CF1_63720048.pdf`, `63720048_CF01_DI.docx`,
 `63720048_CF01_AD.docx`. Servidor: `npm run serve` → http://localhost:5173/CF1_63720048/
 
+## Reglas de trabajo de este repo
+
+- **`commit` + `push` de CADA sección terminada**, sin esperar aprobación: la Action del repo
+  despliega a **GitHub Pages al pushear a `master`**, así que el push es la forma en que Luis
+  revisa. Después de cada push se comprueba que la Action pasó.
+  - local: http://localhost:5173/CF1_63720048/
+  - publicado: https://ecored-tolima.github.io/pruebas-plantilla-manuel-v2/
+- **No se pregunta nada.** Cada bifurcación se decide desde el XD + PDF + DOCX y se anota en
+  `REVISION-PENDIENTES.md` con el porqué.
+- `.gitignore`: el `.xd` descomprimido (`/fuentes/CF1_63720048/`, 64 MB, lo genera `config.py`).
+
 ## Mapa artboard → pantalla → página, y offsets
 
 Los `XD_DX`/`XD_DY` salen **directamente del `manifest` del XD** (`uxdesign#bounds`: `DX=-x`,
