@@ -50,6 +50,19 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
 10. **Las referencias no traen URL.** Las siete son normas y publicaciones citadas sin enlace en el
     DI.docx, así que van con `link: ''` (el componente omite el ancla).
 
+## De `Hallazgos(5)` — lo que queda por cerrar
+
+- **«Los fondos no salen completos»**: no lo he tocado en esta ronda. Lo que aplico ahora es el
+  `margin-inline: -6.2rem` + `background-size: cover`; falta compararlo 1:1 con tu referencia.
+- **«Mal la imagen»** y **«Faltó la imagen»** (imágenes 7-8 y 15-16 del documento): no he
+  identificado a qué bloque se refieren. Dime el subtema y lo cierro.
+- **«Los iconos con fondo negro» del Tema 3**: audité los 20 assets del tema y el render. Los
+  glifos salen en los colores del XD (`#584E64`, `#59433C`, `#394F65`), el negro opaco es del 0 % y
+  no hay ninguna zona negra en la pantalla. **No lo he podido reproducir**; si lo estás viendo en
+  GitHub Pages puede ser del build, no del código.
+- **Las posiciones de los puntos de la infografía del 2.5** las repartí yo (la ilustración no tiene
+  nodos identificables por punto). Las del 4.3 sí salen de los nodos del XD.
+
 ## Estado
 
 | pantalla | estado |
