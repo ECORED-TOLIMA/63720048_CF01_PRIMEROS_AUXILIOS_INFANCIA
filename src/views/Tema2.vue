@@ -257,10 +257,13 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-10
+        //- La imagen va A SANGRE sobre el panel: en el XD la imagen (1020x227) y el panel
+        //- (1020x160) tienen el MISMO ancho y no hay padding lateral. El `.p-4` sólo envuelve la
+        //- tarjeta blanca de dentro, como en el ejemplo del catálogo.
+        figure.mb-0
+          img(src="@/assets/curso/temas/t2/f7.png" alt="").w-100
         .bg-4.p-4
-          figure
-            img(src="@/assets/curso/temas/t2/f7.png" alt="" style="width: 1020px").r-10.m-auto
-          .tarjeta.tarjeta--blanca.p-4.mt-3
+          .tarjeta.bg-white.p-4
             TarjetaAudio.tarjeta-audio--podcast(
               texto="Pódcast"
               tiempo
