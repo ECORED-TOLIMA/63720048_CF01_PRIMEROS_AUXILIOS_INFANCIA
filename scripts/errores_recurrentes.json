@@ -69,6 +69,19 @@
    ]
   },
   {
+   "id": "medir-a-ojo",
+   "veces": 2,
+   "visto_en": [
+    "CF1_63720048",
+    "CF01_22810005"
+   ],
+   "sintoma": "una columna, un alto, un padding o una separación que no es la del diseño: el bloque queda más ancho, más alto o más suelto",
+   "causa": "elegir el `col-lg-N`, el `p-N` o el `mt-N` por parecido con otro bloque en vez de medir el rect del XD",
+   "regla": "MEDIR SIEMPRE contra el XD: el ancho (w/1228 -> N/12), el ALTO, el padding (posición del primer texto menos la del rect) y la separación (y del rect siguiente menos el borde del anterior). Nada se hereda de un bloque parecido",
+   "detecta": "inventario_xd.py §1 da w x h y la posición de cada rect; verificar_maqueta.py compara el ALTO renderizado de cada vista con el alto del artboard (check `altos`)",
+   "check": "altos"
+  },
+  {
    "id": "movil-desborde",
    "veces": 2,
    "sintoma": "en móvil un bloque se sale por la derecha",
@@ -152,6 +165,17 @@
     "CF01_22810005",
     "CF2"
    ]
+  },
+  {
+   "id": "estilo-de-texto-inventado",
+   "veces": 1,
+   "visto_en": [
+    "CF1_63720048"
+   ],
+   "sintoma": "un texto en negrilla, cursiva o tachado que en el DI.docx no lo lleva (o al revés)",
+   "causa": "decidir el énfasis por criterio propio en vez de leer el formato del run del DOCX",
+   "regla": "el formato del DOCX manda: si en el Word un texto NO va en negrilla/cursiva/tachado, en la maqueta tampoco. Y si lo lleva, se reproduce",
+   "detecta": "leer los `<w:b>`, `<w:i>`, `<w:strike>` del run en `word/document.xml`, no fiarse del texto plano que saca docx_text.py"
   },
   {
    "id": "listas-sin-negrilla-ni-sangria",

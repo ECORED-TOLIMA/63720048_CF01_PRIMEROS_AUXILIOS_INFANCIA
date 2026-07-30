@@ -63,6 +63,28 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
 - **Las posiciones de los puntos de la infografía del 2.5** las repartí yo (la ilustración no tiene
   nodos identificables por punto). Las del 4.3 sí salen de los nodos del XD.
 
+## Revisión final de esta sesión (2026-07-30)
+
+**Negrillas — comprobado contra el DOCX, no por criterio propio.** El `_DI.docx` tiene **214 runs en
+negrilla** de 782 con texto, **2 en cursiva y 0 tachados**. Verifiqué uno a uno los términos que puse
+en `b`: `Curiosidad:`, `Proteger la integridad:`, `Higiene de manos:`, `Emergencia:`, `Caídas:` van
+**bold en el DOCX** → mi `b` es correcto. En cambio **`Tipo A` / `Tipo B` / `Tipo C` de la Tabla 4
+NO van en negrilla en el DOCX** y yo los puse con `b`: hay que quitarlo.
+
+**Saltos de línea.** El DOCX no tiene ningún `<w:br/>`, pero **60 nodos de texto del XD llevan salto
+de línea interno**. Buena parte son listas que ya separé en `li`, pero **no los he revisado uno a
+uno**: los que sean un salto real dentro de un párrafo necesitan `br`.
+
+**Altos.** Sin resolver y sin cifra fiable: dos intentos de medirlo automáticamente midieron la
+ventana, no el contenido (render = XD + 5999 exacto en los seis temas). Hay que medir por CDP el alto
+de `.container.tarjeta--blanca` y compararlo con el alto del artboard.
+
+**Lo que marcó Luis al final y NO he revisado todavía** (primero de la próxima sesión):
+- **el acordeón del Tema 6 está mal** (los de los otros temas están bien) — hay que ver en qué se
+  diferencia del `456995`/`409231` de T1/T4 y del `457001` de T6;
+- **algunos colores de fondo siguen mal**: toca cruzar CADA `.bg-N` de las 7 vistas contra el
+  `(fill, r)` del inventario, no solo los que salieron en los hallazgos.
+
 ## Estado
 
 | pantalla | estado |

@@ -153,6 +153,18 @@ if os.path.exists(mapa):
 else:
     print('  (falta docs/mapa-artboards.json: correr preparar_curso.py)')
 
+# ---------------------------------------------------------------- 4c. altos contra el XD
+# ⚠️ SIN IMPLEMENTAR DE FORMA FIABLE. Dos intentos y los dos midieron la VENTANA, no el contenido:
+#   1) «última fila no blanca» -> el fondo de página es #F3F9FF, no blanco, así que devolvía el alto
+#      de la ventana;
+#   2) «primera y última fila blanca de la columna central» -> Chrome pinta blanco FUERA del body,
+#      así que también devolvía la ventana (render = XD + 5999 en los seis temas, exacto).
+# La forma buena es por CDP: `document.querySelector('.container.tarjeta--blanca').getBoundingClientRect().height`
+# y comparar con el alto del artboard del `mapa-artboards.json`. Hasta entonces, el alto se mide A
+# MANO y la entrada `medir-a-ojo` del diccionario queda como comprobación manual.
+paso('4c. altos contra el XD — PENDIENTE (ver el comentario del código)')
+print('  medir por CDP el alto de `.container.tarjeta--blanca` contra el alto del artboard')
+
 # ---------------------------------------------------------------- 5. colores prohibidos
 if PROHIBIDOS:
     paso('5. colores prohibidos en los assets')
