@@ -57,6 +57,17 @@
    ]
   },
   {
+   "id": "estilo-de-texto-inventado",
+   "veces": 2,
+   "visto_en": [
+    "CF1_63720048"
+   ],
+   "sintoma": "un texto en negrilla, cursiva o tachado que en el DOCX no lo lleva (o al revés). Real en CF1: los `Tipo A/B/C` de la Tabla 4 los puse en negrilla y en el DOCX no lo están",
+   "causa": "decidir el énfasis por criterio propio en vez de leer el formato del run del DOCX",
+   "regla": "el formato del DOCX manda: si en el Word un texto NO va en negrilla/cursiva/tachado, en la maqueta tampoco. Y si lo lleva, se reproduce",
+   "detecta": "contar los runs con `<w:b/>` en `word/document.xml` y comprobar CADA término que se vaya a poner en `b`: `docx_text.py` devuelve texto plano y pierde el formato"
+  },
+  {
    "id": "fondo-decorativo",
    "veces": 2,
    "sintoma": "la banda decorativa no llega a los bordes, o el contenido queda pegado a los lados",
@@ -78,8 +89,7 @@
    "sintoma": "una columna, un alto, un padding o una separación que no es la del diseño: el bloque queda más ancho, más alto o más suelto",
    "causa": "elegir el `col-lg-N`, el `p-N` o el `mt-N` por parecido con otro bloque en vez de medir el rect del XD",
    "regla": "MEDIR SIEMPRE contra el XD: el ancho (w/1228 -> N/12), el ALTO, el padding (posición del primer texto menos la del rect) y la separación (y del rect siguiente menos el borde del anterior). Nada se hereda de un bloque parecido",
-   "detecta": "inventario_xd.py §1 da w x h y la posición de cada rect; verificar_maqueta.py compara el ALTO renderizado de cada vista con el alto del artboard (check `altos`)",
-   "check": "altos"
+   "detecta": "inventario_xd.py §1 da w x h y la posición de cada rect. El alto se mide contra el rect de la TARJETA BLANCA del artboard (1328xH), no contra la ventana: el fondo de página es #F3F9FF, así que 'última fila no blanca' devuelve el alto de la ventana y da cifras falsas (+49% a +145%)."
   },
   {
    "id": "movil-desborde",
@@ -167,15 +177,15 @@
    ]
   },
   {
-   "id": "estilo-de-texto-inventado",
+   "id": "infografia-no-siempre-igual",
    "veces": 1,
    "visto_en": [
     "CF1_63720048"
    ],
-   "sintoma": "un texto en negrilla, cursiva o tachado que en el DI.docx no lo lleva (o al revés)",
-   "causa": "decidir el énfasis por criterio propio en vez de leer el formato del run del DOCX",
-   "regla": "el formato del DOCX manda: si en el Word un texto NO va en negrilla/cursiva/tachado, en la maqueta tampoco. Y si lo lleva, se reproduce",
-   "detecta": "leer los `<w:b>`, `<w:i>`, `<w:strike>` del run en `word/document.xml`, no fiarse del texto plano que saca docx_text.py"
+   "sintoma": "aplicar la misma receta de infografía de puntos calientes a todas por igual",
+   "causa": "tratar la receta como plantilla fija en vez de adaptarla a cada ilustración",
+   "regla": "las infografías NO son todas iguales: el número de puntos, dónde caen (sobre los elementos de la ilustración, no siempre a los lados), el ancho de la columna y la variante móvil se adaptan a cada una. La receta da la estructura, no las coordenadas",
+   "detecta": "mirar la ilustración exportada y colocar cada punto sobre el elemento que le corresponde; comprobar por CDP que el punto cae encima"
   },
   {
    "id": "listas-sin-negrilla-ni-sangria",
@@ -243,6 +253,17 @@
    "visto_en": [
     "CF01_22810005"
    ]
+  },
+  {
+   "id": "salto-de-linea-perdido",
+   "veces": 1,
+   "visto_en": [
+    "CF1_63720048"
+   ],
+   "sintoma": "un párrafo que en el diseño va partido en dos líneas y en la maqueta sale seguido",
+   "causa": "usar el texto del DOCX y no el `rawText` del XD, que conserva los saltos",
+   "regla": "los `\\n` del `rawText` del XD se reproducen con `br`; en CF1 hay 60 nodos de texto con salto interno",
+   "detecta": "recorrer los nodos `text` del artboard y listar los que tienen `\\n` dentro del texto"
   },
   {
    "id": "texto-dado-por-inexistente",

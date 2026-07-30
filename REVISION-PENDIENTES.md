@@ -79,9 +79,20 @@ uno**: los que sean un salto real dentro de un párrafo necesitan `br`.
 ventana, no el contenido (render = XD + 5999 exacto en los seis temas). Hay que medir por CDP el alto
 de `.container.tarjeta--blanca` y compararlo con el alto del artboard.
 
+**Negrillas corregidas**: quitada la de `Tipo A` / `Tipo B` / `Tipo C` en la Tabla 4 del Tema 5,
+porque en el DOCX esos runs NO van en negrilla.
+
+**El acordeón del Tema 6 — lo que ya comprobé y NO explica el fallo** (para no repetir el trabajo):
+- los **colores y radios son idénticos** en los tres acordeones del curso: abierto `#F4EDFE` `r=20`,
+  cerrados `#B8F4CE` `r=20` (`457001`+`456997..457000` en el 6.3, `456556`+`456557..456559` en el
+  6.5, `456995`+`456991..` en el T1);
+- el **número de ítems cuadra** con el XD en los cuatro: T1=5, T4=5, T5=3, **T6=[5, 4]**;
+- el render de los dos del T6 se ve igual que los buenos (abierto lila, cerrados verdes, botón
+  circular verde a la derecha).
+→ Falta el dato de **qué** está mal (¿el ancho? ¿el ítem que va abierto? ¿el alto del abierto?
+¿el texto?). Es lo primero que hay que aclarar; no toqué nada por no inventar una corrección.
+
 **Lo que marcó Luis al final y NO he revisado todavía** (primero de la próxima sesión):
-- **el acordeón del Tema 6 está mal** (los de los otros temas están bien) — hay que ver en qué se
-  diferencia del `456995`/`409231` de T1/T4 y del `457001` de T6;
 - **algunos colores de fondo siguen mal**: toca cruzar CADA `.bg-N` de las 7 vistas contra el
   `(fill, r)` del inventario, no solo los que salieron en los hallazgos.
 

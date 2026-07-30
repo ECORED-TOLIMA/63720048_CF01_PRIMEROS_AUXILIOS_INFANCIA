@@ -103,20 +103,17 @@
                 th Elementos principales
             tbody
               tr
-                td
-                  b Tipo A
+                td Tipo A
                 td Botiquín básico para atención inicial en entornos de bajo riesgo.
                 td Jardines infantiles, hogares, oficinas.
                 td Gasas, vendas, esparadrapo, solución salina, guantes, tijeras, termómetro.
               tr
-                td
-                  b Tipo B
+                td Tipo B
                 td Botiquín intermedio con mayor dotación para atención de eventos más complejos.
                 td Instituciones con mayor número de personas o riesgos moderados.
                 td Incluye elementos del tipo A más inmovilizadores, apósitos especiales, entre otros.
               tr
-                td
-                  b Tipo C
+                td Tipo C
                 td Botiquín avanzado para atención de emergencias más complejas.
                 td Ambientes de alto riesgo o brigadas especializadas.
                 td Incluye equipos más completos para atención avanzada (uso restringido).
