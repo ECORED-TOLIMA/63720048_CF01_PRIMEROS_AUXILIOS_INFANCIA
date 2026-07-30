@@ -122,6 +122,26 @@ def main():
     if not hallado:
         print('  (ninguna)')
 
+    print('\n=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)')
+    try:
+        pb = cargar('pasteboard')
+        rot = []
+        for n, mm, _ in recorrer(pb):
+            if n.get('type') == 'text':
+                raw = ((n.get('text') or {}).get('rawText') or '').strip()
+                if raw and raw == raw.upper() and 3 < len(raw) < 40 and any(c.isalpha() for c in raw):
+                    rot.append((round(mm[5]), round(mm[4]), raw))
+        vistos = set()
+        for y, x, t in sorted(rot):
+            if t in vistos:
+                continue
+            vistos.add(t)
+            print(f'  «{t}» en ({x},{y}) -> los textos del componente están DEBAJO de este rótulo')
+        if not vistos:
+            print('  (ninguno)')
+    except Exception as e:                                    # noqa: BLE001
+        print('  (no se pudo leer el pasteboard:', e, ')')
+
     print(f'\n=== 5. DEGRADADOS no horizontales ({len(degradados)}) — ojo al parche 6')
     for nm, x1, y1, x2, y2 in degradados[:8]:
         print(f'  {nm[:30]:32} ({x1:.3f},{y1:.3f}) -> ({x2:.3f},{y2:.3f})')

@@ -79,5 +79,9 @@
   y≈860 148x70: {'#DDEEFE': 3, '#F4EDFE': 3} -> el ['#DDEEFE', '#F4EDFE'] es el ESTADO HOVER, no otra tarjeta
   y≈950 148x80: {'#DDEEFE': 2, '#F4EDFE': 2} -> el ['#DDEEFE', '#F4EDFE'] es el ESTADO HOVER, no otra tarjeta
 
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13135,-11929) -> los textos del componente están DEBAJO de este rótulo
+  «PUNTOS CALIENTES» en (-901,-7475) -> los textos del componente están DEBAJO de este rótulo
+
 === 5. DEGRADADOS no horizontales (1) — ojo al parche 6
   Rectángulo 455918                (0.475,0.950) -> (-0.040,0.000)

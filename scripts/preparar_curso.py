@@ -93,14 +93,35 @@ def main():
                              capture_output=True, text=True, env=env).stdout
         dst = f'{DOCS}/inventario-{f["nombre"].replace(" ", "-").replace("/", "-")}.txt'
         open(dst, 'w').write(out)
-        pest = len(re.findall(r'^  \(', out, re.M))
+        # contar SÓLO dentro de la sección 3, no en todo el volcado
+        sec3 = out.split('=== 3.')[1].split('=== 4')[0] if '=== 3.' in out else ''
+        pest = len([l for l in sec3.splitlines() if l.startswith('  (')])
         hover = 'SÍ' if 'ESTADO HOVER' in out else 'no'
         print(f'  {f["nombre"][:22]:22} -> {os.path.basename(dst):42} pestañas 25x8={pest:2} hover={hover}')
+
+    diccionario()
 
     print('\n=== SIGUIENTE PASO')
     print('  Maquetar pantalla por pantalla con el inventario delante: el color Y el radio de cada')
     print('  bloque salen de la sección 1, las fotos redondeadas de la 2, los `.cajon` de la 3 y las')
     print('  tarjetas hover de la 4. Al cerrar cada tema: verificar_maqueta.py + los dos pushes.')
+
+
+def diccionario():
+    """Imprime el diccionario GLOBAL de errores recurrentes: se repasa entero en cada curso nuevo."""
+    import json as _json
+    ruta = os.path.join(C.SCRIPTS, 'errores_recurrentes.json')
+    if not os.path.exists(ruta):
+        return
+    d = _json.load(open(ruta))
+    print('\n=== 5. DICCIONARIO GLOBAL DE ERRORES RECURRENTES '
+          f'({len(d["errores"])} entradas) — se repasa ENTERO, no por curso')
+    for e in d['errores']:
+        auto = '  [check automático]' if e.get('check') else ''
+        print(f'\n  ── {e["veces"]}x  {e["id"]}{auto}')
+        print(f'     síntoma: {e["sintoma"]}')
+        print(f'     regla:   {e["regla"]}')
+        print(f'     detecta: {e["detecta"]}')
 
 
 if __name__ == '__main__':

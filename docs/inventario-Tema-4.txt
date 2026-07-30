@@ -1,1 +1,133 @@
 === 1. RECTS por (fill, r) — una clase por PAR, no por color
+  #FFE6DE  r=[10, 10, 10, 10]     n=  8  456415 916x265@(497,316), 456490 396x180@(185,5943), 456498 396x180@(185,6143)
+  #8EC5FC  r=[10, 10, 10, 10]     n=  7  456481 292x144@(1121,2887), 456890 153x60@(399,4465), 456936 153x60@(1038,4465)
+  #8EC5FC  SIN r (CUADRADO)       n=  6  456493 60x60@(215,5973), 456501 60x60@(215,6173), 456494 60x60@(631,5973)
+  #B8F4CE  r=[5, 5, 5, 5]         n=  4  457009 544x37@(350,6717), 457010 544x37@(350,6774), 457011 544x37@(350,6832)
+  #B8F4CE  r=[20, 20, 20, 20]     n=  4  409230 1020x90@(290,2030), 409232 1020x90@(290,2135), 456435 1020x90@(290,2240)
+  #FFC0AC  r=[10, 10, 10, 10]     n=  2  456477 84x84@(533,352), 456483 84x84@(319,3681)
+  #FFE6DE  SIN r (CUADRADO)       n=  2  456480 916x150@(185,1606), 456485 812x130@(602,4180)
+  #8EC5FC  r=[20, 0, 0, 20]       n=  1  454789 405x482@(187,3061)
+  #8EC5FC  r=[20, 20, 0, 0]       n=  1  456486 292x164@(1121,5081)
+  #8EC5FC  r=[42, 42, 42, 42]     n=  1  456429 70x70@(764,7021)
+  #DBC2FA  SIN r (CUADRADO)       n=  1  454791 419x482@(1011,3543)
+  #DBC2FA  r=[10, 10, 10, 10]     n=  1  456428 1020x160@(289,7056)
+  #DDEEFE  SIN r (CUADRADO)       n=  1  456464 1020x380@(289,780)
+  #DDEEFE  r=[10, 10, 10, 10]     n=  1  456482 1020x140@(289,3653)
+  #F4EDFE  r=[5, 5, 5, 5]         n=  1  457013 544x152@(350,6484)
+  #F4EDFE  r=[20, 20, 20, 20]     n=  1  409231 1020x170@(290,1845)
+  #FFE6DE  r=[20, 0, 0, 20]       n=  1  454790 405x482@(1415,3543)
+  #FFFFFF  SIN r (CUADRADO)       n=  1  451 1600x70@(0,0)
+  #FFFFFF  r=[20, 20, 20, 20]     n=  1  575 1328x7403@(136,162)
+
+=== 2. MÁSCARAS de foto (el radio va al <img>)
+  Enmascarar grupo 1119228             1600x220   CUADRADA
+  Grupo 1180392                        279x126   CUADRADA
+  Grupo 1180394                        279x126   CUADRADA
+  Grupo 1180396                        165x155   CUADRADA
+  Grupo 1180454                        886x876   CUADRADA
+  Grupo 1180452                        886x876   CUADRADA
+  Grupo 1180449                        886x876   CUADRADA
+  Grupo 1180398                        886x748   CUADRADA
+  Grupo 1180401                        853x752   CUADRADA
+  Grupo 1180404                        820x756   CUADRADA
+  Grupo 1180407                        787x760   CUADRADA
+  Grupo 1180410                        754x764   CUADRADA
+  Grupo 1180413                        722x768   CUADRADA
+  Grupo 1180416                        691x772   CUADRADA
+  Grupo 1180419                        660x776   CUADRADA
+  Grupo 1180422                        629x780   CUADRADA
+  Grupo 1180425                        600x784   CUADRADA
+  Grupo 1180428                        570x788   CUADRADA
+  Grupo 1180431                        542x792   CUADRADA
+  Grupo 1180434                        514x796   CUADRADA
+  Grupo 1180437                        486x800   CUADRADA
+  Grupo 1180440                        459x803   CUADRADA
+  Grupo 1180443                        433x807   CUADRADA
+  Grupo 1180446                        407x811   CUADRADA
+  Grupo 1180512                        545x539   CUADRADA
+  Grupo 1180510                        545x539   CUADRADA
+  Grupo 1180507                        545x539   CUADRADA
+  Grupo 1180456                        545x460   CUADRADA
+  Grupo 1180459                        524x462   CUADRADA
+  Grupo 1180462                        504x465   CUADRADA
+  Grupo 1180465                        484x467   CUADRADA
+  Grupo 1180468                        464x470   CUADRADA
+  Grupo 1180471                        444x472   CUADRADA
+  Grupo 1180474                        424x475   CUADRADA
+  Grupo 1180477                        405x477   CUADRADA
+  Grupo 1180480                        387x479   CUADRADA
+  Grupo 1180483                        368x482   CUADRADA
+  Grupo 1180486                        351x484   CUADRADA
+  Grupo 1180489                        333x487   CUADRADA
+  Grupo 1180492                        316x489   CUADRADA
+  Grupo 1180495                        299x491   CUADRADA
+  Grupo 1180498                        282x494   CUADRADA
+  Grupo 1180501                        266x496   CUADRADA
+  Grupo 1180504                        250x499   CUADRADA
+  Grupo 1180570                        545x539   CUADRADA
+  Grupo 1180568                        545x539   CUADRADA
+  Grupo 1180565                        545x539   CUADRADA
+  Grupo 1180514                        545x460   CUADRADA
+  Grupo 1180517                        524x462   CUADRADA
+  Grupo 1180520                        504x465   CUADRADA
+  Grupo 1180523                        484x467   CUADRADA
+  Grupo 1180526                        464x470   CUADRADA
+  Grupo 1180529                        444x472   CUADRADA
+  Grupo 1180532                        424x475   CUADRADA
+  Grupo 1180535                        405x477   CUADRADA
+  Grupo 1180538                        387x479   CUADRADA
+  Grupo 1180541                        368x482   CUADRADA
+  Grupo 1180544                        351x484   CUADRADA
+  Grupo 1180547                        333x487   CUADRADA
+  Grupo 1180550                        316x489   CUADRADA
+  Grupo 1180553                        299x491   CUADRADA
+  Grupo 1180556                        282x494   CUADRADA
+  Grupo 1180559                        266x496   CUADRADA
+  Grupo 1180562                        250x499   CUADRADA
+  Enmascarar grupo 1119256             292x265   CUADRADA
+  Enmascarar grupo 1119257             292x270   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119258             396x275   CUADRADA
+  Enmascarar grupo 1119259             292x247   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119260             292x139   CUADRADA
+  Enmascarar grupo 1119277             292x251   CUADRADA
+  Enmascarar grupo 1119237             396x419   CUADRADA
+  Grupo 1180750                        556x549   CUADRADA
+  Grupo 1180748                        556x549   CUADRADA
+  Grupo 1180745                        556x549   CUADRADA
+  Grupo 1180694                        556x469   CUADRADA
+  Grupo 1180697                        535x472   CUADRADA
+  Grupo 1180700                        514x474   CUADRADA
+  Grupo 1180703                        493x477   CUADRADA
+  Grupo 1180706                        473x479   CUADRADA
+  Grupo 1180709                        453x481   CUADRADA
+  Grupo 1180712                        433x484   CUADRADA
+  Grupo 1180715                        413x486   CUADRADA
+  Grupo 1180718                        394x489   CUADRADA
+  Grupo 1180721                        376x491   CUADRADA
+  Grupo 1180724                        358x494   CUADRADA
+  Grupo 1180727                        340x496   CUADRADA
+  Grupo 1180730                        322x499   CUADRADA
+  Grupo 1180733                        305x501   CUADRADA
+  Grupo 1180736                        288x504   CUADRADA
+  Grupo 1180739                        271x506   CUADRADA
+  Grupo 1180742                        255x509   CUADRADA
+  Grupo 1183682                        572x474   CUADRADA
+  Grupo 1183690                        572x474   CUADRADA
+  Grupo 1183698                        572x474   CUADRADA
+  Grupo 1183706                        572x474   CUADRADA
+  Grupo 1183714                        572x474   CUADRADA
+  Grupo 1183722                        572x474   CUADRADA
+  Grupo 1183730                        572x474   CUADRADA
+
+=== 3. PESTAÑAS 25x8 -> esas cajas son .cajon, y sólo ésas (1)
+  (185,5584) #8EC5FC  Rectángulo 456488
+
+=== 4. SEÑAL DE TARJETA HOVER (una tarjeta/icono de otro color en la fila)
+  (ninguna)
+
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13135,-11929) -> los textos del componente están DEBAJO de este rótulo
+  «PUNTOS CALIENTES» en (-901,-7475) -> los textos del componente están DEBAJO de este rótulo
+
+=== 5. DEGRADADOS no horizontales (1) — ojo al parche 6
+  Rectángulo 455983                (0.475,0.950) -> (-0.040,0.000)

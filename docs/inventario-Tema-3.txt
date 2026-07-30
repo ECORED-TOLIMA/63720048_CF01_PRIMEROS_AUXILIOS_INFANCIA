@@ -89,5 +89,9 @@
 === 4. SEÑAL DE TARJETA HOVER (una tarjeta/icono de otro color en la fila)
   y≈3690 292x340: {'#B8F4CE': 3, '#F4EDFE': 1} -> el ['#F4EDFE'] es el ESTADO HOVER, no otra tarjeta
 
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13135,-11929) -> los textos del componente están DEBAJO de este rótulo
+  «PUNTOS CALIENTES» en (-901,-7475) -> los textos del componente están DEBAJO de este rótulo
+
 === 5. DEGRADADOS no horizontales (1) — ojo al parche 6
   Rectángulo 455983                (0.475,0.950) -> (-0.040,0.000)
