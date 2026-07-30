@@ -299,7 +299,7 @@ figcaption
       color: $color-sistema-texto
       border: none
     tbody tr:nth-child(even)
-      background-color: $color-1-v
+      background-color: #F6F6F6      // muestreado del XD (Rectángulo 454433), no es un color de la paleta
 
 // TarjetaAudio del pódcast: el kit pone el texto en itálica y la barra gris; en el XD el marco es
 // del acento-botón con el texto recto.
@@ -311,3 +311,15 @@ figcaption
     font-style: normal !important
   .audio__btn
     background-color: $color-acento-botones !important
+
+// Lista de 10 pasos dentro de una caja: la viñeta es un cuadro de 24x24 del acento-contenido
+// (medido en el XD: Rectángulo 454410) con el número oscuro.
+.lista-numerada--cuadro
+  .lista-ol--cuadro__vineta
+    background-color: $color-acento-contenido
+    color: $color-sistema-texto
+    min-width: 24px
+    height: 24px
+    border-radius: 4px
+  li
+    margin-bottom: 10px
