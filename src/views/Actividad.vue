@@ -1,507 +1,295 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
-      #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+    ActividadController(:cuestionario="cuestionario")
+</template>
 
 <script>
+// `ActividadController` NO está en los componentes globales del kit (GlobalComponents.js):
+// hay que importarlo en la vista o Vue avisa «Failed to resolve component».
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
 
 export default {
-  name: 'ActividadDidactica',
-  components: {
-    ActividadController,
-  },
+  name: 'Actividad',
+  components: { ActividadController },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
-      titulo: 'Cuestionario',
-      introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo: 'Ruta de protección en primera infancia',
+      introduccion:
+        'Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: <em>Principios de primeros auxilios en primera infancia</em>.<br><br>Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarse todas las veces que se desee.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
+      titulo_aprobado: '¡Felicitaciones!',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra apropiación de los principios de primeros auxilios en primera infancia.',
+      titulo_reprobado: 'Vuelva a intentarlo',
+      mensaje_final_reprobado:
+        'Le recomendamos revisar nuevamente el componente formativo e intentarlo otra vez.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué son los primeros auxilios?',
           imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Atención médica especializada.', esCorrecta: false },
+            { id: 'b', texto: 'Atención psicológica.', esCorrecta: false },
+            { id: 'c', texto: 'Atención inmediata antes del hospital.', esCorrecta: true },
+            { id: 'd', texto: 'Atención prolongada.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_correcto: 'Los primeros auxilios son la atención inmediata que se brinda antes de la llegada de la atención especializada.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el principal objetivo de los primeros auxilios?',
           imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Dar medicamentos.', esCorrecta: false },
+            { id: 'b', texto: 'Preservar la vida.', esCorrecta: true },
+            { id: 'c', texto: 'Diagnosticar enfermedades.', esCorrecta: false },
+            { id: 'd', texto: 'Reemplazar al médico.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El objetivo principal es proteger la vida y evitar complicaciones.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'La primera acción del primer respondiente es:',
           imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Atender a la víctima.', esCorrecta: false },
+            { id: 'b', texto: 'Llamar a la familia.', esCorrecta: false },
+            { id: 'c', texto: 'Dar agua.', esCorrecta: false },
+            { id: 'd', texto: 'Evaluar la escena.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Evaluar el entorno evita riesgos adicionales para quien atiende y para la víctima.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Qué principio busca evitar empeorar la condición de la víctima?',
           imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Responsabilidad.', esCorrecta: false },
+            { id: 'b', texto: 'No causar daño.', esCorrecta: true },
+            { id: 'c', texto: 'Seguridad.', esCorrecta: false },
+            { id: 'd', texto: 'Oportunidad.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El principio de no causar daño evita intervenciones inadecuadas.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Qué caracteriza la atención inicial?',
           imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Es inmediata.', esCorrecta: true },
+            { id: 'b', texto: 'Es especializada.', esCorrecta: false },
+            { id: 'c', texto: 'Es opcional.', esCorrecta: false },
+            { id: 'd', texto: 'Es prolongada.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La inmediatez es clave para prevenir complicaciones.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'En primera infancia, el riesgo es mayor porque:',
           imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Son independientes.', esCorrecta: false },
+            { id: 'b', texto: 'Son más vulnerables.', esCorrecta: true },
+            { id: 'c', texto: 'Son más fuertes.', esCorrecta: false },
+            { id: 'd', texto: 'Tienen más experiencia.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'En la primera infancia, el proceso de desarrollo aumenta la vulnerabilidad frente a los accidentes.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué elemento es clave en bioseguridad?',
           imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Gasas.', esCorrecta: false },
+            { id: 'b', texto: 'Tijeras.', esCorrecta: false },
+            { id: 'c', texto: 'Guantes.', esCorrecta: true },
+            { id: 'd', texto: 'Alcohol.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Los guantes protegen tanto al primer respondiente como a la víctima.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuándo se debe activar el sistema de emergencias?',
           imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Cuando la situación es grave.', esCorrecta: true },
+            { id: 'b', texto: 'Solo si hay adultos.', esCorrecta: false },
+            { id: 'c', texto: 'Siempre.', esCorrecta: false },
+            { id: 'd', texto: 'Cuando no hay riesgo.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El sistema de emergencias se activa cuando existe riesgo para la vida o la salud.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'La línea de emergencias en Colombia es:',
           imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: '123.', esCorrecta: true },
+            { id: 'b', texto: '911.', esCorrecta: false },
+            { id: 'c', texto: '111.', esCorrecta: false },
+            { id: 'd', texto: '101.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La línea 123 es el canal único de atención de emergencias en Colombia.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué se debe informar al llamar a emergencias?',
           imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Solo el nombre.', esCorrecta: false },
+            { id: 'b', texto: 'Información completa del evento.', esCorrecta: true },
+            { id: 'c', texto: 'Solo el número de teléfono.', esCorrecta: false },
+            { id: 'd', texto: 'Nada.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se debe brindar información completa y clara del evento para facilitar la atención oportuna.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: 'El botiquín sirve para:',
           imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Hospitalización.', esCorrecta: false },
+            { id: 'b', texto: 'Curar enfermedades.', esCorrecta: false },
+            { id: 'c', texto: 'Diagnóstico.', esCorrecta: false },
+            { id: 'd', texto: 'Atención inicial.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El botiquín permite brindar una atención inicial mientras llega la ayuda especializada.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué NO debe hacer el primer respondiente?',
           imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Activar emergencias.', esCorrecta: false },
+            { id: 'b', texto: 'Evaluar.', esCorrecta: false },
+            { id: 'c', texto: 'Actuar con seguridad.', esCorrecta: false },
+            { id: 'd', texto: 'Realizar procedimientos avanzados.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El primer respondiente debe actuar dentro de los límites de sus competencias.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué es una emergencia?',
           imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Situación normal.', esCorrecta: false },
+            { id: 'b', texto: 'Situación que pone en riesgo la vida.', esCorrecta: true },
+            { id: 'c', texto: 'Situación leve.', esCorrecta: false },
+            { id: 'd', texto: 'Situación sin riesgo.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Una emergencia es una situación que pone en riesgo la vida y requiere atención inmediata.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'La valoración inicial permite:',
           imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Medicar.', esCorrecta: false },
+            { id: 'b', texto: 'Hospitalizar.', esCorrecta: false },
+            { id: 'c', texto: 'Priorizar atención.', esCorrecta: true },
+            { id: 'd', texto: 'Diagnosticar.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La valoración inicial permite priorizar la atención según la gravedad de cada caso.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué se debe verificar primero en la víctima?',
           imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Dirección.', esCorrecta: false },
+            { id: 'b', texto: 'Conciencia y respiración.', esCorrecta: true },
+            { id: 'c', texto: 'Nombre.', esCorrecta: false },
+            { id: 'd', texto: 'Edad.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto: 'La conciencia y la respiración son indicadores clave de vida.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+          id: 16,
+          texto: 'La gestión del riesgo busca:',
+          imagen: '@/assets/actividad/imagen4.png',
+          opciones: [
+            { id: 'a', texto: 'Identificar y controlar riesgos.', esCorrecta: true },
+            { id: 'b', texto: 'Evitar atención.', esCorrecta: false },
+            { id: 'c', texto: 'Aumentar riesgos.', esCorrecta: false },
+            { id: 'd', texto: 'Ignorar peligros.', esCorrecta: false },
+          ],
+          mensaje_correcto: 'La gestión del riesgo busca identificar y controlar los riesgos para prevenir accidentes.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+          id: 17,
+          texto: '¿Qué es bioseguridad?',
+          imagen: '@/assets/actividad/imagen5.png',
+          opciones: [
+            { id: 'a', texto: 'Limpieza.', esCorrecta: false },
+            { id: 'b', texto: 'Atención médica.', esCorrecta: false },
+            { id: 'c', texto: 'Protección frente a riesgos biológicos.', esCorrecta: true },
+            { id: 'd', texto: 'Diagnóstico.', esCorrecta: false },
+          ],
+          mensaje_correcto: 'La bioseguridad protege frente a riesgos biológicos y reduce el contagio.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
+          id: 18,
+          texto: 'El primer respondiente debe:',
+          imagen: '@/assets/actividad/imagen5.png',
+          opciones: [
+            { id: 'a', texto: 'Ignorar protocolos.', esCorrecta: false },
+            { id: 'b', texto: 'Actuar con responsabilidad.', esCorrecta: true },
+            { id: 'c', texto: 'Reemplazar al médico.', esCorrecta: false },
+            { id: 'd', texto: 'Actuar sin pensar.', esCorrecta: false },
+          ],
+          mensaje_correcto: 'El primer respondiente debe actuar con responsabilidad y ética.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
+          id: 19,
+          texto: 'Las redes de atención permiten:',
+          imagen: '@/assets/actividad/imagen5.png',
+          opciones: [
+            { id: 'a', texto: 'Reemplazar hospitales.', esCorrecta: false },
+            { id: 'b', texto: 'Reducir personal.', esCorrecta: false },
+            { id: 'c', texto: 'Continuidad del cuidado.', esCorrecta: true },
+            { id: 'd', texto: 'Evitar atención.', esCorrecta: false },
+          ],
+          mensaje_correcto: 'Las redes de atención garantizan la continuidad y la articulación del cuidado.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+          id: 20,
+          texto: 'La toma de decisiones en primeros auxilios implica:',
+          imagen: '@/assets/actividad/imagen5.png',
+          opciones: [
+            { id: 'a', texto: 'Esperar siempre.', esCorrecta: false },
+            { id: 'b', texto: 'Actuar sin analizar.', esCorrecta: false },
+            { id: 'c', texto: 'Analizar y actuar con criterio.', esCorrecta: true },
+            { id: 'd', texto: 'Seguir intuición.', esCorrecta: false },
+          ],
+          mensaje_correcto: 'Tomar decisiones acertadas exige analizar la situación antes de actuar.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>

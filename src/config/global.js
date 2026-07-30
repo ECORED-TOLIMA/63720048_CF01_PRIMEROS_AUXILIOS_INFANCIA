@@ -235,14 +235,101 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Atención inicial',
+      significado:
+        'acciones inmediatas que se realizan para proteger y asistir a una persona antes de la llegada del personal especializado.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado:
+        'medidas y prácticas destinadas a prevenir la exposición a agentes biológicos y reducir los riesgos durante la atención de una emergencia.',
+    },
+    {
+      termino: 'Botiquín de primeros auxilios',
+      significado:
+        'recurso que contiene elementos básicos organizados para brindar atención inicial ante lesiones o emergencias.',
+    },
+    {
+      termino: 'Elementos de protección personal (EPP)',
+      significado:
+        'equipos y dispositivos que protegen al primer respondiente del contacto con sangre, fluidos corporales u otros agentes que puedan afectar su salud.',
+    },
+    {
+      termino: 'Emergencia',
+      significado:
+        'situación que pone en riesgo la vida, la salud o la integridad de una persona y requiere atención oportuna.',
+    },
+    {
+      termino: 'Evaluación del escenario',
+      significado:
+        'observación inicial del entorno para identificar peligros y determinar si existen condiciones seguras para acercarse y brindar atención.',
+    },
+    {
+      termino: 'Factor de riesgo',
+      significado:
+        'circunstancia que aumenta la probabilidad de que ocurra un accidente, una lesión o una afectación a la salud.',
+    },
+    {
+      termino: 'Gestión del riesgo',
+      significado:
+        'proceso orientado a identificar, analizar, prevenir y controlar las situaciones que pueden ocasionar daños.',
+    },
+    {
+      termino: 'Primer respondiente',
+      significado:
+        'persona que brinda la atención inicial durante una emergencia mientras llega el personal especializado.',
+    },
+    {
+      termino: 'Primeros auxilios',
+      significado:
+        'atención inmediata y temporal que recibe una persona lesionada o enferma repentinamente hasta la llegada de la asistencia especializada.',
+    },
+    {
+      termino: 'Seguridad de la escena',
+      significado:
+        'condición que permite brindar atención sin exponer a riesgos adicionales al primer respondiente, a la persona afectada ni a quienes se encuentran en el lugar.',
+    },
+    {
+      termino: 'Sistema de emergencias',
+      significado:
+        'red de entidades, recursos y servicios que intervienen de manera coordinada en la atención de urgencias y emergencias.',
     },
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia:
+        'Ley 1098 de 2006. Por la cual se expide el Código de la Infancia y la Adolescencia. 8 de noviembre de 2006. Diario Oficial No. 46.446.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ley Estatutaria 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones. 16 de febrero de 2015. Diario Oficial No. 49.427.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2012). <em>Guías básicas de atención médica prehospitalaria</em> (2.ª ed.).',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2016, 17 de febrero). <em>Resolución 429 de 2016, por medio de la cual se adopta la Política de Atención Integral en Salud</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2017). <em>Manual de medidas básicas para el control de infecciones asociadas a la atención en salud</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2017, 30 de marzo). <em>Resolución 926 de 2017, por la cual se reglamenta el desarrollo y la operación del Sistema de Emergencias Médicas</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2019, 25 de noviembre). <em>Resolución 3100 de 2019, por la cual se definen los procedimientos y las condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud, y se adopta el Manual de Inscripción de Prestadores y Habilitación de Servicios de Salud</em>.',
+      link: '',
     },
   ],
   creditos: [
@@ -266,8 +353,8 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Gustavo Ernesto Mariño Puentes',
-          cargo: 'Experto temático',
+          nombre: 'Laura Briguitte Perea Possos',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

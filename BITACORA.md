@@ -154,3 +154,33 @@ rellenos de los 9 artboards, la traducción es:
 - Subtema **2.1 «Lineamientos técnicos SDIS»**: está en la tabla de contenidos del DI.docx pero
   el artboard del Tema 2 **no dibuja la píldora del 2.1** (el contenido arranca justo bajo el
   título del tema). Va en el menú con `hash: 't_2_1'` anclado al primer bloque.
+
+
+## Temas 2-6, Síntesis, Actividad y los datos de `global.js` — hechos
+
+| pantalla | artboard / pág | assets | notas |
+|---|---|---|---|
+| Tema 2 · Marco normativo y ético | 4d52d5f3 / 4 | 6 fotos (0.94-0.998) + 11 íconos + 2 fondos | 2 tablas, 2 `SlyderF`, `LineaTiempoD`, pódcast, infografía de redes |
+| Tema 3 · Fundamentos y gestión del riesgo | 043a7b89 / 5 | 5 fotos (0.983-0.995) + 11 íconos | Tabla 3, dos listas de 10 (1-10 y A-J) |
+| Tema 4 · Bioseguridad y rol | 6f483d33 / 6 | 7 fotos (0.914-0.993) + 14 íconos + 1 fondo | `AcordionA`, 3 tarjetas de EPP, figura de riesgos |
+| Tema 5 · Botiquín | 5a49f3ff / 7 | 5 fotos (0.859-0.993) | panel azul con la foto sangrando, Tabla 4 |
+| Tema 6 · Evaluación del escenario | 9075a584 / 8 | 9 fotos (0.979-0.998) + 23 íconos + 3 fondos | la pantalla más larga (11.196 px), 2 `SlyderF`, 2 `AcordionA`, Tabla 5, Figura 2 |
+| Síntesis | 39c2a691 / 10 | mapa 1228×900 | el artboard es la HOJA DEL ANEXO; la pantalla se maqueta con la convención del kit |
+| Actividad didáctica | — (no hay artboard) | — | 20 preguntas del `_AD.docx`, el kit muestra 10 barajadas |
+
+**Lo que hubo que descubrir en esta tanda:**
+
+- **`ActividadController` NO está en los componentes globales del kit**
+  (`GlobalComponents.js` no lo registra) → hay que importarlo en la vista o Vue avisa
+  «Failed to resolve component» y la pantalla sale **vacía, sin ningún error visible**.
+- **El contrato del cuestionario del kit** es `pregunta.texto` (no `pregunta`),
+  `opciones: [{id, texto, esCorrecta}]`, `mensaje_correcto` / `mensaje_incorrecto` por pregunta y
+  `titulo_aprobado` / `mensaje_final_aprobado` / `titulo_reprobado` / `mensaje_final_reprobado` en el
+  cuestionario. El prefijo «¡Correcto!» se quita del texto del docx porque el componente ya lo pinta.
+- **La misma composición de hermanos** (`Trazado 1003382` + `Enmascarar grupo 1119237` +
+  `Trazado 1003383`) se repite en los temas 1, 2 y 4, siempre con `regen_fotos` dando 0.52-0.69 y
+  `fit_composicion.py` subiéndolo a 0.94-0.98.
+- **`regen_fotos.py` renumera y puede sobreescribir** un asset generado a mano antes con el mismo
+  nombre: correr primero `regen_fotos` y después los `--grupo` puntuales, no al revés.
+- Las **dos infografías interactivas** (2.5 y 4.3) van como figura estática: los textos de sus
+  puntos «+» no están en el XD (el pasteboard sólo trae las etiquetas) ni en el DI.docx.

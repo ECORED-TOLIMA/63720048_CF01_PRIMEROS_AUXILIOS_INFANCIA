@@ -38,8 +38,17 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
 7. **Las imágenes del cuestionario** (`src/assets/actividad/imagen1..10.png`) son las que trae el
    scaffold, **de otro curso**. El kit reserva su columna sin `v-if`, así que se quedan como
    marcador hasta que lleguen las buenas.
-8. **`public/downloads/Sintesis.pdf`** es el del scaffold; se regenerará recortando la página 10
-   del PDF de diseño al cerrar la Síntesis.
+8. **Los textos de las dos infografías interactivas no están en ninguna fuente.** El 2.5 «Redes de
+   atención ante emergencias» y el 4.3 «Manejo adecuado de los riesgos biológicos» se dibujan en el
+   XD con seis etiquetas y un «+» cada una, pero la descripción que debería abrir cada punto no está
+   ni en el pasteboard del XD (que sólo trae las etiquetas) ni en el DI.docx. Van maquetadas como
+   **figura estática** con el render exacto del XD, para no inventar contenido.
+9. **Los créditos son los del scaffold.** El DI.docx sólo nombra, en «CONTROL DEL DOCUMENTO», a
+   **Laura Briguitte Perea Possos** (experta temática) y **Gloria Lida Alzate Suárez** (evaluadora
+   instruccional) — ya corregidos. Los demás roles (diseño, desarrollo, validación) se quedan como
+   los trae la plantilla porque el DI no los nombra.
+10. **Las referencias no traen URL.** Las siete son normas y publicaciones citadas sin enlace en el
+    DI.docx, así que van con `link: ''` (el componente omite el ancla).
 
 ## Estado
 
@@ -47,11 +56,10 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
 |---|---|
 | Portada (`/`) | hecha |
 | Introducción | hecha |
-| Tema 1 | hecho |
-| Temas 2-6 | pendientes |
-| Síntesis | pendiente |
-| Actividad didáctica | pendiente |
-| Glosario / Referencias | pendientes (del DI.docx a `global.js`) |
-| Créditos | los del scaffold, por confirmar contra el DI.docx |
+| Temas 1-6 | hechos |
+| Síntesis | hecha |
+| Actividad didáctica | hecha (20 preguntas del `_AD.docx`) |
+| Glosario / Referencias | hechos (12 términos y 7 referencias del DI.docx) |
+| Créditos | del scaffold, con la experta temática corregida al DI.docx |
 
 Las 13 rutas comprobadas una a una contra el overlay de error de Vite: ninguna rota.
