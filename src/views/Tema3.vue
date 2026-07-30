@@ -242,8 +242,8 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img.icono(src="@/assets/curso/temas/t3/i10.png" alt="")
-                img.icono-hover(src="@/assets/curso/temas/t3/o3.png" alt="")
+                img.icono(src="@/assets/curso/temas/t3/i10.svg" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t3/o3.svg" alt="")
           h3.text-center Control del riesgo
           p.text-small.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
       .col-sm-6.col-lg-3
@@ -251,8 +251,8 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img.icono(src="@/assets/curso/temas/t3/i11.png" alt="")
-                img.icono-hover(src="@/assets/curso/temas/t3/o4.png" alt="")
+                img.icono(src="@/assets/curso/temas/t3/i11.svg" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t3/o4.svg" alt="")
           h3.text-center Prevención
           p.text-small.text-center.mb-0 Implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.
 

@@ -50,19 +50,19 @@
                   p.text-center.mb-0 Permite establecer qué ocurrió y orientar las acciones iniciales según las características de la situación. Por ejemplo, si un niño presenta una quemadura después de tocar una olla caliente, se identifica el origen de la lesión y se evita aplicar sustancias caseras sobre la zona afectada.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/1.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Verificar el número de víctimas
                   p.text-center.mb-0 Permite establecer cuántas personas requieren ayuda y determinar el orden de atención según la gravedad de sus condiciones. Por ejemplo, después de la caída de varios niños durante una actividad, se identifica quién presenta dificultad respiratoria, sangrado abundante, pérdida de conciencia o lesiones aparentemente menores.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/2.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Evaluar si es seguro intervenir
                   p.text-center.mb-0 Requiere comprobar que la atención pueda brindarse sin exponer al primer respondiente ni agravar la condición de la persona afectada. Por ejemplo, si un niño cae cerca de una fuga de gas, se evita ingresar al lugar y se solicita apoyo inmediato a los organismos de emergencia.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/3.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Decidir si se interviene o se activan emergencias
                   p.text-center.mb-0 Consiste en determinar si la situación puede atenderse mediante primeros auxilios básicos o requiere apoyo especializado. Por ejemplo, ante una niña inconsciente o con dificultad respiratoria, se activa la línea 123, se siguen las indicaciones recibidas y se brinda acompañamiento hasta que llegue el personal capacitado.
@@ -73,7 +73,7 @@
           img(src="@/assets/curso/temas/t6/f2.png" alt="" style="width: 292px").m-auto
       .col-lg-9
         p La aplicación ordenada de estas acciones permite valorar el escenario, reducir la exposición a peligros y tomar decisiones acordes con las necesidades de la emergencia. De esta manera, se favorece una intervención inicial responsable y se protege la integridad de las niñas, los niños, el primer respondiente y las demás personas presentes.
-        .bg-3.r-10.p-4.mt-4
+        .bg-1.p-4.mt-4
           p.mb-0 Una vez valoradas las condiciones del escenario y establecidas las acciones prioritarias, es necesario reconocer la naturaleza y la gravedad del evento para orientar la respuesta inicial. En este sentido, se presentan los tipos de emergencia y los criterios básicos que permiten diferenciarlos.
 
     separador
@@ -87,13 +87,13 @@
           img(src="@/assets/curso/temas/t6/f3.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p Las emergencias corresponden a situaciones que requieren una intervención inmediata debido al riesgo que representan para la vida, la salud o la integridad de una persona. Estas condiciones pueden presentarse de forma repentina y evolucionar rápidamente, por lo que demandan una respuesta oportuna, organizada y basada en criterios de prioridad.
-        .bg-1.r-10.p-4.mt-4
+        .bg-6.r-10.p-4.mt-2
           p.mb-0 La clasificación de las emergencias permite al primer respondiente reconocer el tipo de evento, valorar su gravedad y orientar la toma de decisiones frente a la atención inicial. Este proceso facilita la priorización de acciones, la aplicación de medidas adecuadas y, cuando es necesario, la activación del sistema de emergencias para garantizar una atención especializada.
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-9
         p En el contexto de la primera infancia, esta clasificación adquiere especial relevancia, ya que niñas y niños presentan mayor vulnerabilidad frente a lesiones, enfermedades súbitas y accidentes. Por ello, es fundamental que el primer respondiente pueda identificar rápidamente el tipo de emergencia y actuar de manera segura, pertinente y ajustada a las características del menor.
-        .cajon.color1.p-4.mt-4
+        .cajon.color1.p-4.mt-2
           p.mb-0 Una vez reconocida la naturaleza y la gravedad del evento, es necesario diferenciar las situaciones que pueden presentarse y la respuesta inicial que requiere cada una. La siguiente tabla clasifica los principales tipos de emergencia, describe sus características, incluye ejemplos relacionados con la primera infancia y orienta su atención inicial.
       .col-lg-3.d-none.d-lg-block
         figure
@@ -251,22 +251,22 @@
         .p-5
           .row.justify-content-center
             .col-lg-10
-        AcordionA.acordion--principios(tipo="b")
-          .row(titulo="Verificar la seguridad del entorno")
-            .col-12
-              p.mb-0 Observar el lugar antes de acercarse para reconocer peligros que puedan ocasionar nuevas lesiones. Por ejemplo, si un niño cae en la cocina, se deben identificar líquidos derramados, vidrios rotos o recipientes calientes.
-          .row(titulo="Controlar los peligros identificados")
-            .col-12
-              p.mb-0 Retirar o aislar los elementos peligrosos únicamente cuando esta acción pueda realizarse sin exposición. Por ejemplo, ante un juguete ubicado cerca de una escalera, se restringe el paso mientras se atiende a la niña.
-          .row(titulo="Evitar el ingreso de otras personas")
-            .col-12
-              p.mb-0 Delimitar el área para impedir que familiares, niñas, niños o animales domésticos interfieran durante la atención. Por ejemplo, se solicita a otro adulto mantenerlos alejados de una habitación con objetos rotos.
-          .row(titulo="Solicitar apoyo ante riesgos mayores")
-            .col-12
-              p.mb-0 Activar los organismos de emergencia cuando existan incendios, fugas de gas, cables eléctricos expuestos o estructuras inestables. Por ejemplo, se llama a la línea 123 y se evita ingresar al lugar afectado.
-          .row(titulo="Acercarse de manera segura")
-            .col-12
-              p.mb-0 Ingresar al área únicamente después de comprobar que los peligros fueron eliminados o controlados. Por ejemplo, antes de auxiliar a un niño en el baño, se seca el piso para prevenir nuevas caídas.
+              AcordionA.acordion--principios(tipo="b")
+                .row(titulo="Verificar la seguridad del entorno")
+                  .col-12
+                    p.mb-0 Observar el lugar antes de acercarse para reconocer peligros que puedan ocasionar nuevas lesiones. Por ejemplo, si un niño cae en la cocina, se deben identificar líquidos derramados, vidrios rotos o recipientes calientes.
+                .row(titulo="Controlar los peligros identificados")
+                  .col-12
+                    p.mb-0 Retirar o aislar los elementos peligrosos únicamente cuando esta acción pueda realizarse sin exposición. Por ejemplo, ante un juguete ubicado cerca de una escalera, se restringe el paso mientras se atiende a la niña.
+                .row(titulo="Evitar el ingreso de otras personas")
+                  .col-12
+                    p.mb-0 Delimitar el área para impedir que familiares, niñas, niños o animales domésticos interfieran durante la atención. Por ejemplo, se solicita a otro adulto mantenerlos alejados de una habitación con objetos rotos.
+                .row(titulo="Solicitar apoyo ante riesgos mayores")
+                  .col-12
+                    p.mb-0 Activar los organismos de emergencia cuando existan incendios, fugas de gas, cables eléctricos expuestos o estructuras inestables. Por ejemplo, se llama a la línea 123 y se evita ingresar al lugar afectado.
+                .row(titulo="Acercarse de manera segura")
+                  .col-12
+                    p.mb-0 Ingresar al área únicamente después de comprobar que los peligros fueron eliminados o controlados. Por ejemplo, antes de auxiliar a un niño en el baño, se seca el piso para prevenir nuevas caídas.
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
@@ -274,12 +274,12 @@
           img(src="@/assets/curso/temas/t6/i23.png" alt="" style="width: 292px").m-auto
       .col-lg-9
         .row.align-items-start
+          p La aplicación de estas acciones permite controlar las condiciones del escenario y brindar una atención inicial organizada. Si el peligro no puede eliminarse de forma segura, se debe evitar la intervención directa y solicitar apoyo especializado. preparando el camino para la activación del sistema de emergencias.
           .col-auto
             figure.mb-0
               img(src="@/assets/curso/temas/t6/i4.png" alt="" style="width: 84px")
           .col
-            p.mb-0 La aplicación de estas acciones permite controlar las condiciones del escenario y brindar una atención inicial organizada. Si el peligro no puede eliminarse de forma segura, se debe evitar la intervención directa y solicitar apoyo especializado.
-            p.mt-3.mb-0 La seguridad de la escena constituye la base de toda intervención en primeros auxilios, ya que permite al primer respondiente actuar con confianza y reducir la exposición a riesgos. Este proceso se articula con la valoración inicial y la identificación de riesgos, facilitando una atención organizada y preparando el camino para la activación del sistema de emergencias.
+            p.mb-0 La seguridad de la escena constituye la base de toda intervención en primeros auxilios, ya que permite al primer respondiente actuar con confianza y reducir la exposición a riesgos. Este proceso se articula con la valoración inicial y la identificación de riesgos, facilitando una atención organizada y preparando el camino para la activación del sistema de emergencias.
 
     separador
 
@@ -294,8 +294,8 @@
             .col-auto
               figure.mb-0
                 img(src="@/assets/curso/temas/t6/i5.png" alt="" style="width: 84px")
-            .col
-              p.mb-0 Una vez realizada la valoración inicial y asegurada la escena, el primer respondiente debe identificar si la situación requiere la intervención de servicios de emergencia. En caso afirmativo, debe activar de manera inmediata los canales establecidos, siendo la línea 123 el principal medio de acceso al sistema de emergencias en Colombia.
+
+              p.mt-4 Una vez realizada la valoración inicial y asegurada la escena, el primer respondiente debe identificar si la situación requiere la intervención de servicios de emergencia. En caso afirmativo, debe activar de manera inmediata los canales establecidos, siendo la línea 123 el principal medio de acceso al sistema de emergencias en Colombia.
       .col-lg-3.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/temas/t6/f5.png" alt="" style="width: 292px").r-10.m-auto
@@ -328,25 +328,25 @@
                   p.text-center.mb-0 Corresponde a una pérdida continua de sangre que no disminuye con medidas iniciales de control. Por ejemplo, si una herida profunda empapa rápidamente las gasas utilizadas, se debe mantener presión directa, llamar a la línea 123 y esperar la llegada del personal especializado.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/4.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Convulsiones
                   p.text-center.mb-0 Son movimientos involuntarios que pueden acompañarse de rigidez, pérdida de conciencia o alteración de la respiración. Por ejemplo, si un niño convulsiona, se deben retirar los objetos cercanos, proteger su cabeza, evitar introducir elementos en su boca y solicitar ayuda médica de emergencia inmediatamente.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/5.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Lesiones graves
                   p.text-center.mb-0 Comprenden golpes, caídas o heridas que pueden comprometer la cabeza, el cuello, la columna o las extremidades. Por ejemplo, si una niña cae desde una altura y no puede moverse, se debe evitar trasladarla, activar el sistema de emergencias y acompañarla tranquila y permanentemente.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/6.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Quemaduras extensas
                   p.text-center.mb-0 Afectan una zona amplia del cuerpo o áreas delicadas, como la cara, las manos o los genitales. Por ejemplo, si un niño derrama agua hirviendo sobre el pecho, se debe retirar la fuente de calor, solicitar ayuda inmediata y evitar aplicar remedios caseros.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t6/7.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Capacidad de atención superada
                   p.text-center.mb-0 Se presenta cuando la gravedad, el número de personas afectadas o los riesgos del entorno exceden los conocimientos y recursos disponibles. Por ejemplo, ante niñas y niños lesionados, se debe solicitar apoyo de emergencia, priorizar la seguridad y evitar actuaciones inseguras.
@@ -355,35 +355,33 @@
 
     p.mt-4(data-aos="fade-down") Durante la activación del sistema, es fundamental proporcionar información clara, precisa y completa que permita una adecuada respuesta por parte de los servicios de emergencia. Entre los datos que se deben suministrar se encuentran:
 
-    .row.justify-content-center.mt-4(data-aos="fade-down")
-      .col-lg-10
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-3.d-none.d-lg-block.order-2
+        figure
+          img(src='@/assets/curso/temas/t6/8.png', alt='', style="width: 290px").m-auto
+      .col-lg-7
         .bg-3.p-4
-          .row.align-items-center
-            .col-lg-8
-              ol.lista-ol--cuadro.lista-numerada--cuadro.mb-0
-                li
-                  span.lista-ol--cuadro__vineta
-                    span 1
-                  |  Ubicación exacta del lugar del evento.
-                li
-                  span.lista-ol--cuadro__vineta
-                    span 2
-                  |  Tipo de emergencia presentada.
-                li
-                  span.lista-ol--cuadro__vineta
-                    span 3
-                  |  Número de personas afectadas.
-                li
-                  span.lista-ol--cuadro__vineta
-                    span 4
-                  |  Condición de la víctima (estado de conciencia, respiración, lesiones visibles).
-                li
-                  span.lista-ol--cuadro__vineta
-                    span 5
-                  |  Riesgos presentes en el entorno.
-            .col-lg-4.d-none.d-lg-block
-              figure.mb-0
-                img(src="@/assets/curso/temas/t6/f6.png" alt="" style="width: 292px").r-10.m-auto
+          ul.lista-ul.lista-ul--compacta.mb-0
+            li
+              i.fas.fa-heart
+              | Ubicación exacta del lugar del evento. 
+
+            li.mt-2
+              i.fas.fa-heart
+              | Tipo de emergencia presentada. 
+      
+            li.mt-2
+              i.fas.fa-heart
+              | Número de personas afectadas. 
+        
+            li.mt-2
+              i.fas.fa-heart
+              | Condición de la víctima (estado de conciencia, respiración, lesiones visibles). 
+
+            li.mt-2
+              i.fas.fa-heart
+              | Riesgos presentes en el entorno. 
+
 
     .row.align-items-start.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-4.mb-4.mb-lg-0
@@ -391,10 +389,12 @@
           img(src="@/assets/curso/temas/t6/f7.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p Asimismo, es importante mantener la comunicación hasta recibir indicaciones del operador, seguir las instrucciones brindadas y no colgar la llamada hasta que se indique. Esta interacción permite optimizar la respuesta y facilitar la atención de la emergencia.
-        .bg-1.r-10.p-4.mt-4
+        .bg-6.r-10.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, la activación del sistema de emergencias adquiere especial relevancia, ya que las condiciones de niñas y niños pueden cambiar rápidamente, requiriendo atención especializada en el menor tiempo posible. Por ello, una comunicación efectiva y oportuna puede marcar la diferencia en la evolución de la situación.
 
-    p.mt-4(data-aos="fade-down") La activación del sistema de emergencias complementa la valoración del escenario y la actuación del primer respondiente, permitiendo dar continuidad a la atención mediante la intervención de personal especializado. Este proceso asegura una respuesta integral, oportuna y coordinada, especialmente en situaciones que comprometen la salud y la vida en la primera infancia.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        p.mt-4(data-aos="fade-down") La activación del sistema de emergencias complementa la valoración del escenario y la actuación del primer respondiente, permitiendo dar continuidad a la atención mediante la intervención de personal especializado. Este proceso asegura una respuesta integral, oportuna y coordinada, especialmente en situaciones que comprometen la salud y la vida en la primera infancia.
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-10
@@ -409,13 +409,16 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-8
         p La aplicación de los primeros auxilios en contextos infantiles implica la adaptación de los conocimientos, habilidades y procedimientos a las condiciones específicas de niñas y niños, considerando su etapa de desarrollo, nivel de dependencia y características del entorno en el que se desenvuelven. Este enfoque permite que la atención inicial sea pertinente, segura y acorde con las necesidades de la primera infancia.
-        .bg-1.r-10.p-4.mt-4
+        .bg-6.r-10.p-4.mt-4
           p.mb-0 En estos contextos, es fundamental reconocer que los eventos que requieren primeros auxilios no solo dependen de la ocurrencia de un accidente, sino también, de la interacción entre el niño o la niña y su entorno.
+
+        p.mt-4(data-aos="fade-down") Los entornos infantiles presentan condiciones particulares que influyen en la aparición de accidentes y en la respuesta del primer respondiente. Para comprender estas situaciones y actuar de manera segura, se deben reconocer los siguientes aspectos, acompañados de ejemplos aplicados a la realidad:
+
       .col-lg-4.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/temas/t6/f8.png" alt="" style="width: 396px").r-10.m-auto
 
-    p.mt-4(data-aos="fade-down") Los entornos infantiles presentan condiciones particulares que influyen en la aparición de accidentes y en la respuesta del primer respondiente. Para comprender estas situaciones y actuar de manera segura, se deben reconocer los siguientes aspectos, acompañados de ejemplos aplicados a la realidad:
+    
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -495,27 +498,26 @@
       .col-lg-8
         .bg-1.r-10.p-4
           .row.align-items-start
-            .col-auto
               figure.mb-0
                 img(src="@/assets/curso/temas/t6/i7.png" alt="" style="width: 84px")
-            .col
-              p.mb-0 La toma de decisiones en primeros auxilios corresponde al proceso mental mediante el cual el primer respondiente analiza la información disponible y selecciona la acción más adecuada frente a una situación de emergencia. Este proceso no se limita a la ejecución de acciones, sino que implica interpretar el contexto, valorar riesgos y actuar con criterio frente a condiciones cambiantes.
+
+              p.mt-4 La toma de decisiones en primeros auxilios corresponde al proceso mental mediante el cual el primer respondiente analiza la información disponible y selecciona la acción más adecuada frente a una situación de emergencia. Este proceso no se limita a la ejecución de acciones, sino que implica interpretar el contexto, valorar riesgos y actuar con criterio frente a condiciones cambiantes.
 
     p.mt-4(data-aos="fade-down") A diferencia de los procedimientos técnicos, la toma de decisiones se basa en la capacidad de juicio del respondiente, quien debe integrar elementos como la seguridad del entorno, la gravedad de la situación, los recursos disponibles y sus propios límites de actuación. Esto permite definir de manera consciente si es seguro intervenir, qué acciones priorizar y en qué momento solicitar apoyo especializado.
 
     p.mt-4(data-aos="fade-down") La toma de decisiones en primeros auxilios se desarrolla mediante un proceso continuo que permite comprender la emergencia, seleccionar una respuesta segura y verificar sus resultados. La siguiente figura presenta cinco acciones articuladas que orientan la actuación del primer respondiente ante situaciones relacionadas con la primera infancia.
 
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
-      h5 Figura 2.
-      span Proceso para la toma de decisiones en primeros auxilios
+    
 
-    .row.bg-fondo-9
-      .col-12
-        .p-5
-          .row.justify-content-center
-            .col-11
-              figure(data-aos="fade-down")
-                img(src="@/assets/curso/temas/t6/fig2.png" alt="Proceso para la toma de decisiones en primeros auxilios. Cinco acciones articuladas en ciclo: Observar, reconocer el entorno y el estado de la persona afectada; Analizar, interpretar la información recopilada y establecer prioridades; Decidir, seleccionar la acción más segura según la gravedad; Actuar, aplicar las medidas iniciales acordes con la formación recibida; y Reevaluar, verificar los cambios en la situación y ajustar las decisiones." style="width: 1020px").m-auto
+
+    .row.justify-content-center
+      .col-11
+        .titulo-sexto.color-acento-contenido.mb-3.mt-5
+          h5 Figura 2.
+          span Proceso para la toma de decisiones en primeros auxilios
+        figure(data-aos="fade-down")
+          img.d-none.d-md-block.m-auto(src="@/assets/curso/temas/t6/10.svg" alt="Ciclo de cinco acciones para tomar decisiones en primeros auxilios: observar, analizar, decidir, actuar y reevaluar. Estas acciones permiten responder oportunamente y brindar una atención inicial segura.")
+          img.d-block.d-md-none.m-auto.w-100(src="@/assets/curso/temas/t6/9.svg" alt="Ciclo de cinco acciones para tomar decisiones en primeros auxilios: observar, analizar, decidir, actuar y reevaluar. Estas acciones permiten responder oportunamente y brindar una atención inicial segura. " style="width: 1020px")
 
     p.mt-5(data-aos="fade-down") Estas acciones conforman un ciclo dinámico, porque las condiciones de la emergencia pueden cambiar durante la atención. Por ello, el primer respondiente debe mantener la observación y adaptar sus decisiones para proteger a la niña o al niño sin exceder sus límites de actuación.
 
@@ -524,7 +526,7 @@
         .cajon.color1.p-4
           p.mb-0 En el contexto de la primera infancia, la toma de decisiones requiere un nivel adicional de atención, debido a la vulnerabilidad de niñas y niños y a la posibilidad de cambios rápidos en su estado de salud. Esto implica actuar con mayor precaución, evitando intervenciones innecesarias y priorizando siempre la seguridad y el bienestar del menor.
 
-    p.mt-4(data-aos="fade-down") De esta manera, la toma de decisiones se convierte en un elemento transversal en la atención de primeros auxilios, ya que orienta la actuación del primer respondiente hacia intervenciones seguras, pertinentes y responsables, sin sustituir la atención médica especializada.
+        p.mt-4(data-aos="fade-down") De esta manera, la toma de decisiones se convierte en un elemento transversal en la atención de primeros auxilios, ya que orienta la actuación del primer respondiente hacia intervenciones seguras, pertinentes y responsables, sin sustituir la atención médica especializada.
 
 </template>
 

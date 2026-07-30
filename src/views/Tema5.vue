@@ -27,13 +27,12 @@
 
     p(data-aos="fade-down") El botiquín de primeros auxilios se define como el conjunto organizado de recursos básicos destinados a brindar atención inicial a una persona lesionada o en situación de emergencia, mientras se accede a servicios de atención médica especializada. Su adecuada dotación y disponibilidad permiten una respuesta oportuna que puede disminuir riesgos, complicaciones y consecuencias derivadas de eventos adversos.
 
-    .row.bg-4.mx-0.mt-4.align-items-center(data-aos="fade-down")
-      .col-lg-auto.px-0
-        figure.m-0
-          img(src="@/assets/curso/temas/t5/f2.png" alt="" style="width: 614px")
-      .col-lg.p-4
-        .tarjeta.tarjeta--blanca.p-4
-          p.mb-0 En Colombia, su uso y disposición se enmarcan en los lineamientos del Sistema de Seguridad y Salud en el Trabajo, así como en las condiciones de habilitación de los servicios de salud establecidas en la Resolución 3100 de 2019, la cual fija estándares de calidad y seguridad en la atención. De igual manera, en los entornos de atención a la primera infancia, los lineamientos de la Secretaría Distrital de Integración Social (SDIS) establecen la obligatoriedad de contar con botiquines adecuados, accesibles y en condiciones óptimas para la atención de emergencias (Ministerio de Salud y Protección Social, 2019).
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/temas/t5/f2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 En Colombia, su uso y disposición se enmarcan en los lineamientos del Sistema de Seguridad y Salud en el Trabajo, así como en las condiciones de habilitación de los servicios de salud establecidas en la Resolución 3100 de 2019, la cual fija estándares de calidad y seguridad en la atención. De igual manera, en los entornos de atención a la primera infancia, los lineamientos de la Secretaría Distrital de Integración Social (SDIS) establecen la obligatoriedad de contar con botiquines adecuados, accesibles y en condiciones óptimas para la atención de emergencias (Ministerio de Salud y Protección Social, 2019).
 
     p.mt-4(data-aos="fade-down") En Colombia, la disponibilidad y el adecuado manejo del botiquín en los entornos de atención a la primera infancia se sustentan en un conjunto de disposiciones que buscan garantizar condiciones seguras. Estas normas orientan tanto la dotación como el mantenimiento del botiquín, de modo que responda a las necesidades propias de esta población. Entre las principales se encuentran:
 
@@ -118,9 +117,9 @@
                 td Ambientes de alto riesgo o brigadas especializadas.
                 td Incluye equipos más completos para atención avanzada (uso restringido).
 
-    p.mt-4(data-aos="fade-down") La selección del botiquín debe responder a los riesgos identificados y a las características del lugar. Sus elementos permiten brindar atención básica; sin embargo, no sustituyen la valoración del personal de salud cuando la lesión requiere atención especializada.
+    p.mt-4 La selección del botiquín debe responder a los riesgos identificados y a las características del lugar. Sus elementos permiten brindar atención básica; sin embargo, no sustituyen la valoración del personal de salud cuando la lesión requiere atención especializada.
 
-    p.mt-4(data-aos="fade-down") Para garantizar su disponibilidad y uso seguro, es necesario mantener el botiquín organizado y verificar periódicamente las condiciones de sus elementos. Con este propósito, se deben considerar los siguientes aspectos:
+    p Para garantizar su disponibilidad y uso seguro, es necesario mantener el botiquín organizado y verificar periódicamente las condiciones de sus elementos. Con este propósito, se deben considerar los siguientes aspectos:
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-10
@@ -159,9 +158,10 @@
         figure
           img(src="@/assets/curso/temas/t5/f5.png" alt="" style="width: 292px").r-10.m-auto
       .col-lg-9
-        p El botiquín de primeros auxilios constituye un recurso esencial que facilita la atención inicial en situaciones de emergencia, permitiendo al primer respondiente actuar de manera oportuna y organizada. Su adecuada dotación y uso se articulan con la bioseguridad y la gestión del riesgo, fortaleciendo la capacidad de respuesta en entornos de atención a la primera infancia.
-        .bg-1.p-4.mt-4
-          p.mb-0 La disponibilidad de un botiquín organizado complementa las medidas necesarias para brindar una atención inicial segura. Sin embargo, antes de utilizar sus elementos, el primer respondiente debe analizar las condiciones del lugar, identificar los peligros presentes y establecer las acciones prioritarias. En este sentido, se aborda la evaluación del escenario y la toma de decisiones.
+        .bg-1.p-3
+          p El botiquín de primeros auxilios constituye un recurso esencial que facilita la atención inicial en situaciones de emergencia, permitiendo al primer respondiente actuar de manera oportuna y organizada. Su adecuada dotación y uso se articulan con la bioseguridad y la gestión del riesgo, fortaleciendo la capacidad de respuesta en entornos de atención a la primera infancia.
+
+        p.mb-0.mt-2 La disponibilidad de un botiquín organizado complementa las medidas necesarias para brindar una atención inicial segura. Sin embargo, antes de utilizar sus elementos, el primer respondiente debe analizar las condiciones del lugar, identificar los peligros presentes y establecer las acciones prioritarias. En este sentido, se aborda la evaluación del escenario y la toma de decisiones.
 
 </template>
 

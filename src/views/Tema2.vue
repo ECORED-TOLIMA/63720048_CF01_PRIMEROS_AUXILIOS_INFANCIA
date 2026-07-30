@@ -53,13 +53,13 @@
                   p.text-center.mb-0 Corresponde a los cuidados inmediatos y provisionales que se brindan ante un accidente o una enfermedad repentina. Comprende valorar el estado general y aplicar únicamente acciones conocidas y seguras, mientras se solicita la intervención del personal especializado.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t2/1.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Protección integral
                   p.text-center.mb-0 Comprende el cuidado de la integridad física y del bienestar emocional durante la emergencia. Requiere mantener una comunicación calmada, proteger la privacidad, evitar intervenciones que puedan causar daños y considerar las características propias de la primera infancia.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t2/2.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Activación de la ruta de emergencia
                   p.text-center.mb-0 Consiste en solicitar oportunamente el apoyo especializado cuando la situación supera la capacidad de actuación del primer respondiente. Se debe activar la línea 123, proporcionar información clara, comunicar la ubicación exacta y seguir las indicaciones recibidas.
@@ -148,11 +148,11 @@
       h2 2.3 Derechos del paciente
 
     .row.align-items-start(data-aos="fade-down")
-      .col-lg-8
+      .col-lg-9
         p En la atención de primeros auxilios es fundamental garantizar el respeto por los derechos del paciente, especialmente en el caso de niñas y niños, quienes son sujetos de especial protección. Estos derechos orientan la actuación del primer respondiente hacia una atención digna, segura y centrada en la persona, evitando prácticas que vulneren su integridad física, emocional o psicológica.
         .bg-1.p-4.mt-4
           p.mb-0 En el contexto colombiano, los derechos del paciente están respaldados por la Ley 1751 de 2015, que reconoce la salud como un derecho fundamental autónomo, y por la Ley 1098 de 2006 – Código de la Infancia y la Adolescencia, que establece la protección integral de niñas, niños y adolescentes como un deber del Estado, la familia y la sociedad. En este sentido, toda intervención en primeros auxilios debe realizarse conforme a estos principios, incluso en situaciones de emergencia, garantizando el respeto por la dignidad humana y el interés superior del niño.
-      .col-lg-4.mt-4.mt-lg-0
+      .col-lg-3.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/temas/t2/f4.png" alt="" style="width: 292px").r-10.m-auto
 
@@ -188,16 +188,20 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Responsabilidad del primer respondiente
 
+    p El primer respondiente es la persona que brinda atención inicial en una situación de emergencia o urgencia antes de la llegada de los servicios de salud. Su actuación implica una responsabilidad fundamental orientada a proteger la vida, reducir riesgos y garantizar una atención adecuada dentro de sus capacidades.
+
     .row.align-items-start(data-aos="fade-down")
-      .col-lg-8
-        p El primer respondiente es la persona que brinda atención inicial en una situación de emergencia o urgencia antes de la llegada de los servicios de salud. Su actuación implica una responsabilidad fundamental orientada a proteger la vida, reducir riesgos y garantizar una atención adecuada dentro de sus capacidades.
+      .col-lg-9
+        
         .bg-1.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, esta responsabilidad adquiere mayor relevancia debido a la condición de vulnerabilidad de niñas y niños, quienes requieren una atención oportuna, segura y respetuosa de sus derechos. Por ello, el primer respondiente debe actuar con criterio, prudencia y responsabilidad, evitando intervenciones que puedan generar daño o agravar la situación.
-      .col-lg-4.mt-4.mt-lg-0
+
+        p.mt-4(data-aos="fade-down") El primer respondiente debe reconocer las responsabilidades que orientan su actuación durante una emergencia. Estas permiten organizar la atención inicial, proteger a las personas involucradas y actuar dentro de los límites de su formación. A continuación, se presentan las principales responsabilidades y su alcance:
+      .col-lg-3.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/temas/t2/f6.png" alt="" style="width: 292px").r-10.m-auto
 
-    p.mt-4(data-aos="fade-down") El primer respondiente debe reconocer las responsabilidades que orientan su actuación durante una emergencia. Estas permiten organizar la atención inicial, proteger a las personas involucradas y actuar dentro de los límites de su formación. A continuación, se presentan las principales responsabilidades y su alcance:
+    
 
     .row.bg-fondo-5.mt-4
       .col-12
@@ -225,25 +229,25 @@
                   p.text-center.mb-0 Consiste en priorizar las acciones orientadas a conservar las funciones vitales y prevenir el agravamiento de la persona afectada. Requiere valorar su estado general, reconocer signos de alarma y brindar únicamente la atención inicial necesaria mientras llega el apoyo especializado solicitado oportunamente.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t2/3.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Activar el sistema de emergencias
                   p.text-center.mb-0 Implica solicitar apoyo especializado cuando la situación supera las capacidades del primer respondiente. Requiere comunicar claramente lo ocurrido, proporcionar la ubicación exacta, describir el estado de la persona afectada y seguir las instrucciones suministradas por el personal encargado del servicio de emergencias.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t2/4.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Evaluar la situación
                   p.text-center.mb-0 Consiste en observar cuidadosamente el entorno y valorar el estado general de la persona afectada antes de intervenir. Permite identificar peligros, reconocer necesidades prioritarias, determinar la ayuda requerida y tomar decisiones seguras, evitando actuaciones apresuradas que puedan aumentar los riesgos existentes durante la emergencia.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t2/5.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Actuar dentro de sus competencias
                   p.text-center.mb-0 Implica realizar únicamente procedimientos conocidos, seguros y acordes con la formación recibida. El primer respondiente debe reconocer sus límites, evitar maniobras para las cuales no está capacitado y solicitar ayuda especializada cuando las necesidades de atención superen su capacidad de actuación durante la emergencia.
                 .tarjeta.bg-4.r-20.p-4.h-100
                   figure
-                    img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
+                    img(src="@/assets/curso/temas/t2/6.svg" alt="" style="width: 128px").m-auto
                   p.text-center.mt-3.mb-2(style="font-size:1.125em")
                     b Brindar acompañamiento
                   p.text-center.mb-0 Consiste en permanecer junto a la persona afectada, transmitir tranquilidad y mantener una comunicación respetuosa durante la atención. También requiere observar posibles cambios en su estado, proteger su privacidad y facilitar la entrega de información al personal especializado cuando asuma la atención de la emergencia.
@@ -278,7 +282,7 @@
       h2 2.5 Redes de atención
 
     .row.align-items-start(data-aos="fade-down")
-      .col-lg-8
+      .col-lg-9
         p Las redes de atención en salud corresponden al conjunto organizado de servicios, instituciones y actores que intervienen de manera articulada para dar respuesta oportuna, continua y eficaz ante una situación de emergencia. Estas redes permiten coordinar acciones desde la atención inicial brindada por el primer respondiente hasta la intervención especializada en los servicios de salud, garantizando la continuidad del cuidado y la protección de la vida.
         .row.align-items-start.mt-4
           .col-auto
@@ -286,9 +290,9 @@
               img(src="@/assets/curso/temas/t2/i6.png" alt="" style="width: 84px")
           .col
             p.mb-0 El reconocimiento de los actores que conforman las redes de atención permite comprender cómo se coordinan durante una emergencia. A continuación, se presenta un recurso infográfico que explica sus funciones y su aporte a la atención oportuna y a la continuidad del cuidado.
-      .col-lg-4.mt-4.mt-lg-0
+      .col-lg-3.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t2/i10.png" alt="" style="width: 320px").m-auto
+          img(src="@/assets/curso/temas/t2/7.svg" alt="" style="width: 290px").m-auto
 
     .titulo-sexto.color-acento-contenido.mb-3.mt-5
       h5 Figura 2.
@@ -299,27 +303,27 @@
         ImagenInfografica.color-acento-botones.d-none.d-md-block
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral.").w-100
-          .tarjeta.color-acento-botones.p-3(x="15%" y="30%" numero="+")
+              img(src="@/assets/curso/temas/t2/info-redes.png" alt="").w-100
+          .tarjeta.color-primario.p-3(x="15%" y="30%" numero="+")
             .h5.mb-2 1. Articulación entre niveles
             p.mb-0 Integra los niveles de atención para garantizar respuestas organizadas, oportunas y continuas durante cada emergencia.
-          .tarjeta.color-acento-botones.p-3(x="15%" y="50%" numero="+")
+          .tarjeta.color-primario.p-3(x="15%" y="50%" numero="+")
             .h5.mb-2 2. Servicios de emergencia
             p.mb-0 Atienden situaciones urgentes, activan recursos disponibles y coordinan inicialmente la respuesta según las necesidades identificadas.
-          .tarjeta.color-acento-botones.p-3(x="15%" y="70%" numero="+")
+          .tarjeta.color-primario.p-3(x="15%" y="70%" numero="+")
             .h5.mb-2 3. Instituciones de salud
             p.mb-0 Brindan valoración, tratamiento y seguimiento especializado para favorecer la recuperación integral de la persona afectada.
-          .tarjeta.color-acento-botones.p-3(x="85%" y="30%" numero="+")
+          .tarjeta.color-primario.p-3(x="85%" y="30%" numero="+")
             .h5.mb-2 4. Organismos de socorro
             p.mb-0 Apoyan el rescate, la atención inicial y el traslado mediante acciones coordinadas con otros servicios disponibles.
-          .tarjeta.color-acento-botones.p-3(x="85%" y="50%" numero="+")
+          .tarjeta.color-primario.p-3(x="85%" y="50%" numero="+")
             .h5.mb-2 5. Entidades de protección
             p.mb-0 Activan rutas institucionales y brindan acompañamiento cuando existen situaciones que afectan la integridad de la infancia.
-          .tarjeta.color-acento-botones.p-3(x="85%" y="70%" numero="+")
+          .tarjeta.color-primario.p-3(x="85%" y="70%" numero="+")
             .h5.mb-2 6. Coordinación integral
             p.mb-0 articula los servicios para atender la emergencia y garantizar la continuidad del cuidado hasta la recuperación.
         figure.d-md-none
-          img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral.").w-100
+          img(src="@/assets/curso/temas/t2/8.svg" alt="").w-100
 
     p.mt-5(data-aos="fade-down") En el contexto de la primera infancia, las redes de atención adquieren especial relevancia, ya que permiten activar rutas de atención prioritaria que responden a las necesidades específicas de niñas y niños, garantizando una intervención rápida, segura y adecuada a su condición. Además, contribuyen a fortalecer la articulación entre los entornos de cuidado, como jardines infantiles y centros educativos, con los servicios de salud y protección.
 
@@ -339,38 +343,31 @@
                 th Aplicación en primeros auxilios
             tbody
               tr
-                td
-                  b Línea 123
+                td Línea 123
                 td Canal de atención de emergencias a nivel nacional.
                 td Permite activar de manera inmediata los servicios de emergencia.
               tr
-                td
-                  b Servicios de Emergencias Médicas (SEM)
+                td Servicios de Emergencias Médicas (SEM)
                 td Coordinan la respuesta prehospitalaria y traslado de pacientes.
                 td Garantiza la atención oportuna y traslado seguro a centros de salud.
               tr
-                td
-                  b IPS (Instituciones Prestadoras de Servicios de Salud)
+                td IPS (Instituciones Prestadoras de Servicios de Salud)
                 td Brindan atención médica especializada.
                 td Recibe y continúa la atención iniciada por el primer respondiente.
               tr
-                td
-                  b Bomberos
+                td Bomberos
                 td Atención de incendios, rescates y manejo de incidentes.
                 td Apoya en situaciones de riesgo como atrapamientos o incendios.
               tr
-                td
-                  b Defensa Civil
+                td Defensa Civil
                 td Apoyo en emergencias, rescate y atención comunitaria.
                 td Interviene en situaciones de desastre o emergencias masivas.
               tr
-                td
-                  b Cruz Roja
+                td Cruz Roja
                 td Atención prehospitalaria y apoyo humanitario.
                 td Brinda primeros auxilios y apoyo en la atención de víctimas.
               tr
-                td
-                  b Policía Nacional
+                td Policía Nacional
                 td Apoyo en seguridad y control de la escena.
                 td Facilita el acceso y la seguridad durante la atención de la emergencia.
 

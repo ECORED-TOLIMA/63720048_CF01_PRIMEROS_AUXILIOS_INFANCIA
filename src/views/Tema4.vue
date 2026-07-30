@@ -15,11 +15,10 @@
       .col-lg-9
         .bg-1.r-10.p-4
           .row.align-items-start
-            .col-auto
               figure.mb-0
                 img(src="@/assets/curso/temas/t4/i1.png" alt="" style="width: 84px")
-            .col
-              p.mb-0 La bioseguridad en primeros auxilios comprende el conjunto de medidas preventivas orientadas a proteger la salud del primer respondiente y de la persona afectada, evitando la exposición a riesgos biológicos durante la atención inicial. Su aplicación es fundamental en cualquier intervención, ya que reduce la probabilidad de transmisión de enfermedades a través del contacto con fluidos corporales.
+
+              p.mt-4 La bioseguridad en primeros auxilios comprende el conjunto de medidas preventivas orientadas a proteger la salud del primer respondiente y de la persona afectada, evitando la exposición a riesgos biológicos durante la atención inicial. Su aplicación es fundamental en cualquier intervención, ya que reduce la probabilidad de transmisión de enfermedades a través del contacto con fluidos corporales.
 
     p.mt-4(data-aos="fade-down") En la primera infancia, la bioseguridad adquiere mayor relevancia debido a la vulnerabilidad de niñas y niños y a la frecuente exposición a situaciones que pueden implicar contacto con sangre, secreciones u otros agentes potencialmente infecciosos. Por ello, es necesario aplicar medidas básicas que garanticen una atención segura y adecuada.
 
@@ -109,30 +108,35 @@
         p.mb-0.mt-4 Estos elementos complementan las normas de bioseguridad, pero no reemplazan la higiene de manos ni el manejo seguro de los materiales utilizados. A continuación, se presentan los principales EPP y ejemplos de su aplicación en situaciones cotidianas:
       .col-lg-3.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t4/i6.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/i6.svg" alt="" style="width: 292px").m-auto
 
-    .row.justify-content-center.mt-5(data-aos="fade-down")
-      .col-md-6.col-lg-4
-        .tarjeta.bg-4.r-izq-20.tarjeta--icono-arriba
-          figure
-            img(src="@/assets/curso/temas/t4/i3.png" alt="")
-          p.text-center.mb-2(style="font-size:1.125em")
-            b Guantes desechables
-          p.text-center.mb-0 Protegen las manos cuando existe posibilidad de contacto con sangre, heridas, secreciones o fluidos corporales. Por ejemplo, en un hogar colombiano, se utilizan para cubrir una cortadura o controlar un sangrado mientras se solicita apoyo, cuando sea necesario.
-      .col-md-6.col-lg-4
-        .tarjeta.bg-6.tarjeta--icono-arriba
-          figure
-            img(src="@/assets/curso/temas/t4/i4.png" alt="")
-          p.text-center.mb-2(style="font-size:1.125em")
-            b Tapabocas
-          p.text-center.mb-0 Cubre la nariz y la boca para disminuir la exposición a gotas respiratorias y posibles salpicaduras. Por ejemplo, se utiliza al brindar atención cercana a una niña o un niño que presenta tos, vómito o secreciones respiratorias abundantes.
-      .col-md-6.col-lg-4
-        .tarjeta.bg-1.r-der-20.tarjeta--icono-arriba
-          figure
-            img(src="@/assets/curso/temas/t4/i5.png" alt="")
-          p.text-center.mb-2(style="font-size:1.125em")
-            b Protección ocular
-          p.text-center.mb-0 Las gafas o la careta protegen los ojos frente a salpicaduras de sangre, secreciones u otros fluidos. Por ejemplo, se emplean cuando existe riesgo de proyección durante la limpieza de una herida o la atención de un sangrado abundante.
+    .tarjeta--container.row.mb-5.mt-4
+      .col-md.tarjeta.bg-4.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t4/i3.png', alt='Texto que describa la imagen')          
+        p.text-center.mb-2(style="font-size:1.125em")
+          b Guantes desechables
+        p.text-center.mb-0 Protegen las manos cuando existe posibilidad de contacto con sangre, heridas, secreciones o fluidos corporales. Por ejemplo, en un hogar colombiano, se utilizan para cubrir una cortadura o controlar un sangrado mientras se solicita apoyo, cuando sea necesario.
+      
+      .col-md.tarjeta.bg-6.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t4/i4.png', alt='Texto que describa la imagen')          
+        p.text-center.mb-2(style="font-size:1.125em")
+          b Tapabocas
+        p.text-center.mb-0 Cubre la nariz y la boca para disminuir la exposición a gotas respiratorias y posibles salpicaduras. Por ejemplo, se utiliza al brindar atención cercana a una niña o un niño que presenta tos, vómito o secreciones respiratorias abundantes.
+      .col-md.tarjeta.bg-1.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t4/i5.png', alt='Texto que describa la imagen')          
+        p.text-center.mb-2(style="font-size:1.125em")
+          b Protección ocular
+        p.text-center.mb-0 Las gafas o la careta protegen los ojos frente a salpicaduras de sangre, secreciones u otros fluidos. Por ejemplo, se emplean cuando existe riesgo de proyección durante la limpieza de una herida o la atención de un sangrado abundante.
+
 
     p.mt-5(data-aos="fade-down") El uso de los EPP debe ser oportuno y ajustarse al riesgo identificado. Después de la atención, los elementos desechables deben retirarse sin tocar las superficies contaminadas y eliminarse de manera segura; los reutilizables requieren limpieza y desinfección según las indicaciones del fabricante.
 
@@ -153,17 +157,17 @@
       h2 4.3 Manejo de riesgos biológicos
 
     .row.align-items-start(data-aos="fade-down")
-      .col-lg-9
+      .col-lg-8.order-2
         p El manejo de riesgos biológicos en primeros auxilios comprende el conjunto de acciones orientadas a identificar, prevenir y controlar la exposición a agentes potencialmente infecciosos durante la atención inicial. Estos riesgos se presentan principalmente por el contacto con sangre, secreciones, fluidos corporales o elementos contaminados, los cuales pueden representar un peligro tanto para el primer respondiente como para la persona afectada.
-        .bg-1.r-10.p-4.mt-4
+        .bg-1.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, este manejo adquiere especial relevancia debido a la frecuencia de lesiones, caídas o situaciones que implican contacto con fluidos, así como a la mayor vulnerabilidad de niñas y niños frente a infecciones.
-      .col-lg-3.mt-4.mt-lg-0
+      .col-lg-4.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t4/i7.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/1.png" alt="" style="width: 392px").m-auto
 
     p.mt-4(data-aos="fade-down") El control de la exposición a agentes biológicos requiere seguir una secuencia de medidas antes, durante y después de la atención inicial. El siguiente recurso presenta las acciones que orientan este proceso, desde la identificación del riesgo hasta la higiene de manos posterior a la intervención.
 
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
+    .titulo-sexto.color-acento-contenido.mb-3.mt-4
       h5 Figura 3.
       span Manejo adecuado de los riesgos biológicos
 
@@ -172,36 +176,41 @@
         .p-5
           .row.justify-content-center
             .col-11
-              .row.justify-content-center.mt-4
+              .row.justify-content-center
                 .col-lg-10
                   ImagenInfografica.color-acento-botones.d-none.d-md-block
                     template(v-slot:imagen)
                       figure
-                        img(src="@/assets/curso/temas/t4/info-riesgos.png" alt="Manejo adecuado de los riesgos biológicos. Un anillo de seis colores con seis acciones: 1. Identificar el riesgo, 2. Aplicar medidas de protección, 3. Evitar el contacto directo, 4. Controlar la fuente de riesgo, 5. Disponer adecuadamente los residuos y 6. Realizar higiene de manos.").w-100
-                    .tarjeta.color-acento-botones.p-3(x="15%" y="30%" numero="+")
+                        img(src="@/assets/curso/temas/t4/2.svg" alt="").w-100
+                    .tarjeta.color-primario.p-3(x="20%" y="20%" numero="+")
                       .h5.mb-2 1. Identificar el riesgo
                       p.mb-0 Reconocer la presencia de sangre, secreciones o materiales contaminados antes de intervenir.
-                    .tarjeta.color-acento-botones.p-3(x="15%" y="50%" numero="+")
+                    .tarjeta.color-primario.p-3(x="15%" y="50%" numero="+")
                       .h5.mb-2 2. Aplicar medidas de protección
                       p.mb-0 Utilizar elementos de protección personal según el tipo de exposición.
-                    .tarjeta.color-acento-botones.p-3(x="15%" y="70%" numero="+")
+                    .tarjeta.color-primario.p-3(x="20%" y="80%" numero="+")
                       .h5.mb-2 3. Evitar el contacto directo
                       p.mb-0 Emplear barreras de protección para reducir la probabilidad de contaminación.
-                    .tarjeta.color-acento-botones.p-3(x="85%" y="30%" numero="+")
+                    .tarjeta.color-primario.p-3(x="80%" y="20%" numero="+")
                       .h5.mb-2 4. Controlar la fuente de riesgo
                       p.mb-0 Cubrir heridas o contener fluidos, cuando sea posible, sin generar daño adicional.
-                    .tarjeta.color-acento-botones.p-3(x="85%" y="50%" numero="+")
+                    .tarjeta.color-primario.p-3(x="85%" y="50%" numero="+")
                       .h5.mb-2 5. Disponer adecuadamente los residuos
                       p.mb-0 Eliminar de forma segura los materiales utilizados durante la atención.
-                    .tarjeta.color-acento-botones.p-3(x="85%" y="70%" numero="+")
+                    .tarjeta.color-primario.p-3(x="80%" y="80%" numero="+")
                       .h5.mb-2 6. Realizar higiene de manos
                       p.mb-0 Lavarse las manos antes y después de la intervención como medida fundamental de prevención.
                   figure.d-md-none
-                    img(src="@/assets/curso/temas/t4/info-riesgos.png" alt="Manejo adecuado de los riesgos biológicos. Un anillo de seis colores con seis acciones: 1. Identificar el riesgo, 2. Aplicar medidas de protección, 3. Evitar el contacto directo, 4. Controlar la fuente de riesgo, 5. Disponer adecuadamente los residuos y 6. Realizar higiene de manos.").w-100
+                    img(src="@/assets/curso/temas/t4/3.svg" alt="").w-100
 
-    p.mt-5(data-aos="fade-down") Estas acciones permiten reducir la probabilidad de transmisión de enfermedades y garantizan condiciones seguras durante la atención en primeros auxilios. Además, fortalecen la actuación del primer respondiente, asegurando que su intervención sea responsable, segura y acorde con los principios de bioseguridad.
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-3.d-none.d-lg-block.order-2
+        figure
+          img(src='@/assets/curso/temas/t4/i7.png', alt='', style="width: 290px").m-auto
+      .col-lg-9
+        p.mt-5(data-aos="fade-down") Estas acciones permiten reducir la probabilidad de transmisión de enfermedades y garantizan condiciones seguras durante la atención en primeros auxilios. Además, fortalecen la actuación del primer respondiente, asegurando que su intervención sea responsable, segura y acorde con los principios de bioseguridad.
 
-    p.mt-4(data-aos="fade-down") De esta manera, el manejo de los riesgos biológicos complementa el uso de los elementos de protección personal y la aplicación de normas básicas de bioseguridad, consolidando una atención inicial segura. Estos elementos se articulan con el rol del primer respondiente, quien debe actuar con precaución y responsabilidad en la valoración del escenario y la atención de la persona afectada.
+        p.mt-4(data-aos="fade-down") De esta manera, el manejo de los riesgos biológicos complementa el uso de los elementos de protección personal y la aplicación de normas básicas de bioseguridad, consolidando una atención inicial segura. Estos elementos se articulan con el rol del primer respondiente, quien debe actuar con precaución y responsabilidad en la valoración del escenario y la atención de la persona afectada.
 
     separador
 
@@ -225,7 +234,7 @@
       .col-lg-9
         p.mb-0 El primer respondiente debe actuar bajo principios de responsabilidad, seguridad y respeto por los derechos del paciente, garantizando una atención humanizada y evitando prácticas que puedan generar daño adicional. Su actuación no reemplaza la atención médica, sino que constituye una intervención inicial que facilita la continuidad del cuidado.
 
-    p.mt-4(data-aos="fade-down") Las funciones del primer respondiente en primeros auxilios se orientan a garantizar una atención inicial adecuada y segura. Entre las principales se encuentran:
+        p.mt-4(data-aos="fade-down") Las funciones del primer respondiente en primeros auxilios se orientan a garantizar una atención inicial adecuada y segura. Entre las principales se encuentran:
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-4.mb-4
