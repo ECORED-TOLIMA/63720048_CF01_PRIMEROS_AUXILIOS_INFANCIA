@@ -135,30 +135,34 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t1/i6.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i6.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o1.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Comunicación calmada
           p.text-center.mb-0 Utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t1/i7.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i7.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o2.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Manejo de las emociones
           p.text-center.mb-0 Conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t1/i8.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i8.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o3.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Generación de confianza
           p.text-center.mb-0 Mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
       .col-md-6.col-lg-3
-        .tarjeta.bg-2.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t1/i9.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i9.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o4.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Protección integral
           p.text-center.mb-0 Cuidar la integridad física y el bienestar emocional de la persona afectada durante la atención.

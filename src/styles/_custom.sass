@@ -385,3 +385,38 @@ figcaption
         margin-bottom: 0
     .tarjeta--icono-arriba
       margin-bottom: 1rem
+
+// ============================================================================
+// TARJETA OVER (catálogo). En el XD se reconoce porque el diseño dibuja los DOS estados:
+// las tarjetas en su color normal + una fila aparte con los iconos «con over» (hallazgo de Luis,
+// `Hallazgos(3)`). Medido en el Tema 1 (1.1):
+//   sin over -> tarjeta #B8F4CE con el contenedor del icono en #16D95E
+//   con over -> tarjeta #F4EDFE con el contenedor del icono en #DBC2FA
+// Los dos iconos van apilados en el mismo `figure` y se cambian con `opacity`, así no hay salto
+// de layout ni segunda petición al pasar el ratón.
+// ============================================================================
+.tarjeta--over
+  background-color: #B8F4CE
+  border-radius: 20px
+  cursor: default
+  transition: background-color .3s ease-in-out
+  figure
+    position: relative
+    margin: 0 auto 1rem
+    width: 128px
+    height: 128px
+    img
+      position: absolute
+      inset: 0
+      width: 128px
+      height: 128px
+      transition: opacity .3s ease-in-out
+    .tarjeta--over__icono-over
+      opacity: 0
+  &:hover, &:focus-within
+    background-color: #F4EDFE
+    figure
+      .tarjeta--over__icono
+        opacity: 0
+      .tarjeta--over__icono-over
+        opacity: 1
