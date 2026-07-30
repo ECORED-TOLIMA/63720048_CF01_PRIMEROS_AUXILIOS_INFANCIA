@@ -24,35 +24,37 @@
     .row.bg-fondo-1.mt-4
       .col-12
         .p-5
-          .row.justify-content-center(data-aos="fade-down")
-            .col-md-6.col-lg-3
-              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
-                figure
-                  img(src="@/assets/curso/temas/t1/i1.png" alt="")
-                p.text-center.mb-2(style="font-size:1.125em")
-                  b Curiosidad
-                p.text-center.mb-0 Impulsa la exploración de objetos, espacios y situaciones desconocidas.
-            .col-md-6.col-lg-3
-              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
-                figure
-                  img(src="@/assets/curso/temas/t1/i2.png" alt="")
-                p.text-center.mb-2(style="font-size:1.125em")
-                  b Exploración constante
-                p.text-center.mb-0 Favorece el contacto con elementos o lugares que pueden representar peligro.
-            .col-md-6.col-lg-3
-              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
-                figure
-                  img(src="@/assets/curso/temas/t1/i3.png" alt="")
-                p.text-center.mb-2(style="font-size:1.125em")
-                  b Percepción limitada del riesgo
-                p.text-center.mb-0 Dificulta reconocer los peligros y anticipar las consecuencias de determinadas acciones.
-            .col-md-6.col-lg-3
-              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
-                figure
-                  img(src="@/assets/curso/temas/t1/i4.png" alt="")
-                p.text-center.mb-2(style="font-size:1.125em")
-                  b Dependencia del adulto
-                p.text-center.mb-0 Requiere acompañamiento y supervisión para prevenir accidentes y actuar oportunamente.
+          .row.justify-content-center
+            .col-11
+              .row.justify-content-center(data-aos="fade-down")
+                .col-md-6.col-lg-3
+                  .tarjeta.bg-4.r-20.tarjeta--icono-arriba
+                    figure
+                      img(src="@/assets/curso/temas/t1/i1.png" alt="")
+                    p.text-center.mb-2(style="font-size:1.125em")
+                      b Curiosidad
+                    p.text-center.mb-0 Impulsa la exploración de objetos, espacios y situaciones desconocidas.
+                .col-md-6.col-lg-3
+                  .tarjeta.bg-4.r-20.tarjeta--icono-arriba
+                    figure
+                      img(src="@/assets/curso/temas/t1/i2.png" alt="")
+                    p.text-center.mb-2(style="font-size:1.125em")
+                      b Exploración constante
+                    p.text-center.mb-0 Favorece el contacto con elementos o lugares que pueden representar peligro.
+                .col-md-6.col-lg-3
+                  .tarjeta.bg-4.r-20.tarjeta--icono-arriba
+                    figure
+                      img(src="@/assets/curso/temas/t1/i3.png" alt="")
+                    p.text-center.mb-2(style="font-size:1.125em")
+                      b Percepción limitada del riesgo
+                    p.text-center.mb-0 Dificulta reconocer los peligros y anticipar las consecuencias de determinadas acciones.
+                .col-md-6.col-lg-3
+                  .tarjeta.bg-4.r-20.tarjeta--icono-arriba
+                    figure
+                      img(src="@/assets/curso/temas/t1/i4.png" alt="")
+                    p.text-center.mb-2(style="font-size:1.125em")
+                      b Dependencia del adulto
+                    p.text-center.mb-0 Requiere acompañamiento y supervisión para prevenir accidentes y actuar oportunamente.
 
     p.mt-5(data-aos="fade-down") El reconocimiento de estas características permite identificar los riesgos del entorno y fortalecer las medidas de prevención y protección durante la primera infancia.
 
@@ -261,9 +263,13 @@
     .row.bg-fondo-3
       .col-12
         .p-5
-          figure(data-aos="fade-down")
-            img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t1/fig1-movil.png" alt="Ruta de actuación del primer respondiente. La secuencia para una atención inicial segura tiene tres pasos: 1. Evaluar el entorno, observando el lugar e identificando riesgos antes de acercarse; 2. Valorar a la persona afectada, verificando su estado general y reconociendo las necesidades de atención; y 3. Aplicar acciones prioritarias, brindando únicamente la ayuda necesaria, conocida y segura. Todo ello con rapidez, criterio y precaución, protegiendo durante toda la atención al primer respondiente, a la persona afectada y a quienes se encuentren en el entorno." style="width: 400px")
-            img.d-none.d-md-block.m-auto(src="@/assets/curso/temas/t1/fig1.png" alt="Ruta de actuación del primer respondiente. La secuencia para una atención inicial segura tiene tres pasos: 1. Evaluar el entorno, observando el lugar e identificando riesgos antes de acercarse; 2. Valorar a la persona afectada, verificando su estado general y reconociendo las necesidades de atención; y 3. Aplicar acciones prioritarias, brindando únicamente la ayuda necesaria, conocida y segura. Todo ello con rapidez, criterio y precaución, protegiendo durante toda la atención al primer respondiente, a la persona afectada y a quienes se encuentren en el entorno." style="width: 1020px")
+          .row.justify-content-center
+            .col-11
+              .row.justify-content-center
+                .col-11
+                  figure(data-aos="fade-down")
+                    img.d-block.d-md-none.m-auto(src="@/assets/curso/temas/t1/fig1-movil.png" alt="Ruta de actuación del primer respondiente. La secuencia para una atención inicial segura tiene tres pasos: 1. Evaluar el entorno, observando el lugar e identificando riesgos antes de acercarse; 2. Valorar a la persona afectada, verificando su estado general y reconociendo las necesidades de atención; y 3. Aplicar acciones prioritarias, brindando únicamente la ayuda necesaria, conocida y segura. Todo ello con rapidez, criterio y precaución, protegiendo durante toda la atención al primer respondiente, a la persona afectada y a quienes se encuentren en el entorno." style="width: 400px")
+                    img.d-none.d-md-block.m-auto(src="@/assets/curso/temas/t1/fig1.png" alt="Ruta de actuación del primer respondiente. La secuencia para una atención inicial segura tiene tres pasos: 1. Evaluar el entorno, observando el lugar e identificando riesgos antes de acercarse; 2. Valorar a la persona afectada, verificando su estado general y reconociendo las necesidades de atención; y 3. Aplicar acciones prioritarias, brindando únicamente la ayuda necesaria, conocida y segura. Todo ello con rapidez, criterio y precaución, protegiendo durante toda la atención al primer respondiente, a la persona afectada y a quienes se encuentren en el entorno." style="width: 1020px")
 
     p.mt-5(data-aos="fade-down") La atención inicial se orienta mediante características que favorecen una respuesta organizada, segura y adecuada ante una emergencia. Su comprensión permite actuar oportunamente y responder según las necesidades identificadas en primera infancia y su entorno.
 

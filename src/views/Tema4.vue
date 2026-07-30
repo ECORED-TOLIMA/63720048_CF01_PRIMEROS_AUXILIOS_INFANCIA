@@ -170,8 +170,10 @@
     .row.bg-fondo-6
       .col-12
         .p-5
-          figure(data-aos="fade-down")
-            img(src="@/assets/curso/temas/t4/info-riesgos.png" alt="Manejo adecuado de los riesgos biológicos. Alrededor de una ilustración central se disponen seis acciones: 1. Identificar el riesgo, 2. Aplicar medidas de protección, 3. Evitar el contacto directo, 4. Controlar la fuente de riesgo, 5. Disponer adecuadamente los residuos y 6. Realizar higiene de manos." style="width: 1020px").m-auto
+          .row.justify-content-center
+            .col-11
+              figure(data-aos="fade-down")
+                img(src="@/assets/curso/temas/t4/info-riesgos.png" alt="Manejo adecuado de los riesgos biológicos. Alrededor de una ilustración central se disponen seis acciones: 1. Identificar el riesgo, 2. Aplicar medidas de protección, 3. Evitar el contacto directo, 4. Controlar la fuente de riesgo, 5. Disponer adecuadamente los residuos y 6. Realizar higiene de manos." style="width: 1020px").m-auto
 
     p.mt-5(data-aos="fade-down") Estas acciones permiten reducir la probabilidad de transmisión de enfermedades y garantizan condiciones seguras durante la atención en primeros auxilios. Además, fortalecen la actuación del primer respondiente, asegurando que su intervención sea responsable, segura y acorde con los principios de bioseguridad.
 

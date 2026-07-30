@@ -140,11 +140,18 @@ figcaption
     height: 8px
     background-color: #8EC5FC
 
-// Fondos decorativos full-bleed: PNG exportados del XD.
+// Fondos decorativos full-bleed: PNG exportados del XD con el alto y el ancho del XD.
+// `margin-inline: -6.2rem` es la medida que dio Luis (2026-07-30) para que la banda salga del
+// ancho de la tarjeta como en el diseño. En tablet/móvil se recorta o el bloque se desborda por
+// la derecha (hallazgo del acordeón del 1.2).
 .bg-fondo-1, .bg-fondo-2, .bg-fondo-3, .bg-fondo-4, .bg-fondo-5, .bg-fondo-6, .bg-fondo-7, .bg-fondo-8, .bg-fondo-9
   background-repeat: no-repeat
   background-size: cover
-  margin-inline: -3.2rem !important
+  margin-inline: -6.2rem !important
+  @media screen and (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important
+  @media screen and (max-width: $bp-min-sm)
+    margin-inline: 0 !important        // en móvil, ni un píxel fuera: el acordeón se desbordaba
 .bg-fondo-1
   background-image: url(../assets/curso/temas/bg/1.png)
 .bg-fondo-2
@@ -164,14 +171,32 @@ figcaption
 .bg-fondo-9
   background-image: url(../assets/curso/temas/bg/9.png)
 
-// Lista numerada: el cuadro de la viñeta es #FFC0AC con el número oscuro (medido en el XD).
+// Lista numerada: el cuadro de la viñeta es #FFC0AC con el número **en negrilla** y oscuro
+// (medido en el XD: los números son `Roboto-Bold 16px`). Y **sangría francesa**: cuando el texto
+// salta de línea, la segunda línea se alinea con la primera, no debajo de la viñeta
+// (hallazgo de Luis: «las listas cuando tengan un salto de línea deben conservar la línea del
+// texto inicial, debe ser este estilo para todas las listas»).
 .lista-numerada--clara, .lista-numerada--cuadro
+  li
+    padding-left: 32px          // 24 de la viñeta + 8 de separación
+    text-indent: -32px
   .lista-ol--cuadro__vineta
     background-color: #FFC0AC
     color: $color-sistema-texto
     min-width: 24px
     height: 24px
     border-radius: 4px
+    font-weight: $base-bold-font-weight
+    text-indent: 0
+    span
+      font-weight: $base-bold-font-weight
+
+// Misma sangría francesa en las listas de viñeta (corazón)
+.lista-ul--compacta li
+  padding-left: 26px
+  text-indent: -26px
+  > i:first-of-type
+    text-indent: 0
 .lista-numerada--clara li
   border-bottom-color: $color-sistema-f !important
 
@@ -201,6 +226,8 @@ figcaption
 // Acordeón: en el XD los ítems son 1020x170/90 con `r=20`; el abierto en #F4EDFE y los cerrados
 // en #B8F4CE, con el botón circular del acento-botón a la derecha.
 .acordion--principios
+  max-width: 100%
+  overflow-x: hidden
   .acordion__item, .tarjeta
     background-color: #B8F4CE !important
     border-radius: 20px
@@ -329,5 +356,12 @@ figcaption
   .audio__btn
     background-color: $color-acento-botones !important
 
-
-
+// En móvil las tarjetas sobre un fondo decorativo quedaban pegadas (hallazgo de Luis).
+@media screen and (max-width: $bp-max-md)
+  .bg-fondo-1, .bg-fondo-2, .bg-fondo-3, .bg-fondo-4, .bg-fondo-5, .bg-fondo-6, .bg-fondo-7, .bg-fondo-8, .bg-fondo-9
+    .row > [class*="col-"]
+      margin-bottom: 2rem
+      &:last-child
+        margin-bottom: 0
+    .tarjeta--icono-arriba
+      margin-bottom: 1rem

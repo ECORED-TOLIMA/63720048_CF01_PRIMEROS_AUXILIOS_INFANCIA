@@ -30,37 +30,39 @@
     .row.bg-fondo-4.mt-4
       .col-12
         .p-5
-          SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Prevención
-              p.text-center.mb-0 Consiste en identificar los peligros presentes en los espacios de atención y aplicar medidas que disminuyan la posibilidad de accidentes. Incluye supervisar las actividades, conservar los elementos peligrosos fuera de alcance y promover prácticas de cuidado acordes con la edad y el desarrollo de la población infantil.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Seguridad del entorno
-              p.text-center.mb-0 Implica verificar las condiciones del lugar antes de brindar ayuda. Se deben reconocer riesgos como fuego, electricidad, sustancias tóxicas, objetos inestables o tránsito vehicular, y restringir el ingreso al área afectada cuando sea seguro hacerlo.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i4.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Respuesta inicial
-              p.text-center.mb-0 Corresponde a los cuidados inmediatos y provisionales que se brindan ante un accidente o una enfermedad repentina. Comprende valorar el estado general y aplicar únicamente acciones conocidas y seguras, mientras se solicita la intervención del personal especializado.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Protección integral
-              p.text-center.mb-0 Comprende el cuidado de la integridad física y del bienestar emocional durante la emergencia. Requiere mantener una comunicación calmada, proteger la privacidad, evitar intervenciones que puedan causar daños y considerar las características propias de la primera infancia.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Activación de la ruta de emergencia
-              p.text-center.mb-0 Consiste en solicitar oportunamente el apoyo especializado cuando la situación supera la capacidad de actuación del primer respondiente. Se debe activar la línea 123, proporcionar información clara, comunicar la ubicación exacta y seguir las indicaciones recibidas.
+          .row.justify-content-center
+            .col-11
+              SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Prevención
+                  p.text-center.mb-0 Consiste en identificar los peligros presentes en los espacios de atención y aplicar medidas que disminuyan la posibilidad de accidentes. Incluye supervisar las actividades, conservar los elementos peligrosos fuera de alcance y promover prácticas de cuidado acordes con la edad y el desarrollo de la población infantil.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Seguridad del entorno
+                  p.text-center.mb-0 Implica verificar las condiciones del lugar antes de brindar ayuda. Se deben reconocer riesgos como fuego, electricidad, sustancias tóxicas, objetos inestables o tránsito vehicular, y restringir el ingreso al área afectada cuando sea seguro hacerlo.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i4.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Respuesta inicial
+                  p.text-center.mb-0 Corresponde a los cuidados inmediatos y provisionales que se brindan ante un accidente o una enfermedad repentina. Comprende valorar el estado general y aplicar únicamente acciones conocidas y seguras, mientras se solicita la intervención del personal especializado.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Protección integral
+                  p.text-center.mb-0 Comprende el cuidado de la integridad física y del bienestar emocional durante la emergencia. Requiere mantener una comunicación calmada, proteger la privacidad, evitar intervenciones que puedan causar daños y considerar las características propias de la primera infancia.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Activación de la ruta de emergencia
+                  p.text-center.mb-0 Consiste en solicitar oportunamente el apoyo especializado cuando la situación supera la capacidad de actuación del primer respondiente. Se debe activar la línea 123, proporcionar información clara, comunicar la ubicación exacta y seguir las indicaciones recibidas.
 
     .row.align-items-start.mt-4(data-aos="fade-down")
       .col-auto
@@ -200,49 +202,51 @@
     .row.bg-fondo-5.mt-4
       .col-12
         .p-5
-          SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Actuar de manera oportuna
-              p.text-center.mb-0 Consiste en responder sin demoras injustificadas ante una emergencia, después de verificar que el entorno sea seguro. Requiere reconocer las necesidades prioritarias, tomar decisiones responsables y brindar la ayuda inicial necesaria, de acuerdo con la situación y las capacidades del primer respondiente en ese momento.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Garantizar la seguridad
-              p.text-center.mb-0 Implica proteger al primer respondiente, a la persona afectada y a quienes se encuentran cerca. Exige identificar peligros, controlar riesgos cuando sea posible y evitar acciones que puedan ocasionar nuevas lesiones o agravar las condiciones presentes durante la atención inicial de la situación de emergencia.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Proteger la vida
-              p.text-center.mb-0 Consiste en priorizar las acciones orientadas a conservar las funciones vitales y prevenir el agravamiento de la persona afectada. Requiere valorar su estado general, reconocer signos de alarma y brindar únicamente la atención inicial necesaria mientras llega el apoyo especializado solicitado oportunamente.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Activar el sistema de emergencias
-              p.text-center.mb-0 Implica solicitar apoyo especializado cuando la situación supera las capacidades del primer respondiente. Requiere comunicar claramente lo ocurrido, proporcionar la ubicación exacta, describir el estado de la persona afectada y seguir las instrucciones suministradas por el personal encargado del servicio de emergencias.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Evaluar la situación
-              p.text-center.mb-0 Consiste en observar cuidadosamente el entorno y valorar el estado general de la persona afectada antes de intervenir. Permite identificar peligros, reconocer necesidades prioritarias, determinar la ayuda requerida y tomar decisiones seguras, evitando actuaciones apresuradas que puedan aumentar los riesgos existentes durante la emergencia.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Actuar dentro de sus competencias
-              p.text-center.mb-0 Implica realizar únicamente procedimientos conocidos, seguros y acordes con la formación recibida. El primer respondiente debe reconocer sus límites, evitar maniobras para las cuales no está capacitado y solicitar ayuda especializada cuando las necesidades de atención superen su capacidad de actuación durante la emergencia.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Brindar acompañamiento
-              p.text-center.mb-0 Consiste en permanecer junto a la persona afectada, transmitir tranquilidad y mantener una comunicación respetuosa durante la atención. También requiere observar posibles cambios en su estado, proteger su privacidad y facilitar la entrega de información al personal especializado cuando asuma la atención de la emergencia.
+          .row.justify-content-center
+            .col-11
+              SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Actuar de manera oportuna
+                  p.text-center.mb-0 Consiste en responder sin demoras injustificadas ante una emergencia, después de verificar que el entorno sea seguro. Requiere reconocer las necesidades prioritarias, tomar decisiones responsables y brindar la ayuda inicial necesaria, de acuerdo con la situación y las capacidades del primer respondiente en ese momento.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Garantizar la seguridad
+                  p.text-center.mb-0 Implica proteger al primer respondiente, a la persona afectada y a quienes se encuentran cerca. Exige identificar peligros, controlar riesgos cuando sea posible y evitar acciones que puedan ocasionar nuevas lesiones o agravar las condiciones presentes durante la atención inicial de la situación de emergencia.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Proteger la vida
+                  p.text-center.mb-0 Consiste en priorizar las acciones orientadas a conservar las funciones vitales y prevenir el agravamiento de la persona afectada. Requiere valorar su estado general, reconocer signos de alarma y brindar únicamente la atención inicial necesaria mientras llega el apoyo especializado solicitado oportunamente.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Activar el sistema de emergencias
+                  p.text-center.mb-0 Implica solicitar apoyo especializado cuando la situación supera las capacidades del primer respondiente. Requiere comunicar claramente lo ocurrido, proporcionar la ubicación exacta, describir el estado de la persona afectada y seguir las instrucciones suministradas por el personal encargado del servicio de emergencias.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Evaluar la situación
+                  p.text-center.mb-0 Consiste en observar cuidadosamente el entorno y valorar el estado general de la persona afectada antes de intervenir. Permite identificar peligros, reconocer necesidades prioritarias, determinar la ayuda requerida y tomar decisiones seguras, evitando actuaciones apresuradas que puedan aumentar los riesgos existentes durante la emergencia.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Actuar dentro de sus competencias
+                  p.text-center.mb-0 Implica realizar únicamente procedimientos conocidos, seguros y acordes con la formación recibida. El primer respondiente debe reconocer sus límites, evitar maniobras para las cuales no está capacitado y solicitar ayuda especializada cuando las necesidades de atención superen su capacidad de actuación durante la emergencia.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Brindar acompañamiento
+                  p.text-center.mb-0 Consiste en permanecer junto a la persona afectada, transmitir tranquilidad y mantener una comunicación respetuosa durante la atención. También requiere observar posibles cambios en su estado, proteger su privacidad y facilitar la entrega de información al personal especializado cuando asuma la atención de la emergencia.
 
     p.mt-4(data-aos="fade-down") El cumplimiento de estas responsabilidades favorece una atención inicial organizada, segura y centrada en la protección de la vida. Su aplicación permite actuar con criterio, respetar los límites de intervención y facilitar la continuidad de la atención por parte del personal especializado.
 

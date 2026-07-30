@@ -27,43 +27,45 @@
     .row.bg-fondo-7.mt-4
       .col-12
         .p-5
-          SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Observar el entorno
-              p.text-center.mb-0 Consiste en examinar el lugar antes de acercarse a la persona afectada para reconocer las condiciones generales de seguridad. Por ejemplo, si una niña cae en la cocina, el primer respondiente verifica si existen líquidos derramados, objetos cortantes o recipientes calientes que puedan ocasionar otro accidente.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Identificar los riesgos
-              p.text-center.mb-0 Implica reconocer los peligros que pueden afectar al primer respondiente, a la persona lesionada o a quienes se encuentran cerca. Por ejemplo, ante un niño ubicado junto a una toma eléctrica dañada, se evita el acercamiento hasta suspender la corriente y garantizar condiciones seguras para brindar ayuda.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Reconocer el tipo de incidente
-              p.text-center.mb-0 Permite establecer qué ocurrió y orientar las acciones iniciales según las características de la situación. Por ejemplo, si un niño presenta una quemadura después de tocar una olla caliente, se identifica el origen de la lesión y se evita aplicar sustancias caseras sobre la zona afectada.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Verificar el número de víctimas
-              p.text-center.mb-0 Permite establecer cuántas personas requieren ayuda y determinar el orden de atención según la gravedad de sus condiciones. Por ejemplo, después de la caída de varios niños durante una actividad, se identifica quién presenta dificultad respiratoria, sangrado abundante, pérdida de conciencia o lesiones aparentemente menores.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Evaluar si es seguro intervenir
-              p.text-center.mb-0 Requiere comprobar que la atención pueda brindarse sin exponer al primer respondiente ni agravar la condición de la persona afectada. Por ejemplo, si un niño cae cerca de una fuga de gas, se evita ingresar al lugar y se solicita apoyo inmediato a los organismos de emergencia.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Decidir si se interviene o se activan emergencias
-              p.text-center.mb-0 Consiste en determinar si la situación puede atenderse mediante primeros auxilios básicos o requiere apoyo especializado. Por ejemplo, ante una niña inconsciente o con dificultad respiratoria, se activa la línea 123, se siguen las indicaciones recibidas y se brinda acompañamiento hasta que llegue el personal capacitado.
+          .row.justify-content-center
+            .col-11
+              SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Observar el entorno
+                  p.text-center.mb-0 Consiste en examinar el lugar antes de acercarse a la persona afectada para reconocer las condiciones generales de seguridad. Por ejemplo, si una niña cae en la cocina, el primer respondiente verifica si existen líquidos derramados, objetos cortantes o recipientes calientes que puedan ocasionar otro accidente.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Identificar los riesgos
+                  p.text-center.mb-0 Implica reconocer los peligros que pueden afectar al primer respondiente, a la persona lesionada o a quienes se encuentran cerca. Por ejemplo, ante un niño ubicado junto a una toma eléctrica dañada, se evita el acercamiento hasta suspender la corriente y garantizar condiciones seguras para brindar ayuda.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Reconocer el tipo de incidente
+                  p.text-center.mb-0 Permite establecer qué ocurrió y orientar las acciones iniciales según las características de la situación. Por ejemplo, si un niño presenta una quemadura después de tocar una olla caliente, se identifica el origen de la lesión y se evita aplicar sustancias caseras sobre la zona afectada.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Verificar el número de víctimas
+                  p.text-center.mb-0 Permite establecer cuántas personas requieren ayuda y determinar el orden de atención según la gravedad de sus condiciones. Por ejemplo, después de la caída de varios niños durante una actividad, se identifica quién presenta dificultad respiratoria, sangrado abundante, pérdida de conciencia o lesiones aparentemente menores.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Evaluar si es seguro intervenir
+                  p.text-center.mb-0 Requiere comprobar que la atención pueda brindarse sin exponer al primer respondiente ni agravar la condición de la persona afectada. Por ejemplo, si un niño cae cerca de una fuga de gas, se evita ingresar al lugar y se solicita apoyo inmediato a los organismos de emergencia.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Decidir si se interviene o se activan emergencias
+                  p.text-center.mb-0 Consiste en determinar si la situación puede atenderse mediante primeros auxilios básicos o requiere apoyo especializado. Por ejemplo, ante una niña inconsciente o con dificultad respiratoria, se activa la línea 123, se siguen las indicaciones recibidas y se brinda acompañamiento hasta que llegue el personal capacitado.
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
@@ -303,49 +305,51 @@
     .row.bg-fondo-7.mt-4
       .col-12
         .p-5
-          SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Pérdida de la conciencia
-              p.text-center.mb-0 Ocurre cuando la niña o el niño no responde al llamado ni a estímulos suaves. Por ejemplo, si permanece inmóvil después de una caída y no abre los ojos, se debe llamar inmediatamente a la línea 123 y vigilar su respiración.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Dificultad o ausencia de respiración
-              p.text-center.mb-0 Se reconoce cuando la niña o el niño respira con esfuerzo, emite sonidos extraños o no presenta movimientos respiratorios. Por ejemplo, si después de atragantarse no puede respirar, se debe solicitar ayuda inmediata y seguir las indicaciones recibidas del operador.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Sangrado abundante
-              p.text-center.mb-0 Corresponde a una pérdida continua de sangre que no disminuye con medidas iniciales de control. Por ejemplo, si una herida profunda empapa rápidamente las gasas utilizadas, se debe mantener presión directa, llamar a la línea 123 y esperar la llegada del personal especializado.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Convulsiones
-              p.text-center.mb-0 Son movimientos involuntarios que pueden acompañarse de rigidez, pérdida de conciencia o alteración de la respiración. Por ejemplo, si un niño convulsiona, se deben retirar los objetos cercanos, proteger su cabeza, evitar introducir elementos en su boca y solicitar ayuda médica de emergencia inmediatamente.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Lesiones graves
-              p.text-center.mb-0 Comprenden golpes, caídas o heridas que pueden comprometer la cabeza, el cuello, la columna o las extremidades. Por ejemplo, si una niña cae desde una altura y no puede moverse, se debe evitar trasladarla, activar el sistema de emergencias y acompañarla tranquila y permanentemente.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Quemaduras extensas
-              p.text-center.mb-0 Afectan una zona amplia del cuerpo o áreas delicadas, como la cara, las manos o los genitales. Por ejemplo, si un niño derrama agua hirviendo sobre el pecho, se debe retirar la fuente de calor, solicitar ayuda inmediata y evitar aplicar remedios caseros.
-            .tarjeta.bg-4.r-20.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
-              p.text-center.mt-3.mb-2(style="font-size:1.125em")
-                b Capacidad de atención superada
-              p.text-center.mb-0 Se presenta cuando la gravedad, el número de personas afectadas o los riesgos del entorno exceden los conocimientos y recursos disponibles. Por ejemplo, ante niñas y niños lesionados, se debe solicitar apoyo de emergencia, priorizar la seguridad y evitar actuaciones inseguras.
+          .row.justify-content-center
+            .col-11
+              SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Pérdida de la conciencia
+                  p.text-center.mb-0 Ocurre cuando la niña o el niño no responde al llamado ni a estímulos suaves. Por ejemplo, si permanece inmóvil después de una caída y no abre los ojos, se debe llamar inmediatamente a la línea 123 y vigilar su respiración.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Dificultad o ausencia de respiración
+                  p.text-center.mb-0 Se reconoce cuando la niña o el niño respira con esfuerzo, emite sonidos extraños o no presenta movimientos respiratorios. Por ejemplo, si después de atragantarse no puede respirar, se debe solicitar ayuda inmediata y seguir las indicaciones recibidas del operador.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Sangrado abundante
+                  p.text-center.mb-0 Corresponde a una pérdida continua de sangre que no disminuye con medidas iniciales de control. Por ejemplo, si una herida profunda empapa rápidamente las gasas utilizadas, se debe mantener presión directa, llamar a la línea 123 y esperar la llegada del personal especializado.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Convulsiones
+                  p.text-center.mb-0 Son movimientos involuntarios que pueden acompañarse de rigidez, pérdida de conciencia o alteración de la respiración. Por ejemplo, si un niño convulsiona, se deben retirar los objetos cercanos, proteger su cabeza, evitar introducir elementos en su boca y solicitar ayuda médica de emergencia inmediatamente.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Lesiones graves
+                  p.text-center.mb-0 Comprenden golpes, caídas o heridas que pueden comprometer la cabeza, el cuello, la columna o las extremidades. Por ejemplo, si una niña cae desde una altura y no puede moverse, se debe evitar trasladarla, activar el sistema de emergencias y acompañarla tranquila y permanentemente.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Quemaduras extensas
+                  p.text-center.mb-0 Afectan una zona amplia del cuerpo o áreas delicadas, como la cara, las manos o los genitales. Por ejemplo, si un niño derrama agua hirviendo sobre el pecho, se debe retirar la fuente de calor, solicitar ayuda inmediata y evitar aplicar remedios caseros.
+                .tarjeta.bg-4.r-20.p-4.h-100
+                  figure
+                    img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
+                  p.text-center.mt-3.mb-2(style="font-size:1.125em")
+                    b Capacidad de atención superada
+                  p.text-center.mb-0 Se presenta cuando la gravedad, el número de personas afectadas o los riesgos del entorno exceden los conocimientos y recursos disponibles. Por ejemplo, ante niñas y niños lesionados, se debe solicitar apoyo de emergencia, priorizar la seguridad y evitar actuaciones inseguras.
 
     p.mt-4(data-aos="fade-down") El reconocimiento oportuno de estos signos permite solicitar ayuda especializada sin retrasos y proteger a la persona afectada. Mientras llega el personal de emergencias, se deben seguir las indicaciones del operador, mantener la seguridad del entorno y brindar únicamente las medidas acordes con la formación recibida.
 
@@ -500,8 +504,10 @@
     .row.bg-fondo-9
       .col-12
         .p-5
-          figure(data-aos="fade-down")
-            img(src="@/assets/curso/temas/t6/fig2.png" alt="Proceso para la toma de decisiones en primeros auxilios. Cinco acciones articuladas en ciclo: Observar, reconocer el entorno y el estado de la persona afectada; Analizar, interpretar la información recopilada y establecer prioridades; Decidir, seleccionar la acción más segura según la gravedad; Actuar, aplicar las medidas iniciales acordes con la formación recibida; y Reevaluar, verificar los cambios en la situación y ajustar las decisiones." style="width: 1020px").m-auto
+          .row.justify-content-center
+            .col-11
+              figure(data-aos="fade-down")
+                img(src="@/assets/curso/temas/t6/fig2.png" alt="Proceso para la toma de decisiones en primeros auxilios. Cinco acciones articuladas en ciclo: Observar, reconocer el entorno y el estado de la persona afectada; Analizar, interpretar la información recopilada y establecer prioridades; Decidir, seleccionar la acción más segura según la gravedad; Actuar, aplicar las medidas iniciales acordes con la formación recibida; y Reevaluar, verificar los cambios en la situación y ajustar las decisiones." style="width: 1020px").m-auto
 
     p.mt-5(data-aos="fade-down") Estas acciones conforman un ciclo dinámico, porque las condiciones de la emergencia pueden cambiar durante la atención. Por ello, el primer respondiente debe mantener la observación y adaptar sus decisiones para proteger a la niña o al niño sin exceder sus límites de actuación.
 
