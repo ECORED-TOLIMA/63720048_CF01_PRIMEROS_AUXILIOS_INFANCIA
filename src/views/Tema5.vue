@@ -14,7 +14,7 @@
           img(src="@/assets/curso/temas/t5/f1.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p El botiquín de primeros auxilios es un conjunto organizado de elementos, insumos y materiales básicos destinados a brindar atención inmediata ante situaciones de emergencia o urgencia. Su disponibilidad y adecuado mantenimiento son fundamentales para garantizar una respuesta oportuna y efectiva, especialmente en entornos donde se atiende población infantil.
-        .bg-2.p-4.mt-4
+        .bg-2.r-10.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, el botiquín debe estar adaptado a las necesidades de niñas y niños, asegurando la presencia de elementos básicos que permitan atender lesiones frecuentes como caídas, heridas, golpes o quemaduras leves. Asimismo, debe ubicarse en un lugar accesible, visible y seguro, evitando el acceso directo por parte de los niños y garantizando su uso por personal capacitado.
 
     p.mt-4(data-aos="fade-down") Para comprender su adecuada conformación y uso, es necesario reconocer el concepto de botiquín y las disposiciones que orientan su disponibilidad en los diferentes entornos. En este sentido, se presentan estos fundamentos y su aplicación en la atención de emergencias relacionadas con la primera infancia.
@@ -82,7 +82,7 @@
               |  afectan superficialmente la piel por contacto con objetos calientes, líquidos u otras fuentes de calor.
       .col-lg-3.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t5/f3.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t5/f3.png" alt="" style="width: 292px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") El reconocimiento de estas situaciones permite seleccionar y organizar los elementos básicos del botiquín de acuerdo con las necesidades del entorno. Asimismo, su contenido debe revisarse periódicamente para verificar el estado, la limpieza, la integridad y la fecha de vencimiento de los productos.
 
@@ -153,14 +153,14 @@
                   |  Mantenerlo fuera del alcance de las niñas y los niños.
             .col-lg-4.d-none.d-lg-block
               figure.mb-0
-                img(src="@/assets/curso/temas/t5/f4.png" alt="" style="width: 292px").m-auto
+                img(src="@/assets/curso/temas/t5/f4.png" alt="" style="width: 292px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") El cumplimiento de estas condiciones permite conservar adecuadamente los elementos del botiquín y disponer de ellos de manera oportuna durante una emergencia.
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t5/f5.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t5/f5.png" alt="" style="width: 292px").r-10.m-auto
       .col-lg-9
         p El botiquín de primeros auxilios constituye un recurso esencial que facilita la atención inicial en situaciones de emergencia, permitiendo al primer respondiente actuar de manera oportuna y organizada. Su adecuada dotación y uso se articulan con la bioseguridad y la gestión del riesgo, fortaleciendo la capacidad de respuesta en entornos de atención a la primera infancia.
         .bg-1.p-4.mt-4

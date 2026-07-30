@@ -12,7 +12,7 @@
       .col-lg-9
         p(data-aos="fade-down") Los primeros auxilios son la respuesta inmediata, provisional y organizada que se brinda ante una emergencia o urgencia. En la primera infancia, etapa de alta vulnerabilidad, esta actuación oportuna puede marcar la diferencia entre proteger la vida de niñas y niños o agravar una situación de riesgo.
 
-        .bg-1.p-4.mt-4(data-aos="fade-down")
+        .bg-1.r-10.p-4.mt-4(data-aos="fade-down")
           p.mb-0 A lo largo de este componente formativo, encontrará los fundamentos que le permitirán actuar con seguridad como primer respondiente: el marco normativo vigente, los conceptos esenciales, las medidas de bioseguridad y la gestión del riesgo en entornos infantiles. Estos saberes fortalecerán su capacidad para evaluar el entorno, tomar decisiones acertadas y activar los servicios de emergencia, tanto en su rol laboral como en la vida cotidiana.
 
         .row.align-items-start.mt-4(data-aos="fade-down")

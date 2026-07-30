@@ -13,7 +13,7 @@
         figure
           img(src="@/assets/curso/temas/t4/f1.png" alt="" style="width: 292px").m-auto
       .col-lg-9
-        .bg-1.p-4
+        .bg-1.r-10.p-4
           .row.align-items-start
             .col-auto
               figure.mb-0
@@ -66,11 +66,11 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-9
         p La bioseguridad comprende el conjunto de principios, normas y prácticas orientadas a prevenir, minimizar o controlar los riesgos biológicos derivados de la exposición a agentes potencialmente infecciosos durante la atención en salud o en situaciones de emergencia. En los primeros auxilios, su aplicación protege al primer respondiente y a la persona afectada, y favorece una intervención segura.
-        .bg-1.p-4.mt-4
+        .bg-1.r-10.p-4.mt-4
           p.mb-0 Las normas básicas de bioseguridad se fundamentan en el principio de precaución universal, según el cual toda persona debe considerarse potencialmente portadora de agentes infecciosos. Por esta razón, las medidas de protección deben aplicarse antes, durante y después de cada intervención, aun cuando no exista una infección confirmada.
       .col-lg-3.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t4/f2.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/f2.png" alt="" style="width: 292px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") Para reducir la exposición a agentes biológicos durante la atención inicial, se deben aplicar las siguientes normas:
 
@@ -113,7 +113,7 @@
 
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-md-6.col-lg-4
-        .tarjeta.bg-4.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t4/i3.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -127,7 +127,7 @@
             b Tapabocas
           p.text-center.mb-0 Cubre la nariz y la boca para disminuir la exposición a gotas respiratorias y posibles salpicaduras. Por ejemplo, se utiliza al brindar atención cercana a una niña o un niño que presenta tos, vómito o secreciones respiratorias abundantes.
       .col-md-6.col-lg-4
-        .tarjeta.bg-1.tarjeta--icono-arriba
+        .tarjeta.bg-1.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t4/i5.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -155,7 +155,7 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-9
         p El manejo de riesgos biológicos en primeros auxilios comprende el conjunto de acciones orientadas a identificar, prevenir y controlar la exposición a agentes potencialmente infecciosos durante la atención inicial. Estos riesgos se presentan principalmente por el contacto con sangre, secreciones, fluidos corporales o elementos contaminados, los cuales pueden representar un peligro tanto para el primer respondiente como para la persona afectada.
-        .bg-1.p-4.mt-4
+        .bg-1.r-10.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, este manejo adquiere especial relevancia debido a la frecuencia de lesiones, caídas o situaciones que implican contacto con fluidos, así como a la mayor vulnerabilidad de niñas y niños frente a infecciones.
       .col-lg-3.mt-4.mt-lg-0
         figure
@@ -190,7 +190,7 @@
           p.mb-0 En el contexto de la primera infancia, el rol del primer respondiente adquiere una importancia crítica debido a la vulnerabilidad de niñas y niños, quienes requieren una atención inmediata, segura y adaptada a sus condiciones físicas y emocionales. La intervención debe realizarse con especial cuidado, considerando algunos aspectos como: la edad, el tamaño corporal, la capacidad de comunicación y la dependencia del adulto.
       .col-lg-3.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t4/f4.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t4/f4.png" alt="" style="width: 292px").r-10.m-auto
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
@@ -203,7 +203,7 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-4.mb-4
-        .bg-1.p-4.h-100
+        .bg-1.r-10.p-4.h-100
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -211,7 +211,7 @@
             .col
               p.mb-0 Evaluar el entorno y verificar la seguridad de la escena antes de intervenir.
       .col-md-6.col-lg-4.mb-4
-        .bg-1.p-4.h-100
+        .bg-1.r-10.p-4.h-100
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -219,7 +219,7 @@
             .col
               p.mb-0 Identificar el tipo de emergencia y el estado de la persona afectada.
       .col-md-6.col-lg-4.mb-4
-        .bg-1.p-4.h-100
+        .bg-1.r-10.p-4.h-100
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -227,7 +227,7 @@
             .col
               p.mb-0 Aplicar medidas básicas de primeros auxilios según la situación.
       .col-md-6.col-lg-4.mb-4
-        .bg-1.p-4.h-100
+        .bg-1.r-10.p-4.h-100
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -235,7 +235,7 @@
             .col
               p.mb-0 Activar el sistema de emergencias (línea 123).
       .col-md-6.col-lg-4.mb-4
-        .bg-1.p-4.h-100
+        .bg-1.r-10.p-4.h-100
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -243,7 +243,7 @@
             .col
               p.mb-0 Brindar acompañamiento y apoyo emocional a la víctima.
       .col-md-6.col-lg-4.mb-4
-        .bg-1.p-4.h-100
+        .bg-1.r-10.p-4.h-100
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -292,7 +292,7 @@
           img(src="@/assets/curso/temas/t4/f6.png" alt="" style="width: 292px").m-auto
       .col-lg-9
         p El rol del primer respondiente integra conocimientos, habilidades y actitudes que permiten brindar una atención inicial oportuna y segura. En la primera infancia, este rol se fortalece mediante la comprensión del entorno, la identificación de riesgos, la valoración de la situación y la activación de los servicios de emergencia, con el fin de proteger la vida, la integridad y el bienestar de las niñas y los niños.
-        .bg-1.p-4.mt-4
+        .bg-1.r-10.p-4.mt-4
           p.mb-0 Una vez reconocidas las responsabilidades y los límites que orientan la actuación del primer respondiente, es necesario identificar los elementos básicos que facilitan una atención inicial organizada. Por ello, a continuación, se presenta el botiquín de primeros auxilios, su importancia y las condiciones para su adecuado uso y mantenimiento.
 
 </template>

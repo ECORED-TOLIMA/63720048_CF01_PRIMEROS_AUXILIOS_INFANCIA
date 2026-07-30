@@ -12,7 +12,7 @@
     #t_2_1.row.align-items-start.justify-content-center(data-aos="fade-down")
       .col-lg-8
         p Los lineamientos técnicos establecidos por la Secretaría Distrital de Integración Social (SDIS) orientan la prestación de los servicios dirigidos a la primera infancia, especialmente en jardines infantiles y otros entornos de atención integral. Estas orientaciones buscan promover condiciones seguras, prevenir situaciones de riesgo y proteger la vida, la integridad y el bienestar de la población infantil.
-        .bg-2.p-4.mt-4
+        .bg-2.r-10.p-4.mt-4
           p.mb-0 En este marco, el talento humano debe contar con conocimientos básicos de primeros auxilios, reconocer los factores de riesgo presentes en el entorno y actuar oportunamente ante una emergencia. Esta preparación permite brindar una respuesta inicial segura, activar las rutas institucionales y articular la atención con los servicios de salud y emergencia del Distrito.
       .col-lg-4.mt-4.mt-lg-0
         figure
@@ -31,31 +31,31 @@
       .col-12
         .p-5
           SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Prevención
               p.text-center.mb-0 Consiste en identificar los peligros presentes en los espacios de atención y aplicar medidas que disminuyan la posibilidad de accidentes. Incluye supervisar las actividades, conservar los elementos peligrosos fuera de alcance y promover prácticas de cuidado acordes con la edad y el desarrollo de la población infantil.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Seguridad del entorno
               p.text-center.mb-0 Implica verificar las condiciones del lugar antes de brindar ayuda. Se deben reconocer riesgos como fuego, electricidad, sustancias tóxicas, objetos inestables o tránsito vehicular, y restringir el ingreso al área afectada cuando sea seguro hacerlo.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i4.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Respuesta inicial
               p.text-center.mb-0 Corresponde a los cuidados inmediatos y provisionales que se brindan ante un accidente o una enfermedad repentina. Comprende valorar el estado general y aplicar únicamente acciones conocidas y seguras, mientras se solicita la intervención del personal especializado.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i2.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Protección integral
               p.text-center.mb-0 Comprende el cuidado de la integridad física y del bienestar emocional durante la emergencia. Requiere mantener una comunicación calmada, proteger la privacidad, evitar intervenciones que puedan causar daños y considerar las características propias de la primera infancia.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i3.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -148,11 +148,11 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-8
         p En la atención de primeros auxilios es fundamental garantizar el respeto por los derechos del paciente, especialmente en el caso de niñas y niños, quienes son sujetos de especial protección. Estos derechos orientan la actuación del primer respondiente hacia una atención digna, segura y centrada en la persona, evitando prácticas que vulneren su integridad física, emocional o psicológica.
-        .bg-3.p-4.mt-4
+        .bg-3.r-10.p-4.mt-4
           p.mb-0 En el contexto colombiano, los derechos del paciente están respaldados por la Ley 1751 de 2015, que reconoce la salud como un derecho fundamental autónomo, y por la Ley 1098 de 2006 – Código de la Infancia y la Adolescencia, que establece la protección integral de niñas, niños y adolescentes como un deber del Estado, la familia y la sociedad. En este sentido, toda intervención en primeros auxilios debe realizarse conforme a estos principios, incluso en situaciones de emergencia, garantizando el respeto por la dignidad humana y el interés superior del niño.
       .col-lg-4.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t2/f4.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t2/f4.png" alt="" style="width: 292px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") El respeto por los derechos del paciente orienta una actuación humanizada, segura y responsable durante la prestación de los primeros auxilios. A continuación, se presentan estos derechos mediante definiciones breves y ejemplos que facilitan su aplicación en situaciones relacionadas con la primera infancia.
 
@@ -189,11 +189,11 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-8
         p El primer respondiente es la persona que brinda atención inicial en una situación de emergencia o urgencia antes de la llegada de los servicios de salud. Su actuación implica una responsabilidad fundamental orientada a proteger la vida, reducir riesgos y garantizar una atención adecuada dentro de sus capacidades.
-        .bg-3.p-4.mt-4
+        .bg-3.r-10.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, esta responsabilidad adquiere mayor relevancia debido a la condición de vulnerabilidad de niñas y niños, quienes requieren una atención oportuna, segura y respetuosa de sus derechos. Por ello, el primer respondiente debe actuar con criterio, prudencia y responsabilidad, evitando intervenciones que puedan generar daño o agravar la situación.
       .col-lg-4.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t2/f6.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t2/f6.png" alt="" style="width: 292px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") El primer respondiente debe reconocer las responsabilidades que orientan su actuación durante una emergencia. Estas permiten organizar la atención inicial, proteger a las personas involucradas y actuar dentro de los límites de su formación. A continuación, se presentan las principales responsabilidades y su alcance:
 
@@ -201,43 +201,43 @@
       .col-12
         .p-5
           SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Actuar de manera oportuna
               p.text-center.mb-0 Consiste en responder sin demoras injustificadas ante una emergencia, después de verificar que el entorno sea seguro. Requiere reconocer las necesidades prioritarias, tomar decisiones responsables y brindar la ayuda inicial necesaria, de acuerdo con la situación y las capacidades del primer respondiente en ese momento.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Garantizar la seguridad
               p.text-center.mb-0 Implica proteger al primer respondiente, a la persona afectada y a quienes se encuentran cerca. Exige identificar peligros, controlar riesgos cuando sea posible y evitar acciones que puedan ocasionar nuevas lesiones o agravar las condiciones presentes durante la atención inicial de la situación de emergencia.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Proteger la vida
               p.text-center.mb-0 Consiste en priorizar las acciones orientadas a conservar las funciones vitales y prevenir el agravamiento de la persona afectada. Requiere valorar su estado general, reconocer signos de alarma y brindar únicamente la atención inicial necesaria mientras llega el apoyo especializado solicitado oportunamente.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Activar el sistema de emergencias
               p.text-center.mb-0 Implica solicitar apoyo especializado cuando la situación supera las capacidades del primer respondiente. Requiere comunicar claramente lo ocurrido, proporcionar la ubicación exacta, describir el estado de la persona afectada y seguir las instrucciones suministradas por el personal encargado del servicio de emergencias.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i8.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Evaluar la situación
               p.text-center.mb-0 Consiste en observar cuidadosamente el entorno y valorar el estado general de la persona afectada antes de intervenir. Permite identificar peligros, reconocer necesidades prioritarias, determinar la ayuda requerida y tomar decisiones seguras, evitando actuaciones apresuradas que puedan aumentar los riesgos existentes durante la emergencia.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i9.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Actuar dentro de sus competencias
               p.text-center.mb-0 Implica realizar únicamente procedimientos conocidos, seguros y acordes con la formación recibida. El primer respondiente debe reconocer sus límites, evitar maniobras para las cuales no está capacitado y solicitar ayuda especializada cuando las necesidades de atención superen su capacidad de actuación durante la emergencia.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t2/i7.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -255,7 +255,7 @@
       .col-lg-10
         .bg-4.p-4
           figure
-            img(src="@/assets/curso/temas/t2/f7.png" alt="" style="width: 1020px").m-auto
+            img(src="@/assets/curso/temas/t2/f7.png" alt="" style="width: 1020px").r-10.m-auto
           .tarjeta.tarjeta--blanca.p-4.mt-3
             TarjetaAudio.tarjeta-audio--podcast(
               texto="Pódcast"

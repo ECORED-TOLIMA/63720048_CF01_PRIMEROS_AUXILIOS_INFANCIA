@@ -11,7 +11,7 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-9
         p La evaluación del escenario es el proceso sistemático mediante el cual el primer respondiente analiza las condiciones del entorno antes de intervenir en una situación de emergencia, con el fin de identificar riesgos, garantizar la seguridad y orientar la toma de decisiones iniciales. Este proceso constituye el primer paso de la atención, ya que permite prevenir accidentes adicionales y asegurar una intervención organizada y efectiva.
-        .bg-2.p-4.mt-4
+        .bg-2.r-10.p-4.mt-4
           .row.align-items-start
             .col-auto
               figure.mb-0
@@ -28,37 +28,37 @@
       .col-12
         .p-5
           SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Observar el entorno
               p.text-center.mb-0 Consiste en examinar el lugar antes de acercarse a la persona afectada para reconocer las condiciones generales de seguridad. Por ejemplo, si una niña cae en la cocina, el primer respondiente verifica si existen líquidos derramados, objetos cortantes o recipientes calientes que puedan ocasionar otro accidente.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Identificar los riesgos
               p.text-center.mb-0 Implica reconocer los peligros que pueden afectar al primer respondiente, a la persona lesionada o a quienes se encuentran cerca. Por ejemplo, ante un niño ubicado junto a una toma eléctrica dañada, se evita el acercamiento hasta suspender la corriente y garantizar condiciones seguras para brindar ayuda.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Reconocer el tipo de incidente
               p.text-center.mb-0 Permite establecer qué ocurrió y orientar las acciones iniciales según las características de la situación. Por ejemplo, si un niño presenta una quemadura después de tocar una olla caliente, se identifica el origen de la lesión y se evita aplicar sustancias caseras sobre la zona afectada.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i8.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Verificar el número de víctimas
               p.text-center.mb-0 Permite establecer cuántas personas requieren ayuda y determinar el orden de atención según la gravedad de sus condiciones. Por ejemplo, después de la caída de varios niños durante una actividad, se identifica quién presenta dificultad respiratoria, sangrado abundante, pérdida de conciencia o lesiones aparentemente menores.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i9.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Evaluar si es seguro intervenir
               p.text-center.mb-0 Requiere comprobar que la atención pueda brindarse sin exponer al primer respondiente ni agravar la condición de la persona afectada. Por ejemplo, si un niño cae cerca de una fuga de gas, se evita ingresar al lugar y se solicita apoyo inmediato a los organismos de emergencia.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i10.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -71,7 +71,7 @@
           img(src="@/assets/curso/temas/t6/f2.png" alt="" style="width: 292px").m-auto
       .col-lg-9
         p La aplicación ordenada de estas acciones permite valorar el escenario, reducir la exposición a peligros y tomar decisiones acordes con las necesidades de la emergencia. De esta manera, se favorece una intervención inicial responsable y se protege la integridad de las niñas, los niños, el primer respondiente y las demás personas presentes.
-        .bg-3.p-4.mt-4
+        .bg-3.r-10.p-4.mt-4
           p.mb-0 Una vez valoradas las condiciones del escenario y establecidas las acciones prioritarias, es necesario reconocer la naturaleza y la gravedad del evento para orientar la respuesta inicial. En este sentido, se presentan los tipos de emergencia y los criterios básicos que permiten diferenciarlos.
 
     separador
@@ -85,7 +85,7 @@
           img(src="@/assets/curso/temas/t6/f3.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p Las emergencias corresponden a situaciones que requieren una intervención inmediata debido al riesgo que representan para la vida, la salud o la integridad de una persona. Estas condiciones pueden presentarse de forma repentina y evolucionar rápidamente, por lo que demandan una respuesta oportuna, organizada y basada en criterios de prioridad.
-        .bg-1.p-4.mt-4
+        .bg-1.r-10.p-4.mt-4
           p.mb-0 La clasificación de las emergencias permite al primer respondiente reconocer el tipo de evento, valorar su gravedad y orientar la toma de decisiones frente a la atención inicial. Este proceso facilita la priorización de acciones, la aplicación de medidas adecuadas y, cuando es necesario, la activación del sistema de emergencias para garantizar una atención especializada.
 
     .row.align-items-center.mt-4(data-aos="fade-down")
@@ -156,11 +156,11 @@
             p.mb-0 En la primera infancia, la valoración inicial debe considerar las características propias del desarrollo, debido a que estas influyen en la forma de reconocer los signos y comprender lo ocurrido. Entre los principales aspectos se encuentran:
       .col-lg-4.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t6/f4.png" alt="" style="width: 396px").m-auto
+          img(src="@/assets/curso/temas/t6/f4.png" alt="" style="width: 396px").r-10.m-auto
 
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-md-6.col-lg-4
-        .tarjeta.bg-4.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t6/i11.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -174,7 +174,7 @@
             b Capacidad de comunicación
           p.text-center.mb-0 Puede limitar la descripción de los síntomas, el dolor o las circunstancias del incidente.
       .col-md-6.col-lg-4
-        .tarjeta.bg-1.tarjeta--icono-arriba
+        .tarjeta.bg-1.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t6/i13.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -296,7 +296,7 @@
               p.mb-0 Una vez realizada la valoración inicial y asegurada la escena, el primer respondiente debe identificar si la situación requiere la intervención de servicios de emergencia. En caso afirmativo, debe activar de manera inmediata los canales establecidos, siendo la línea 123 el principal medio de acceso al sistema de emergencias en Colombia.
       .col-lg-3.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t6/f5.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t6/f5.png" alt="" style="width: 292px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") La activación inmediata del sistema de emergencias es necesaria cuando se identifican signos que pueden comprometer la vida o la integridad de la persona afectada. Entre las principales situaciones que requieren apoyo especializado se encuentran:
 
@@ -304,43 +304,43 @@
       .col-12
         .p-5
           SlyderF.slyder--principios(columnas="col-md-6 col-lg-4")
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Pérdida de la conciencia
               p.text-center.mb-0 Ocurre cuando la niña o el niño no responde al llamado ni a estímulos suaves. Por ejemplo, si permanece inmóvil después de una caída y no abre los ojos, se debe llamar inmediatamente a la línea 123 y vigilar su respiración.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Dificultad o ausencia de respiración
               p.text-center.mb-0 Se reconoce cuando la niña o el niño respira con esfuerzo, emite sonidos extraños o no presenta movimientos respiratorios. Por ejemplo, si después de atragantarse no puede respirar, se debe solicitar ayuda inmediata y seguir las indicaciones recibidas del operador.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Sangrado abundante
               p.text-center.mb-0 Corresponde a una pérdida continua de sangre que no disminuye con medidas iniciales de control. Por ejemplo, si una herida profunda empapa rápidamente las gasas utilizadas, se debe mantener presión directa, llamar a la línea 123 y esperar la llegada del personal especializado.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Convulsiones
               p.text-center.mb-0 Son movimientos involuntarios que pueden acompañarse de rigidez, pérdida de conciencia o alteración de la respiración. Por ejemplo, si un niño convulsiona, se deben retirar los objetos cercanos, proteger su cabeza, evitar introducir elementos en su boca y solicitar ayuda médica de emergencia inmediatamente.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i15.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Lesiones graves
               p.text-center.mb-0 Comprenden golpes, caídas o heridas que pueden comprometer la cabeza, el cuello, la columna o las extremidades. Por ejemplo, si una niña cae desde una altura y no puede moverse, se debe evitar trasladarla, activar el sistema de emergencias y acompañarla tranquila y permanentemente.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i16.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
                 b Quemaduras extensas
               p.text-center.mb-0 Afectan una zona amplia del cuerpo o áreas delicadas, como la cara, las manos o los genitales. Por ejemplo, si un niño derrama agua hirviendo sobre el pecho, se debe retirar la fuente de calor, solicitar ayuda inmediata y evitar aplicar remedios caseros.
-            .tarjeta.bg-4.p-4.h-100
+            .tarjeta.bg-4.r-20.p-4.h-100
               figure
                 img(src="@/assets/curso/temas/t6/i14.png" alt="" style="width: 128px").m-auto
               p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -379,7 +379,7 @@
                   |  Riesgos presentes en el entorno.
             .col-lg-4.d-none.d-lg-block
               figure.mb-0
-                img(src="@/assets/curso/temas/t6/f6.png" alt="" style="width: 292px").m-auto
+                img(src="@/assets/curso/temas/t6/f6.png" alt="" style="width: 292px").r-10.m-auto
 
     .row.align-items-start.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-4.mb-4.mb-lg-0
@@ -387,7 +387,7 @@
           img(src="@/assets/curso/temas/t6/f7.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p Asimismo, es importante mantener la comunicación hasta recibir indicaciones del operador, seguir las instrucciones brindadas y no colgar la llamada hasta que se indique. Esta interacción permite optimizar la respuesta y facilitar la atención de la emergencia.
-        .bg-1.p-4.mt-4
+        .bg-1.r-10.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, la activación del sistema de emergencias adquiere especial relevancia, ya que las condiciones de niñas y niños pueden cambiar rápidamente, requiriendo atención especializada en el menor tiempo posible. Por ello, una comunicación efectiva y oportuna puede marcar la diferencia en la evolución de la situación.
 
     p.mt-4(data-aos="fade-down") La activación del sistema de emergencias complementa la valoración del escenario y la actuación del primer respondiente, permitiendo dar continuidad a la atención mediante la intervención de personal especializado. Este proceso asegura una respuesta integral, oportuna y coordinada, especialmente en situaciones que comprometen la salud y la vida en la primera infancia.
@@ -405,11 +405,11 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-8
         p La aplicación de los primeros auxilios en contextos infantiles implica la adaptación de los conocimientos, habilidades y procedimientos a las condiciones específicas de niñas y niños, considerando su etapa de desarrollo, nivel de dependencia y características del entorno en el que se desenvuelven. Este enfoque permite que la atención inicial sea pertinente, segura y acorde con las necesidades de la primera infancia.
-        .bg-1.p-4.mt-4
+        .bg-1.r-10.p-4.mt-4
           p.mb-0 En estos contextos, es fundamental reconocer que los eventos que requieren primeros auxilios no solo dependen de la ocurrencia de un accidente, sino también, de la interacción entre el niño o la niña y su entorno.
       .col-lg-4.mt-4.mt-lg-0
         figure
-          img(src="@/assets/curso/temas/t6/f8.png" alt="" style="width: 396px").m-auto
+          img(src="@/assets/curso/temas/t6/f8.png" alt="" style="width: 396px").r-10.m-auto
 
     p.mt-4(data-aos="fade-down") Los entornos infantiles presentan condiciones particulares que influyen en la aparición de accidentes y en la respuesta del primer respondiente. Para comprender estas situaciones y actuar de manera segura, se deben reconocer los siguientes aspectos, acompañados de ejemplos aplicados a la realidad:
 
@@ -439,28 +439,28 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t6/i17.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 1. Establecer una comunicación clara
           p.text-center.mb-0 Explicar lo que ocurre mediante palabras sencillas, un tono de voz sereno y mensajes acordes con la edad.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t6/i18.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 2. Manejar las emociones
           p.text-center.mb-0 Reconocer el miedo, el llanto o la ansiedad sin minimizar estas manifestaciones ni emitir regaños.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t6/i19.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 3. Generar confianza
           p.text-center.mb-0 Mantener una actitud calmada, respetuosa y empática que permita a la niña o al niño sentirse protegido durante la atención.
       .col-md-6.col-lg-3
-        .tarjeta.bg-2.p-4.h-100
+        .tarjeta.bg-2.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t6/i20.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -481,7 +481,7 @@
         figure
           img(src="@/assets/curso/temas/t6/f9.png" alt="" style="width: 396px").m-auto
       .col-lg-8
-        .bg-1.p-4
+        .bg-1.r-10.p-4
           .row.align-items-start
             .col-auto
               figure.mb-0

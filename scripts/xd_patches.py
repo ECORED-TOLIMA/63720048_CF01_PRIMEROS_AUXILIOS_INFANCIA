@@ -267,36 +267,58 @@ def apply():
     for nombre, nuevo in (('node_to_svg', node_to_svg),
                           ('shape_to_svg', shape_to_svg),
                           ('text_to_svg', text_to_svg),
-                          ('cropped_pattern_bytes', cropped_pattern_bytes)):
+                          ('cropped_pattern_bytes', cropped_pattern_bytes),
+                          ('paint_to_svg', paint_to_svg)):
         _orig[nombre] = getattr(X, nombre)
         setattr(X, nombre, nuevo)
 
 
 # ---------------------------------------------------------------------------
-# Remapeo de la PALETA VIEJA que quedó en el arte del XD
+# ⛔ NO SE REMAPEA NADA: el color de cada elemento es EXACTAMENTE el del nodo del XD
 # ---------------------------------------------------------------------------
-# La hoja de especificación del XD tiene, al lado de cada rect de muestra, el hex ESCRITO, y los
-# dos NO coinciden: el arte (rellenos de los nodos, círculos de los íconos, badges…) se dibujó con
-# los colores del rect, o sea con la paleta vieja. Manda el hex escrito (regla de Luis, 2026-07-29:
-# «el acento-botones es #85E336, no el #16D95E del rect, aunque el PDF pinte el rect»).
-#
-# Si sólo se corrigen las variables de SASS, las superficies que pinta el CSS quedan en la paleta
-# nueva y los assets rasterizados en la vieja -> un círculo #DBC2FA sobre una tarjeta #E3D7FF, o
-# un botón salmón junto a uno naranja. Así que el remapeo se hace **en el SVG, antes de
-# rasterizar**: los colores van como `rgb(r,g,b)` literales, así que es una sustitución exacta y
-# no deja bordes mal antialiasados (que es lo que pasaría remapeando el PNG).
-PALETA_VIEJA_A_NUEVA = {
-    (219, 194, 250): (227, 215, 255),   # #DBC2FA -> #E3D7FF  secundario
-    (255, 192, 172): (255, 184, 102),   # #FFC0AC -> #FFB866  acento contenido
-    (22, 217, 94): (133, 227, 54),      # #16D95E -> #85E336  acento botón
-    (255, 230, 222): (255, 234, 209),   # #FFE6DE -> #FFEAD1  3-VC
-    (244, 237, 254): (247, 243, 255),   # #F4EDFE -> #F7F3FF  2-VC
-    (184, 244, 206): (218, 247, 195),   # #B8F4CE -> #DAF7C3  tinte 30 % del acento botón
-}
+# Intenté traducir la «paleta vieja» del arte (#FFC0AC, #DBC2FA, #16D95E, #FFE6DE, #F4EDFE,
+# #B8F4CE) a los hex ESCRITOS en la hoja de especificación. **ERROR, corregido por Luis el
+# 2026-07-30**: «los colores de los elementos background deben ser exactamente el color propuesto
+# en el XD». La hoja de spec sólo manda en las VARIABLES de la plantilla (p. ej. el acento-botones
+# `#85E336`); el color de un rect, de un círculo o de una banda es el `fill` de ese nodo y nada más.
+# Se deja la función como identidad para no tocar las llamadas.
+PALETA_VIEJA_A_NUEVA = {}
 
 
 def remapear_paleta(svg):
-    """Sustituye en el SVG los `rgb(...)` de la paleta vieja por los de la hoja de spec."""
-    for (r, g, b), (r2, g2, b2) in PALETA_VIEJA_A_NUEVA.items():
-        svg = svg.replace(f'rgb({r},{g},{b})', f'rgb({r2},{g2},{b2})')
+    """Identidad: el color de cada nodo del XD se respeta tal cual (regla de Luis, 2026-07-30)."""
     return svg
+
+
+# ---------------------------------------------------------------------------
+# Parche 6: la DIRECCIÓN del degradado lineal (hallazgo de Luis: «BANNER: SE INVIRTIERON
+# LOS COLORES», 2026-07-30)
+# ---------------------------------------------------------------------------
+# `xd_export.paint_to_svg` busca `x1/y1/x2/y2` dentro de `gradient.meta.ux.gradientResources`,
+# pero el XD los guarda un nivel más arriba, en el propio `gradient`. Al no encontrarlos usaba
+# los defaults `0,0 -> 1,0`, o sea **siempre un degradado horizontal izquierda→derecha**, y en el
+# hero del banner eso invierte los colores: el XD va de lila (abajo-centro) a azul (arriba-izq)
+# y salía azul→lila.
+#   `"x1": 0.4752, "y1": 0.9500, "x2": -0.0401, "y2": 0, "units": "objectBoundingBox"`
+# El rect además va rotado 180° (`a=-1, d=-1`), y como el degradado es `objectBoundingBox` la
+# rotación se le aplica sola en cuanto los valores son los buenos.
+def paint_to_svg(paint, defs, opacity=1.0):
+    if paint and paint.get('type') == 'gradient':
+        grad = paint.get('gradient', {}) or {}
+        ux = ((grad.get('meta') or {}).get('ux') or {}).get('gradientResources') or {}
+        if ux.get('type', 'linear') != 'radial':
+            faltan = not any(k in ux for k in ('x1', 'y1', 'x2', 'y2'))
+            if faltan and any(k in grad for k in ('x1', 'y1', 'x2', 'y2')):
+                ux = dict(ux)
+                for k in ('x1', 'y1', 'x2', 'y2'):
+                    if k in grad:
+                        ux[k] = grad[k]
+                grad = dict(grad)
+                meta = dict(grad.get('meta') or {})
+                mux = dict(meta.get('ux') or {})
+                mux['gradientResources'] = ux
+                meta['ux'] = mux
+                grad['meta'] = meta
+                paint = dict(paint)
+                paint['gradient'] = grad
+    return _orig['paint_to_svg'](paint, defs, opacity)

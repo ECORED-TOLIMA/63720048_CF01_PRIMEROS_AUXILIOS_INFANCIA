@@ -15,7 +15,7 @@
           img(src="@/assets/curso/temas/t1/f2.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p Los primeros auxilios corresponden a los cuidados inmediatos, adecuados y provisionales que se brindan a una persona accidentada o que presenta una enfermedad repentina, antes de recibir atención en un centro asistencial. Estas acciones buscan preservar la vida, prevenir complicaciones y favorecer una actuación organizada y segura ante una emergencia (Ministerio de Salud y Protección Social [MSPS] &amp; Universidad de Antioquia, 2012).
-        .bg-2.p-4.mt-4
+        .bg-2.r-10.p-4.mt-4
           p.mb-0 Esta atención se caracteriza por ser básica pero fundamental, ya que constituye el primer eslabón en la cadena de atención en salud. Su correcta aplicación permite estabilizar a la persona, reducir riesgos asociados al evento y facilitar la continuidad del cuidado mediante la activación oportuna de los servicios de emergencia.
 
     p.mt-4(data-aos="fade-down") En el contexto de la primera infancia, los primeros auxilios adquieren especial relevancia debido a las características propias del desarrollo físico, cognitivo y emocional de niñas y niños, quienes presentan mayor vulnerabilidad frente a accidentes y riesgos en su entorno. Entre las características que aumentan esta vulnerabilidad se encuentran:
@@ -26,28 +26,28 @@
         .p-5
           .row.justify-content-center(data-aos="fade-down")
             .col-md-6.col-lg-3
-              .tarjeta.bg-4.tarjeta--icono-arriba
+              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
                 figure
                   img(src="@/assets/curso/temas/t1/i1.png" alt="")
                 p.text-center.mb-2(style="font-size:1.125em")
                   b Curiosidad
                 p.text-center.mb-0 Impulsa la exploración de objetos, espacios y situaciones desconocidas.
             .col-md-6.col-lg-3
-              .tarjeta.bg-4.tarjeta--icono-arriba
+              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
                 figure
                   img(src="@/assets/curso/temas/t1/i2.png" alt="")
                 p.text-center.mb-2(style="font-size:1.125em")
                   b Exploración constante
                 p.text-center.mb-0 Favorece el contacto con elementos o lugares que pueden representar peligro.
             .col-md-6.col-lg-3
-              .tarjeta.bg-4.tarjeta--icono-arriba
+              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
                 figure
                   img(src="@/assets/curso/temas/t1/i3.png" alt="")
                 p.text-center.mb-2(style="font-size:1.125em")
                   b Percepción limitada del riesgo
                 p.text-center.mb-0 Dificulta reconocer los peligros y anticipar las consecuencias de determinadas acciones.
             .col-md-6.col-lg-3
-              .tarjeta.bg-4.tarjeta--icono-arriba
+              .tarjeta.bg-4.r-20.tarjeta--icono-arriba
                 figure
                   img(src="@/assets/curso/temas/t1/i4.png" alt="")
                 p.text-center.mb-2(style="font-size:1.125em")
@@ -98,13 +98,13 @@
             |  actuar con calma, prudencia y criterio de acuerdo con las condiciones de la emergencia.
       .col-lg-3.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t1/f3.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t1/f3.png" alt="" style="width: 292px").r-20.m-auto
 
     p.mt-4(data-aos="fade-down") La aplicación de estos principios permite responder de manera organizada, proteger a las personas involucradas y brindar una atención inicial humanizada mientras llegan los servicios especializados.
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-10
-        .bg-2.p-4
+        .bg-2.r-10.p-4
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -133,28 +133,28 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t1/i6.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Comunicación calmada
           p.text-center.mb-0 Utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t1/i7.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Manejo de las emociones
           p.text-center.mb-0 Conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t1/i8.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Generación de confianza
           p.text-center.mb-0 Mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
       .col-md-6.col-lg-3
-        .tarjeta.bg-2.p-4.h-100
+        .tarjeta.bg-2.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t1/i9.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -198,7 +198,7 @@
               | Facilitar el traslado seguro y oportuno a un servicio de salud.
       .col-lg-3.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t1/f5.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t1/f5.png" alt="" style="width: 292px").r-10.m-auto
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
@@ -306,31 +306,31 @@
         p.mb-0.mt-4 Entre los principales principios se destacan:
 
     SlyderF.slyder--principios.mt-4(columnas="col-md-6 col-lg-4")
-      .tarjeta.bg-4.p-4.h-100
+      .tarjeta.bg-4.r-20.p-4.h-100
         figure
           img(src="@/assets/curso/temas/t1/i15.png" alt="" style="width: 128px").m-auto
         p.text-center.mt-3.mb-2(style="font-size:1.125em")
           b Seguridad
         p.text-center.mb-0 Antes de intervenir, el primer respondiente debe verificar que el entorno no represente un riesgo para sí mismo, la víctima o terceros, garantizando condiciones seguras para la atención.
-      .tarjeta.bg-4.p-4.h-100
+      .tarjeta.bg-4.r-20.p-4.h-100
         figure
           img(src="@/assets/curso/temas/t1/i16.png" alt="" style="width: 128px").m-auto
         p.text-center.mt-3.mb-2(style="font-size:1.125em")
           b No causar daño
         p.text-center.mb-0 Toda intervención debe evitar agravar la condición de la persona afectada. El primer respondiente debe actuar dentro de sus competencias, absteniéndose de realizar procedimientos para los cuales no está capacitado y aplicando únicamente medidas básicas de primeros auxilios.
-      .tarjeta.bg-4.p-4.h-100
+      .tarjeta.bg-4.r-20.p-4.h-100
         figure
           img(src="@/assets/curso/temas/t1/i17.png" alt="" style="width: 128px").m-auto
         p.text-center.mt-3.mb-2(style="font-size:1.125em")
           b Actuación oportuna
         p.text-center.mb-0 La atención debe brindarse de manera rápida y eficaz, teniendo en cuenta la urgencia de la situación, con el fin de prevenir complicaciones o el deterioro del estado de la víctima.
-      .tarjeta.bg-4.p-4.h-100
+      .tarjeta.bg-4.r-20.p-4.h-100
         figure
           img(src="@/assets/curso/temas/t1/i15.png" alt="" style="width: 128px").m-auto
         p.text-center.mt-3.mb-2(style="font-size:1.125em")
           b Prioridad de la vida
         p.text-center.mb-0 Las acciones deben enfocarse en preservar la vida y mantener las funciones vitales, priorizando la atención según la gravedad de la situación.
-      .tarjeta.bg-4.p-4.h-100
+      .tarjeta.bg-4.r-20.p-4.h-100
         figure
           img(src="@/assets/curso/temas/t1/i16.png" alt="" style="width: 128px").m-auto
         p.text-center.mt-3.mb-2(style="font-size:1.125em")

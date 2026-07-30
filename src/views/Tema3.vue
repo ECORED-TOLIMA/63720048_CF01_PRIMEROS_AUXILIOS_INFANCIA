@@ -14,7 +14,7 @@
           img(src="@/assets/curso/temas/t3/f1.png" alt="" style="width: 396px").m-auto
       .col-lg-8
         p Este eje temático integra los conceptos básicos de primeros auxilios y las acciones necesarias para identificar, analizar y controlar los factores de riesgo. Su comprensión permite interpretar una emergencia, emplear la terminología adecuada y orientar una respuesta inicial segura y oportuna.
-        .bg-3.p-4.mt-4
+        .bg-3.r-10.p-4.mt-4
           .row.align-items-center
             .col-auto
               figure.mb-0
@@ -24,28 +24,28 @@
 
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-md-6.col-lg-3
-        .tarjeta.bg-4.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t3/i3.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
             b Emergencia
           p.text-center.mb-0 Situación crítica que amenaza la vida y requiere atención inmediata de servicios especializados.
       .col-md-6.col-lg-3
-        .tarjeta.bg-4.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t3/i4.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
             b Urgencia
           p.text-center.mb-0 Situación que necesita atención pronta, aunque no representa peligro vital inmediato para alguien.
       .col-md-6.col-lg-3
-        .tarjeta.bg-4.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t3/i5.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
             b Peligro
           p.text-center.mb-0 Fuente, condición o acción con capacidad de causar lesiones, daños o afectaciones graves.
       .col-md-6.col-lg-3
-        .tarjeta.bg-4.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t3/i6.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -182,7 +182,7 @@
                   |  Fortalecer la protección integral de niñas y niños.
             .col-lg-5.d-none.d-lg-block
               figure.mb-0
-                img(src="@/assets/curso/temas/t3/f2.png" alt="" style="width: 366px").m-auto
+                img(src="@/assets/curso/temas/t3/f2.png" alt="" style="width: 366px").r-10.m-auto
 
     .row.align-items-start.mt-4(data-aos="fade-down")
       .col-auto
@@ -201,7 +201,7 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t3/f3.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t3/f3.png" alt="" style="width: 292px").r-10.m-auto
       .col-lg-9
         p La gestión del riesgo en primeros auxilios corresponde al conjunto de acciones orientadas a identificar, analizar y controlar los factores que pueden generar daño en una situación de emergencia. En el contexto de la primera infancia, su aplicación es fundamental debido a la mayor vulnerabilidad de niñas y niños frente a condiciones inseguras en su entorno.
         .cajon.color1.p-4.mt-4
@@ -220,28 +220,28 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t3/i8.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Identificación del peligro
           p.text-center.mb-0 Reconoce las condiciones, los objetos o las acciones que pueden causar daño.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t3/i9.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Análisis del riesgo
           p.text-center.mb-0 Valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.p-4.h-100
+        .tarjeta.bg-5.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t3/i10.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Control del riesgo
           p.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
       .col-md-6.col-lg-3
-        .tarjeta.bg-2.p-4.h-100
+        .tarjeta.bg-2.r-20.p-4.h-100
           figure
             img(src="@/assets/curso/temas/t3/i11.png" alt="" style="width: 128px").m-auto
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
@@ -300,12 +300,12 @@
                   |  Verificar la efectividad de las medidas implementadas.
             .col-lg-5.d-none.d-lg-block
               figure.mb-0
-                img(src="@/assets/curso/temas/t3/f4.png" alt="" style="width: 282px").m-auto
+                img(src="@/assets/curso/temas/t3/f4.png" alt="" style="width: 282px").r-10.m-auto
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/t3/f5.png" alt="" style="width: 292px").m-auto
+          img(src="@/assets/curso/temas/t3/f5.png" alt="" style="width: 292px").r-10.m-auto
       .col-lg-9
         p La aplicación ordenada de estas acciones facilita la toma de decisiones y fortalece la protección integral de las niñas y los niños, de acuerdo con los protocolos institucionales y las rutas de atención establecidas en Colombia.
         p.mt-4 En la primera infancia, la gestión del riesgo requiere especial atención debido a la curiosidad, la movilidad y la dependencia del cuidado adulto. La consideración de estas características permite anticipar situaciones peligrosas, establecer medidas preventivas y proteger la vida y la integridad de las niñas y los niños.
