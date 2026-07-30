@@ -113,7 +113,7 @@
 
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-md-6.col-lg-4
-        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-izq-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t4/i3.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -127,7 +127,7 @@
             b Tapabocas
           p.text-center.mb-0 Cubre la nariz y la boca para disminuir la exposición a gotas respiratorias y posibles salpicaduras. Por ejemplo, se utiliza al brindar atención cercana a una niña o un niño que presenta tos, vómito o secreciones respiratorias abundantes.
       .col-md-6.col-lg-4
-        .tarjeta.bg-1.r-20.tarjeta--icono-arriba
+        .tarjeta.bg-1.r-der-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t4/i5.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
@@ -138,7 +138,7 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-10
-        .bg-3.p-4
+        .bg-3.r-10.p-4
           .row.align-items-center
             .col-auto
               figure.mb-0
