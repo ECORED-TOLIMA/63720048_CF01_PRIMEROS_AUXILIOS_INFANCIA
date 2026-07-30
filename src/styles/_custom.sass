@@ -376,15 +376,20 @@ figcaption
       flex: 0 0 auto
       width: 100%
 
-// En móvil las tarjetas sobre un fondo decorativo quedaban pegadas (hallazgo de Luis).
+// En móvil NINGUNA fila de tarjetas puede quedar pegada a la siguiente (hallazgo de Luis, repetido
+// en el Tema 3: «en móvil deben tener una pequeña separación como lo hiciste en el tema 1»).
+// Va a nivel de la tarjeta, no del fondo decorativo, porque hay filas que no están sobre una banda.
 @media screen and (max-width: $bp-max-md)
-  .bg-fondo-1, .bg-fondo-2, .bg-fondo-3, .bg-fondo-4, .bg-fondo-5, .bg-fondo-6, .bg-fondo-7, .bg-fondo-8, .bg-fondo-9
-    .row > [class*="col-"]
-      margin-bottom: 2rem
-      &:last-child
-        margin-bottom: 0
-    .tarjeta--icono-arriba
-      margin-bottom: 1rem
+  .row > [class*="col-"] > .tarjeta,
+  .row > [class*="col-"] > .tarjeta--boton,
+  .row > [class*="col-"] > [class*="bg-"]
+    margin-bottom: 2rem
+  .row > [class*="col-"]:last-child > .tarjeta,
+  .row > [class*="col-"]:last-child > .tarjeta--boton,
+  .row > [class*="col-"]:last-child > [class*="bg-"]
+    margin-bottom: 0
+  .tarjeta--icono-arriba
+    margin-bottom: 1rem
 
 // ============================================================================
 // TARJETA HOVER = `.tarjeta--boton` DEL KIT (catálogo, `CATALOGO/src/views/Tema10.vue`)
