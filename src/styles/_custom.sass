@@ -280,5 +280,34 @@ figcaption
   .mb-cus
     margin-bottom: 2em  !important
 
-  
- 
+// Fondos decorativos del tema 2
+.bg-fondo-4, .bg-fondo-5
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+.bg-fondo-4
+  background-image: url(../assets/curso/temas/bg/4.png)
+.bg-fondo-5
+  background-image: url(../assets/curso/temas/bg/5.png)
+
+// Tablas del tema 2: el kit deja el thead gris; en el XD va con el acento-contenido y el texto
+// oscuro, y las filas alternas en el 1-VC muy claro.
+.tabla--normativa, .tabla--redes
+  table
+    thead th
+      background-color: $color-acento-contenido
+      color: $color-sistema-texto
+      border: none
+    tbody tr:nth-child(even)
+      background-color: $color-1-v
+
+// TarjetaAudio del pódcast: el kit pone el texto en itálica y la barra gris; en el XD el marco es
+// del acento-botón con el texto recto.
+.tarjeta-audio--podcast
+  border: 2px solid $color-acento-botones
+  border-radius: 30px
+  padding: 10px 20px
+  .tarjeta-audio__texto, .audio__texto
+    font-style: normal !important
+  .audio__btn
+    background-color: $color-acento-botones !important
