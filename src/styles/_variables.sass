@@ -56,12 +56,27 @@ $color-institucional: #39A900
 
 // Colores Curso ---------------------------------------
 
-$color-primario: #88dff5
-$color-secundario: #ba59e7
-$color-acento-contenido: #FF4A69
-$color-acento-botones: #39A900
-$color-adicional-1: #CDDC39
-$color-adicional-2: #00BCD4
+// Paleta de la HOJA DE ESPECIFICACIÓN del XD (los hex ESCRITOS, no los rects de muestra:
+// están desincronizados y manda el texto — regla de Luis, 2026-07-29).
+$color-primario: #8EC5FC          // 1- Primario   (rect de muestra: #8EC5FC, coincide)
+$color-secundario: #E3D7FF        // 2- Secundario (rect: #DBC2FA)
+$color-acento-contenido: #FFB866  // 3- Acento contenido (rect: #FFC0AC)
+$color-acento-botones: #85E336    // 4- Acento BOTÓN (rect: #16D95E)
+$color-adicional-1: #DDEEFE       // 1-VC
+$color-adicional-2: #F7F3FF       // 2-VC
+$color-terciario: #F6F0E8         // 5- Terciario
+
+// Variables de la hoja del XD (VC = clara, V = variable, VO = oscura)
+$color-1-vc: #DDEEFE
+$color-1-v:  #F3F9FF
+$color-1-vo: #394F65
+$color-2-vc: #F7F3FF
+$color-2-v:  #FCFBFF
+$color-2-vo: #5B5666
+$color-3-vc: #FFEAD1
+$color-3-v:  #FFF8EF
+$color-3-vo: #594023
+$color-4-vc: #F3FCEA
 
 // Color Tipografias -----------------------------------
 $color-headers: $color-sistema-texto
@@ -186,7 +201,7 @@ $bp-max-xs: 576px
 .actividad
   background-color: #F2F2F2  
 // Imágen banner principal -----------------------------
-$banner-principal-img-y: '' // 'arriba','abajo',''
+$banner-principal-img-y: 'abajo' // en el XD la ilustración va PEGADA al borde inferior del hero
 $banner-principal-img-x: '' // 'derecha',''
 
 // .tarjeta-avatar -----------------------------------

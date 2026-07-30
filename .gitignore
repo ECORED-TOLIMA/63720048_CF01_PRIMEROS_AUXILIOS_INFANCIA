@@ -20,3 +20,7 @@ pnpm-debug.log*
 *.sln
 *.sw?
 README.md
+
+# El .xd descomprimido (lo genera scripts/config.py la primera vez): 64 MB de recursos
+/fuentes/CF1_63720048/
+__pycache__/

@@ -8,6 +8,11 @@ import packageJson from '../package.json'
 
 import './styles/_styles.sass'
 
+// `?noaos` congela las animaciones AOS para poder capturar la pantalla en headless.
+if (window.location.search.includes('noaos')) {
+  document.documentElement.classList.add('noaos')
+}
+
 const app = createApp(App)
 app.use(router)
 app.use(store)

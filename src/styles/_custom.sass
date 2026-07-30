@@ -1,17 +1,32 @@
 @use 'variables' as *
+// Medidas del XD (coords de página): hero (136,100) 1328x559, ilustración (857,153) 506x506,
+// ficha del teléfono (857,382) 90x90 y ficha del corazón (1273,472) 90x90.
+// La ilustración se ancla al borde DERECHO y ABAJO de su columna (que en el hero coinciden con
+// el borde de la tarjeta), así que las fichas se posicionan en px desde esa esquina: es estable
+// aunque el `.container` mida 1320 en vez de los 1328 del XD.
+.banner-principal__img
+  display: flex
+  justify-content: flex-end
+  padding-right: 100px !important      // 1464 - 1363 = 101 en el XD
+  & > img                              // SOLO la ilustración: las fichas van dentro de un div
+    width: 506px
+    max-width: none
+    height: auto
+  & > div > img
+    width: 100%
 .banner-principal-decorativo
-  &-1
+  &-1                       // ficha del teléfono
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
-  &-2
+    right: 454px
+    bottom: 202px
+    width: 90px
+  &-2                       // ficha del corazón
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    right: 38px
+    bottom: 112px
+    width: 90px
 
 
 @keyframes float1
@@ -21,36 +36,75 @@
   100%
     transform: translateY(0px)
 
-.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-  flex: 0 0 auto !important
-  width: 58.33333333% !important
+// El XD limita el texto del hero a 490px de ancho: es el `col-xxl-5` que trae el kit, así que
+// NO se ensancha a 58.33% como venía en BASE (era de otro curso).
+
 .banner-principal__img 
   padding-bottom: 0 !important;
 //.banner-principal__row .banner-principal__img 
 //    width: 33%;
     
+// El fondo del hero es CLARO (degradado lavanda -> azul del XD) y el texto del XD es #12263F:
+// BASE lo fuerza a blanco y quedaría ilegible.
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $color-sistema-texto !important
 
+// En este curso el texto de los botones va NEGRO (hallazgo de Luis, 2026-07-29):
+// BASE lo fuerza a $white y en el XD es oscuro.
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
-  color: $white !important
+  color: $color-sistema-texto !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
+// El ícono y los números de los temas van NEGROS, como en el XD (hallazgo de Luis).
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $color-sistema-texto !important
+
+// Captura headless: `?noaos` deja visible todo lo animado y mata la transición del acordeón
+// (si no, el ítem abierto sale colapsado a media transición).
+html.noaos
+  [data-aos]
+    opacity: 1 !important
+    transform: none !important
+    transition: none !important
+  .acordion__contenido
+    transition: none !important
 figcaption 
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
     color: $color-acento-botones !important;
 
+// El banner de cabecera de las secciones tiene su PROPIO grupo en el XD (1600x220, no el
+// 1328x559 de la portada): `Enmascarar grupo 1119228`. El componente del kit reusa
+// `fondoBannerPrincipal`, así que se sobreescribe aquí.
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/banner-interno.png) !important
+
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
+
+// ============================================================================
+// EL ARTE DEL XD ESTÁ EN LA PALETA VIEJA: se traduce a la de la hoja de spec
+// ----------------------------------------------------------------------------
+// Los nodos del XD siguen rellenos con los colores de los RECTS de muestra, que están
+// desincronizados de los hex ESCRITOS al lado (y manda el escrito — regla de Luis). La
+// traducción, comprobada barriendo los rellenos de los 9 artboards:
+//   #FFC0AC -> $color-acento-contenido  #FFB866      #FFE6DE -> 3-VC  #FFEAD1
+//   #DBC2FA -> $color-secundario        #E3D7FF      #F4EDFE -> 2-VC  #F7F3FF
+//   #16D95E -> $color-acento-botones    #85E336
+//   #8EC5FC / #DDEEFE / #F3F9FF / #394F65 ya coinciden con la spec (familia del primario)
+// ============================================================================
+
+// Fondos planos, numerados en el orden en que aparecen. El hex es el de la spec, no el del arte.
+.bg-1
+  background-color: $color-3-vc          // aviso salmón claro (en el XD #FFE6DE)
+  border-radius: 10px
+
 .p-full-width
   padding: 3rem 3.5rem!important;
 .bg-full-width
@@ -84,7 +138,7 @@ figcaption
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  .banner-principal__info
     width: 90% !important
 
   
