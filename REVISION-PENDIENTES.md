@@ -20,16 +20,25 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
    el artboard del Tema 2 **no dibuja su píldora** (el contenido arranca justo bajo el título del
    tema). Lo dejé en el menú con `hash: 't_2_1'` anclado al primer bloque del tema.
 
+4. **El arte del XD se remapea a la paleta de la spec también DENTRO de los assets.** Los círculos
+   de los íconos, los badges y los tintes están dibujados con la paleta vieja; si sólo se corrigen
+   las variables de SASS, un círculo `#DBC2FA` queda junto a una tarjeta `#E3D7FF`. El remapeo se
+   hace en el SVG antes de rasterizar (`xd_patches.remapear_paleta`), así que no deja bordes mal
+   antialiasados. El tinte `#B8F4CE` del arte (30 % del viejo verde) pasa a `#DAF7C3`.
+5. **A 390 px de ancho el contenido se corta por la derecha** en todas las pantallas: viene del
+   ancho mínimo efectivo (~480 px) de la infraestructura del kit, no de la maquetación. A 768 px
+   todo apila bien.
+
 ## Falta contenido en las fuentes
 
-4. **La URL del video de la Introducción.** El XD dibuja «Espacio para video» (sin URL) y el
+6. **La URL del video de la Introducción.** El XD dibuja «Espacio para video» (sin URL) y el
    DI.docx sólo nombra el guion (`Guion_Introduccion_Video_CF01_63720047`, que además cita el
    código **63720047**, no el 63720048 de este componente). Quedó el embed por defecto del
    scaffold.
-5. **Las imágenes del cuestionario** (`src/assets/actividad/imagen1..10.png`) son las que trae el
+7. **Las imágenes del cuestionario** (`src/assets/actividad/imagen1..10.png`) son las que trae el
    scaffold, **de otro curso**. El kit reserva su columna sin `v-if`, así que se quedan como
    marcador hasta que lleguen las buenas.
-6. **`public/downloads/Sintesis.pdf`** es el del scaffold; se regenerará recortando la página 10
+8. **`public/downloads/Sintesis.pdf`** es el del scaffold; se regenerará recortando la página 10
    del PDF de diseño al cerrar la Síntesis.
 
 ## Estado
@@ -44,14 +53,5 @@ decisiones que tomé yo para no parar. Todo lo demás sale de las fuentes.
 | Actividad didáctica | pendiente |
 | Glosario / Referencias | pendientes (del DI.docx a `global.js`) |
 | Créditos | los del scaffold, por confirmar contra el DI.docx |
-
-7. **El arte del XD se remapea a la paleta de la spec también DENTRO de los assets.** Los círculos
-   de los íconos, los badges y los tintes están dibujados con la paleta vieja; si sólo se corrigen
-   las variables de SASS, un círculo `#DBC2FA` queda junto a una tarjeta `#E3D7FF`. El remapeo se
-   hace en el SVG antes de rasterizar (`xd_patches.remapear_paleta`), así que no deja bordes mal
-   antialiasados. El tinte `#B8F4CE` del arte (30 % del viejo verde) pasa a `#DAF7C3`.
-8. **A 390 px de ancho el contenido se corta por la derecha** en todas las pantallas: viene del
-   ancho mínimo efectivo (~480 px) de la infraestructura del kit, no de la maquetación. A 768 px
-   todo apila bien.
 
 Las 13 rutas comprobadas una a una contra el overlay de error de Vite: ninguna rota.
