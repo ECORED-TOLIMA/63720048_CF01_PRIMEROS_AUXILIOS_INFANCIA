@@ -150,7 +150,7 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-8
         p En la atención de primeros auxilios es fundamental garantizar el respeto por los derechos del paciente, especialmente en el caso de niñas y niños, quienes son sujetos de especial protección. Estos derechos orientan la actuación del primer respondiente hacia una atención digna, segura y centrada en la persona, evitando prácticas que vulneren su integridad física, emocional o psicológica.
-        .bg-3.r-10.p-4.mt-4
+        .bg-1.p-4.mt-4
           p.mb-0 En el contexto colombiano, los derechos del paciente están respaldados por la Ley 1751 de 2015, que reconoce la salud como un derecho fundamental autónomo, y por la Ley 1098 de 2006 – Código de la Infancia y la Adolescencia, que establece la protección integral de niñas, niños y adolescentes como un deber del Estado, la familia y la sociedad. En este sentido, toda intervención en primeros auxilios debe realizarse conforme a estos principios, incluso en situaciones de emergencia, garantizando el respeto por la dignidad humana y el interés superior del niño.
       .col-lg-4.mt-4.mt-lg-0
         figure
@@ -191,7 +191,7 @@
     .row.align-items-start(data-aos="fade-down")
       .col-lg-8
         p El primer respondiente es la persona que brinda atención inicial en una situación de emergencia o urgencia antes de la llegada de los servicios de salud. Su actuación implica una responsabilidad fundamental orientada a proteger la vida, reducir riesgos y garantizar una atención adecuada dentro de sus capacidades.
-        .bg-3.r-10.p-4.mt-4
+        .bg-1.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, esta responsabilidad adquiere mayor relevancia debido a la condición de vulnerabilidad de niñas y niños, quienes requieren una atención oportuna, segura y respetuosa de sus derechos. Por ello, el primer respondiente debe actuar con criterio, prudencia y responsabilidad, evitando intervenciones que puedan generar daño o agravar la situación.
       .col-lg-4.mt-4.mt-lg-0
         figure
@@ -291,8 +291,30 @@
       h5 Figura 2.
       span Redes de atención ante emergencias
 
-    figure(data-aos="fade-down")
-      img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral." style="width: 1020px").m-auto
+    .row.justify-content-center
+      .col-lg-6
+    ImagenInfografica.color-primario
+          template(v-slot:imagen)
+            figure
+              img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral." ).w-100
+          .tarjeta.color-primario.p-3(x="12%" y="15%" numero="1")
+            .h5.mb-2 Articulación entre niveles
+            p.mb-0 Integra los niveles de atención para garantizar respuestas organizadas, oportunas y continuas durante cada emergencia.
+          .tarjeta.color-primario.p-3(x="10%" y="50%" numero="2")
+            .h5.mb-2 Servicios de emergencia
+            p.mb-0 Atienden situaciones urgentes, activan recursos disponibles y coordinan inicialmente la respuesta según las necesidades identificadas.
+          .tarjeta.color-primario.p-3(x="14%" y="85%" numero="3")
+            .h5.mb-2 Instituciones de salud
+            p.mb-0 Brindan valoración, tratamiento y seguimiento especializado para favorecer la recuperación integral de la persona afectada.
+          .tarjeta.color-primario.p-3(x="86%" y="15%" numero="4")
+            .h5.mb-2 Organismos de socorro
+            p.mb-0 Apoyan el rescate, la atención inicial y el traslado mediante acciones coordinadas con otros servicios disponibles.
+          .tarjeta.color-primario.p-3(x="88%" y="50%" numero="5")
+            .h5.mb-2 Entidades de protección
+            p.mb-0 Activan rutas institucionales y brindan acompañamiento cuando existen situaciones que afectan la integridad de la infancia.
+          .tarjeta.color-primario.p-3(x="84%" y="85%" numero="6")
+            .h5.mb-2 Coordinación integral
+            p.mb-0 articula los servicios para atender la emergencia y garantizar la continuidad del cuidado hasta la recuperación.
 
     p.mt-5(data-aos="fade-down") En el contexto de la primera infancia, las redes de atención adquieren especial relevancia, ya que permiten activar rutas de atención prioritaria que responden a las necesidades específicas de niñas y niños, garantizando una intervención rápida, segura y adecuada a su condición. Además, contribuyen a fortalecer la articulación entre los entornos de cuidado, como jardines infantiles y centros educativos, con los servicios de salud y protección.
 
