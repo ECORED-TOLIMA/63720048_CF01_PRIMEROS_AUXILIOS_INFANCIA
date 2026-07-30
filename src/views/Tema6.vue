@@ -167,14 +167,14 @@
             b Tamaño corporal
           p.text-center.mb-0 Requiere adaptar las técnicas de valoración y atención a la edad y contextura de la niña o el niño.
       .col-md-6.col-lg-4
-        .tarjeta.bg-6.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t6/i12.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
             b Capacidad de comunicación
           p.text-center.mb-0 Puede limitar la descripción de los síntomas, el dolor o las circunstancias del incidente.
       .col-md-6.col-lg-4
-        .tarjeta.bg-1.r-20.tarjeta--icono-arriba
+        .tarjeta.bg-4.r-20.tarjeta--icono-arriba
           figure
             img(src="@/assets/curso/temas/t6/i13.png" alt="")
           p.text-center.mb-2(style="font-size:1.125em")
