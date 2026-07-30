@@ -219,38 +219,42 @@
     p.mt-4(data-aos="fade-down") La gestión del riesgo se desarrolla mediante acciones relacionadas que permiten reconocer los peligros, valorar sus posibles consecuencias y establecer medidas de protección. A continuación, se presentan las principales acciones que orientan este proceso:
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i8.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o1.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Identificación del peligro
-          p.text-center.mb-0 Reconoce las condiciones, los objetos o las acciones que pueden causar daño.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i9.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o2.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Análisis del riesgo
-          p.text-center.mb-0 Valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i10.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o3.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Control del riesgo
-          p.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
-      .col-md-6.col-lg-3
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i11.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o4.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Prevención
-          p.text-center.mb-0 Implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t3/i8.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t3/o1.png" alt="")
+          h3.text-center Identificación del peligro
+          p.text-small.text-center.mb-0 Reconoce las condiciones, los objetos o las acciones que pueden causar daño.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t3/i9.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t3/o2.png" alt="")
+          h3.text-center Análisis del riesgo
+          p.text-small.text-center.mb-0 Valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t3/i10.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t3/o3.png" alt="")
+          h3.text-center Control del riesgo
+          p.text-small.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t3/i11.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t3/o4.png" alt="")
+          h3.text-center Prevención
+          p.text-small.text-center.mb-0 Implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.
 
     p.mt-4(data-aos="fade-down") La aplicación articulada de estas acciones permite reducir la exposición a situaciones peligrosas y fortalecer la seguridad en los entornos de atención a la primera infancia.
 
