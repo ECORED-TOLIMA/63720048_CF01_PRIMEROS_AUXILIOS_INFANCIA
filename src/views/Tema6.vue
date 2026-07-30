@@ -443,30 +443,34 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t6/i17.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t6/i17.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t6/o1.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 1. Establecer una comunicación clara
           p.text-center.mb-0 Explicar lo que ocurre mediante palabras sencillas, un tono de voz sereno y mensajes acordes con la edad.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t6/i18.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t6/i18.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t6/o2.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 2. Manejar las emociones
           p.text-center.mb-0 Reconocer el miedo, el llanto o la ansiedad sin minimizar estas manifestaciones ni emitir regaños.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t6/i19.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t6/i19.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t6/o3.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 3. Generar confianza
           p.text-center.mb-0 Mantener una actitud calmada, respetuosa y empática que permita a la niña o al niño sentirse protegido durante la atención.
       .col-md-6.col-lg-3
-        .tarjeta.bg-2.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t6/i20.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t6/i20.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t6/o4.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b 4. Favorecer el acompañamiento
           p.text-center.mb-0 Permitir, cuando las condiciones lo posibiliten, la presencia de una persona adulta responsable que brinde seguridad emocional.

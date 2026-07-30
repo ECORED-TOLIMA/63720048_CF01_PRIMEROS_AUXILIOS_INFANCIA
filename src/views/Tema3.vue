@@ -220,30 +220,34 @@
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t3/i8.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i8.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o1.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Identificación del peligro
           p.text-center.mb-0 Reconoce las condiciones, los objetos o las acciones que pueden causar daño.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t3/i9.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i9.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o2.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Análisis del riesgo
           p.text-center.mb-0 Valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg-5.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t3/i10.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i10.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o3.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Control del riesgo
           p.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
       .col-md-6.col-lg-3
-        .tarjeta.bg-2.r-20.p-4.h-100
+        .tarjeta.tarjeta--over.p-4.h-100
           figure
-            img(src="@/assets/curso/temas/t3/i11.png" alt="" style="width: 128px").m-auto
+            img.tarjeta--over__icono(src="@/assets/curso/temas/t3/i11.png" alt="")
+            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t3/o4.png" alt="")
           p.text-center.mt-3.mb-2(style="font-size:1.125em")
             b Prevención
           p.text-center.mb-0 Implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.

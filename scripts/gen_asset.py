@@ -173,7 +173,17 @@ def rasterizar(svg, salida, w, h, escala=1):
     """SVG -> PNG con Chrome. La ventana se pide 200px más alta y se recorta (bug de headless)."""
     from PIL import Image
     tmp = tempfile.mkdtemp()
-    svg = P.remapear_paleta(svg)   # paleta vieja del arte -> hoja de spec
+    svg = P.remapear_paleta(svg)   # identidad: el color del nodo se respeta tal cual
+    # `--swap-color VIEJO NUEVO` (repetible): cambia UN color concreto en el SVG. Se usa SÓLO para
+    # generar el estado «con over» de una tarjeta Over cuando el diseño no lo dibuja aparte: el XD
+    # define el efecto como el intercambio del color del contenedor del icono
+    # (#16D95E <-> #DBC2FA). No es un remapeo de paleta: es reproducir el estado que define el XD.
+    for k, arg in enumerate(sys.argv):
+        if arg == '--swap-color':
+            a, b = sys.argv[k + 1], sys.argv[k + 2]
+            ra, ga, ba = (int(a[i:i + 2], 16) for i in (0, 2, 4))
+            rb, gb, bb = (int(b[i:i + 2], 16) for i in (0, 2, 4))
+            svg = svg.replace(f'rgb({ra},{ga},{ba})', f'rgb({rb},{gb},{bb})')
     style = f'<style>{fuentes_css()}</style>'
     svg = svg.replace('>', '>' + style, 1)
     open(f'{tmp}/a.svg', 'w').write(svg)
