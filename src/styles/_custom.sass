@@ -387,36 +387,37 @@ figcaption
       margin-bottom: 1rem
 
 // ============================================================================
-// TARJETA OVER (catálogo). En el XD se reconoce porque el diseño dibuja los DOS estados:
-// las tarjetas en su color normal + una fila aparte con los iconos «con over» (hallazgo de Luis,
-// `Hallazgos(3)`). Medido en el Tema 1 (1.1):
-//   sin over -> tarjeta #B8F4CE con el contenedor del icono en #16D95E
-//   con over -> tarjeta #F4EDFE con el contenedor del icono en #DBC2FA
-// Los dos iconos van apilados en el mismo `figure` y se cambian con `opacity`, así no hay salto
-// de layout ni segunda petición al pasar el ratón.
+// TARJETA HOVER = `.tarjeta--boton` DEL KIT (catálogo, `CATALOGO/src/views/Tema10.vue`)
+// ----------------------------------------------------------------------------
+// Corrección de Luis (2026-07-30, `Hallazgos(4)`): el componente NO se inventa, es la
+// `.tarjeta--boton` del kit con un modificador de color, y la estructura del catálogo es
+//   .tarjeta--boton.color-N.p-4 > .row.justify-content-center.mb-3 > .col-7 > figure > img
+//                              + h3.text-center + p.text-small.mb-0
+// (Yo había creado una clase `.tarjeta--over` propia: es la cuarta vez que cae la misma piedra.)
+//
+// El kit deja la tarjeta gris y pinta el color del modificador AL PASAR EL RATÓN. El XD de este
+// curso la quiere **verde `#B8F4CE` en reposo y lila `#F4EDFE` en hover**, con el contenedor del
+// icono pasando de `#16D95E` a `#DBC2FA` — y el diseño dibuja los DOS juegos de iconos, así que van
+// apilados y se cruzan con `opacity` (no con `display`: así no hay salto ni segunda petición).
 // ============================================================================
-.tarjeta--over
+.tarjeta--boton.color-1
   background-color: #B8F4CE
   border-radius: 20px
-  cursor: default
-  transition: background-color .3s ease-in-out
+  &:active, &:focus, &:hover
+    background-color: #F4EDFE
+    *
+      color: $color-sistema-texto
   figure
     position: relative
-    margin: 0 auto 1rem
-    width: 128px
-    height: 128px
     img
+      transition: opacity .3s ease-in-out
+    .icono-hover
       position: absolute
       inset: 0
-      width: 128px
-      height: 128px
-      transition: opacity .3s ease-in-out
-    .tarjeta--over__icono-over
       opacity: 0
   &:hover, &:focus-within
-    background-color: #F4EDFE
     figure
-      .tarjeta--over__icono
+      .icono
         opacity: 0
-      .tarjeta--over__icono-over
+      .icono-hover
         opacity: 1

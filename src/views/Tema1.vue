@@ -134,38 +134,42 @@
     p.mt-4(data-aos="fade-down") La actuación del primer respondiente debe adaptarse a las características físicas y emocionales propias de la primera infancia. Para brindar una atención segura y humanizada, se deben considerar los siguientes aspectos:
 
     .row.justify-content-center.mt-4(data-aos="fade-down")
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i6.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o1.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Comunicación calmada
-          p.text-center.mb-0 Utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i7.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o2.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Manejo de las emociones
-          p.text-center.mb-0 Conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i8.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o3.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Generación de confianza
-          p.text-center.mb-0 Mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
-      .col-md-6.col-lg-3
-        .tarjeta.tarjeta--over.p-4.h-100
-          figure
-            img.tarjeta--over__icono(src="@/assets/curso/temas/t1/i9.png" alt="")
-            img.tarjeta--over__icono-over(src="@/assets/curso/temas/t1/o4.png" alt="")
-          p.text-center.mt-3.mb-2(style="font-size:1.125em")
-            b Protección integral
-          p.text-center.mb-0 Cuidar la integridad física y el bienestar emocional de la persona afectada durante la atención.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t1/i6.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t1/o1.png" alt="")
+          h3.text-center Comunicación calmada
+          p.text-small.text-center.mb-0 Utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t1/i7.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t1/o2.png" alt="")
+          h3.text-center Manejo de las emociones
+          p.text-small.text-center.mb-0 Conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t1/i8.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t1/o3.png" alt="")
+          h3.text-center Generación de confianza
+          p.text-small.text-center.mb-0 Mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-1.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.icono(src="@/assets/curso/temas/t1/i9.png" alt="")
+                img.icono-hover(src="@/assets/curso/temas/t1/o4.png" alt="")
+          h3.text-center Protección integral
+          p.text-small.text-center.mb-0 Cuidar la integridad física y el bienestar emocional de la persona afectada durante la atención.
 
     p.mt-4(data-aos="fade-down") La aplicación de estos aspectos favorece una respuesta respetuosa, empática y acorde con las necesidades de la primera infancia.
 
