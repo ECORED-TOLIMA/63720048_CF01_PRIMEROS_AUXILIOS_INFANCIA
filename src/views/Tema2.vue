@@ -291,30 +291,32 @@
       h5 Figura 2.
       span Redes de atención ante emergencias
 
-    .row.justify-content-center
-      .col-lg-6
-    ImagenInfografica.color-primario
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        ImagenInfografica.color-acento-botones.d-none.d-md-block
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral." ).w-100
-          .tarjeta.color-primario.p-3(x="12%" y="15%" numero="1")
-            .h5.mb-2 Articulación entre niveles
+              img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral.").w-100
+          .tarjeta.color-acento-botones.p-3(x="15%" y="30%" numero="+")
+            .h5.mb-2 1. Articulación entre niveles
             p.mb-0 Integra los niveles de atención para garantizar respuestas organizadas, oportunas y continuas durante cada emergencia.
-          .tarjeta.color-primario.p-3(x="10%" y="50%" numero="2")
-            .h5.mb-2 Servicios de emergencia
+          .tarjeta.color-acento-botones.p-3(x="15%" y="50%" numero="+")
+            .h5.mb-2 2. Servicios de emergencia
             p.mb-0 Atienden situaciones urgentes, activan recursos disponibles y coordinan inicialmente la respuesta según las necesidades identificadas.
-          .tarjeta.color-primario.p-3(x="14%" y="85%" numero="3")
-            .h5.mb-2 Instituciones de salud
+          .tarjeta.color-acento-botones.p-3(x="15%" y="70%" numero="+")
+            .h5.mb-2 3. Instituciones de salud
             p.mb-0 Brindan valoración, tratamiento y seguimiento especializado para favorecer la recuperación integral de la persona afectada.
-          .tarjeta.color-primario.p-3(x="86%" y="15%" numero="4")
-            .h5.mb-2 Organismos de socorro
+          .tarjeta.color-acento-botones.p-3(x="85%" y="30%" numero="+")
+            .h5.mb-2 4. Organismos de socorro
             p.mb-0 Apoyan el rescate, la atención inicial y el traslado mediante acciones coordinadas con otros servicios disponibles.
-          .tarjeta.color-primario.p-3(x="88%" y="50%" numero="5")
-            .h5.mb-2 Entidades de protección
+          .tarjeta.color-acento-botones.p-3(x="85%" y="50%" numero="+")
+            .h5.mb-2 5. Entidades de protección
             p.mb-0 Activan rutas institucionales y brindan acompañamiento cuando existen situaciones que afectan la integridad de la infancia.
-          .tarjeta.color-primario.p-3(x="84%" y="85%" numero="6")
-            .h5.mb-2 Coordinación integral
+          .tarjeta.color-acento-botones.p-3(x="85%" y="70%" numero="+")
+            .h5.mb-2 6. Coordinación integral
             p.mb-0 articula los servicios para atender la emergencia y garantizar la continuidad del cuidado hasta la recuperación.
+        figure.d-md-none
+          img(src="@/assets/curso/temas/t2/info-redes.png" alt="Redes de atención ante emergencias. Alrededor de una ilustración central se disponen seis actores: 1. Articulación entre niveles, 2. Servicios de emergencia, 3. Instituciones de salud, 4. Organismos de socorro, 5. Entidades de protección y 6. Coordinación integral.").w-100
 
     p.mt-5(data-aos="fade-down") En el contexto de la primera infancia, las redes de atención adquieren especial relevancia, ya que permiten activar rutas de atención prioritaria que responden a las necesidades específicas de niñas y niños, garantizando una intervención rápida, segura y adecuada a su condición. Además, contribuyen a fortalecer la articulación entre los entornos de cuidado, como jardines infantiles y centros educativos, con los servicios de salud y protección.
 
