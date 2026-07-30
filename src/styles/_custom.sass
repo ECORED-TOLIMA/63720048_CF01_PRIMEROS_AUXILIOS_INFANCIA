@@ -356,6 +356,26 @@ figcaption
   .audio__btn
     background-color: $color-acento-botones !important
 
+// En móvil el contenido de una banda decorativa va a 12 columnas, igual de ancho que el cajón de
+// arriba (hallazgo de Luis, `Hallazgos(3)`): el `.p-5` del envoltorio lo estrechaba, y el `.col-11`
+// y los `.col-lg-10` de dentro tienen que ocupar todo.
+@media screen and (max-width: $bp-max-md)
+  .bg-fondo-1, .bg-fondo-2, .bg-fondo-3, .bg-fondo-4, .bg-fondo-5, .bg-fondo-6, .bg-fondo-7, .bg-fondo-8, .bg-fondo-9
+    .p-5
+      padding: 1.5rem 0 !important
+    > .col-12
+      padding-left: 0
+      padding-right: 0
+    .row
+      margin-left: 0
+      margin-right: 0
+    [class*="col-"]
+      padding-left: 0
+      padding-right: 0
+    .col-11
+      flex: 0 0 auto
+      width: 100%
+
 // En móvil las tarjetas sobre un fondo decorativo quedaban pegadas (hallazgo de Luis).
 @media screen and (max-width: $bp-max-md)
   .bg-fondo-1, .bg-fondo-2, .bg-fondo-3, .bg-fondo-4, .bg-fondo-5, .bg-fondo-6, .bg-fondo-7, .bg-fondo-8, .bg-fondo-9
