@@ -9,14 +9,29 @@
       h1 Marco normativo y ético
 
     //- ─────────────────────────────── 2.1 Lineamientos técnicos SDIS
-    #t_2_1.row.align-items-start.justify-content-center(data-aos="fade-down")
+    .row.align-items-start.justify-content-center(data-aos="fade-down")
       .col-lg-8
-        p Los lineamientos técnicos establecidos por la Secretaría Distrital de Integración Social (SDIS) orientan la prestación de los servicios dirigidos a la primera infancia, especialmente en jardines infantiles y otros entornos de atención integral. Estas orientaciones buscan promover condiciones seguras, prevenir situaciones de riesgo y proteger la vida, la integridad y el bienestar de la población infantil.
+        p La atención en primeros auxilios en la primera infancia se sustenta en un marco normativo y ético que orienta la actuación del primer respondiente, garantizando intervenciones seguras, responsables y acordes con la protección integral de niñas y niños. Este marco establece los lineamientos que regulan la atención en salud, los derechos del paciente y las condiciones mínimas para una respuesta oportuna ante situaciones de emergencia.
         .bg-2.r-10.p-4.mt-4
-          p.mb-0 En este marco, el talento humano debe contar con conocimientos básicos de primeros auxilios, reconocer los factores de riesgo presentes en el entorno y actuar oportunamente ante una emergencia. Esta preparación permite brindar una respuesta inicial segura, activar las rutas institucionales y articular la atención con los servicios de salud y emergencia del Distrito.
+          p.mb-0 El conocimiento del componente normativo permite al primer respondiente comprender el alcance y los límites de su actuación, así como las responsabilidades asociadas a la atención inicial. A su vez, el componente ético orienta la conducta durante la intervención, promoviendo una atención basada en el respeto por la dignidad humana, la protección de la vida y la no generación de daño adicional.
       .col-lg-4.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/temas/t2/f2.png" alt="" style="width: 396px").m-auto
+
+    p.mt-4 En este sentido, la actuación en primeros auxilios no solo implica saber qué hacer, sino actuar conforme a principios legales y éticos que aseguren una atención adecuada, especialmente en la primera infancia, donde se requiere un enfoque diferencial y de especial protección.
+
+    separador
+    #t_2_1.titulo-segundo.color-acento-contenido
+      h2 2.1 Lineamientos técnicos SDIS
+
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-4.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/t2/9.png', alt='', style="width: 390px").m-auto
+      .col-lg-8
+        p Los lineamientos técnicos establecidos por la Secretaría Distrital de Integración Social (SDIS) orientan la prestación de los servicios dirigidos a la primera infancia, especialmente en jardines infantiles y otros entornos de atención integral. Estas orientaciones buscan promover condiciones seguras, prevenir situaciones de riesgo y proteger la vida, la integridad y el bienestar de la población infantil.
+
+        p.bg-1.r-10.p-4.mt-4.mb-0 En este marco, el talento humano debe contar con conocimientos básicos de primeros auxilios, reconocer los factores de riesgo presentes en el entorno y actuar oportunamente ante una emergencia. Esta preparación permite brindar una respuesta inicial segura, activar las rutas institucionales y articular la atención con los servicios de salud y emergencia del Distrito.
 
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-lg-10
