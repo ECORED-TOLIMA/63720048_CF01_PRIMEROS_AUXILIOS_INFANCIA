@@ -294,32 +294,28 @@
         figure
           img(src="@/assets/curso/temas/t2/7.svg" alt="" style="width: 290px").m-auto
 
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
-      h5 Figura 2.
-      span Redes de atención ante emergencias
-
     .row.justify-content-center.mt-4
       .col-lg-10
         ImagenInfografica.color-acento-botones.d-none.d-md-block
           template(v-slot:imagen)
             figure
               img(src="@/assets/curso/temas/t2/info-redes.svg" alt="").w-100
-          .tarjeta.color-primario.p-3(x="15%" y="30%" numero="+")
+          .tarjeta.color-primario.p-3(x="11%" y="30%" numero="+")
             .h5.mb-2 1. Articulación entre niveles
             p.mb-0 Integra los niveles de atención para garantizar respuestas organizadas, oportunas y continuas durante cada emergencia.
-          .tarjeta.color-primario.p-3(x="15%" y="50%" numero="+")
+          .tarjeta.color-primario.p-3(x="11%" y="56%" numero="+")
             .h5.mb-2 2. Servicios de emergencia
             p.mb-0 Atienden situaciones urgentes, activan recursos disponibles y coordinan inicialmente la respuesta según las necesidades identificadas.
-          .tarjeta.color-primario.p-3(x="15%" y="70%" numero="+")
+          .tarjeta.color-primario.p-3(x="11%" y="80%" numero="+")
             .h5.mb-2 3. Instituciones de salud
             p.mb-0 Brindan valoración, tratamiento y seguimiento especializado para favorecer la recuperación integral de la persona afectada.
-          .tarjeta.color-primario.p-3(x="85%" y="30%" numero="+")
+          .tarjeta.color-primario.p-3(x="89%" y="30%" numero="+")
             .h5.mb-2 4. Organismos de socorro
             p.mb-0 Apoyan el rescate, la atención inicial y el traslado mediante acciones coordinadas con otros servicios disponibles.
-          .tarjeta.color-primario.p-3(x="85%" y="50%" numero="+")
+          .tarjeta.color-primario.p-3(x="89%" y="56%" numero="+")
             .h5.mb-2 5. Entidades de protección
             p.mb-0 Activan rutas institucionales y brindan acompañamiento cuando existen situaciones que afectan la integridad de la infancia.
-          .tarjeta.color-primario.p-3(x="85%" y="70%" numero="+")
+          .tarjeta.color-primario.p-3(x="89%" y="80%" numero="+")
             .h5.mb-2 6. Coordinación integral
             p.mb-0 articula los servicios para atender la emergencia y garantizar la continuidad del cuidado hasta la recuperación.
         figure.d-md-none

@@ -167,10 +167,6 @@
 
     p.mt-4(data-aos="fade-down") El control de la exposición a agentes biológicos requiere seguir una secuencia de medidas antes, durante y después de la atención inicial. El siguiente recurso presenta las acciones que orientan este proceso, desde la identificación del riesgo hasta la higiene de manos posterior a la intervención.
 
-    .titulo-sexto.color-acento-contenido.mb-3.mt-4
-      h5 Figura 3.
-      span Manejo adecuado de los riesgos biológicos
-
     .row.bg-fondo-6
       .col-12
         .p-5
@@ -182,22 +178,22 @@
                     template(v-slot:imagen)
                       figure
                         img(src="@/assets/curso/temas/t4/2.svg" alt="").w-100
-                    .tarjeta.color-primario.p-3(x="20%" y="20%" numero="+")
+                    .tarjeta.color-primario.p-3(x="20%" y="21%" numero="+")
                       .h5.mb-2 1. Identificar el riesgo
                       p.mb-0 Reconocer la presencia de sangre, secreciones o materiales contaminados antes de intervenir.
-                    .tarjeta.color-primario.p-3(x="15%" y="50%" numero="+")
+                    .tarjeta.color-primario.p-3(x="15%" y="58%" numero="+")
                       .h5.mb-2 2. Aplicar medidas de protección
                       p.mb-0 Utilizar elementos de protección personal según el tipo de exposición.
-                    .tarjeta.color-primario.p-3(x="20%" y="80%" numero="+")
+                    .tarjeta.color-primario.p-3(x="20%" y="90%" numero="+")
                       .h5.mb-2 3. Evitar el contacto directo
                       p.mb-0 Emplear barreras de protección para reducir la probabilidad de contaminación.
-                    .tarjeta.color-primario.p-3(x="80%" y="20%" numero="+")
+                    .tarjeta.color-primario.p-3(x="80%" y="21%" numero="+")
                       .h5.mb-2 4. Controlar la fuente de riesgo
                       p.mb-0 Cubrir heridas o contener fluidos, cuando sea posible, sin generar daño adicional.
-                    .tarjeta.color-primario.p-3(x="85%" y="50%" numero="+")
+                    .tarjeta.color-primario.p-3(x="85%" y="58%" numero="+")
                       .h5.mb-2 5. Disponer adecuadamente los residuos
                       p.mb-0 Eliminar de forma segura los materiales utilizados durante la atención.
-                    .tarjeta.color-primario.p-3(x="80%" y="80%" numero="+")
+                    .tarjeta.color-primario.p-3(x="80%" y="90%" numero="+")
                       .h5.mb-2 6. Realizar higiene de manos
                       p.mb-0 Lavarse las manos antes y después de la intervención como medida fundamental de prevención.
                   figure.d-md-none
