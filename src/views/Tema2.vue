@@ -303,7 +303,7 @@
         ImagenInfografica.color-acento-botones.d-none.d-md-block
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/t2/info-redes.png" alt="").w-100
+              img(src="@/assets/curso/temas/t2/info-redes.svg" alt="").w-100
           .tarjeta.color-primario.p-3(x="15%" y="30%" numero="+")
             .h5.mb-2 1. Articulación entre niveles
             p.mb-0 Integra los niveles de atención para garantizar respuestas organizadas, oportunas y continuas durante cada emergencia.
