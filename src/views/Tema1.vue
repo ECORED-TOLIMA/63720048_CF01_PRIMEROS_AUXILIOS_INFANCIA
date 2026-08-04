@@ -20,7 +20,6 @@
 
     p.mt-4(data-aos="fade-down") En el contexto de la primera infancia, los primeros auxilios adquieren especial relevancia debido a las características propias del desarrollo físico, cognitivo y emocional de niñas y niños, quienes presentan mayor vulnerabilidad frente a accidentes y riesgos en su entorno. Entre las características que aumentan esta vulnerabilidad se encuentran:
 
-    //- 4 tarjetas con el círculo del ícono montado arriba, sobre el fondo decorativo del XD
     .row.bg-fondo-1.mt-4
       .col-12
         .p-5
@@ -274,7 +273,7 @@
           .row.justify-content-center
             .col-11
               .row.justify-content-center
-                .col-11
+                .col-12
                   figure(data-aos="fade-down")
                     img.d-block.d-md-none.m-auto.w-100(src="@/assets/curso/temas/t1/fig1-movil.png" alt="Figura 1. Ruta de actuación del primer respondiente, que representa de forma infográfica la secuencia para brindar una respuesta segura ante una emergencia: evaluar el entorno, valorar el estado general de la persona afectada y aplicar acciones prioritarias. Además, destaca la importancia de actuar con rapidez, criterio y precaución para proteger a quienes participan durante la atención.")
                     img.d-none.d-md-block.m-auto(src="@/assets/curso/temas/t1/fig1.png" alt="Figura 1. Ruta de actuación del primer respondiente, que representa de forma infográfica la secuencia para brindar una respuesta segura ante una emergencia: evaluar el entorno, valorar el estado general de la persona afectada y aplicar acciones prioritarias. Además, destaca la importancia de actuar con rapidez, criterio y precaución para proteger a quienes participan durante la atención." style="width: 1020px")

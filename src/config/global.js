@@ -37,7 +37,8 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Importancia de los primeros auxilios en la primera infancia',
+            titulo:
+              'Importancia de los primeros auxilios en la primera infancia',
             hash: 't_1_1',
           },
           {
