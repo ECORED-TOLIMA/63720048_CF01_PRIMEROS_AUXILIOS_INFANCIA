@@ -227,7 +227,7 @@
                 img.icono(src="@/assets/curso/temas/t3/i8.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t3/o1.png" alt="")
           h3.text-center Identificación del peligro
-          p.text-small.text-center.mb-0 Reconoce las condiciones, los objetos o las acciones que pueden causar daño.
+          p.text-center.mb-0 Reconoce las condiciones, los objetos o las acciones que pueden causar daño.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -236,7 +236,7 @@
                 img.icono(src="@/assets/curso/temas/t3/i9.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t3/o2.png" alt="")
           h3.text-center Análisis del riesgo
-          p.text-small.text-center.mb-0 Valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
+          p.text-center.mb-0 Valora la probabilidad de que ocurra un evento y sus posibles consecuencias.
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -245,7 +245,7 @@
                 img.icono(src="@/assets/curso/temas/t3/i10.svg" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t3/o3.svg" alt="")
           h3.text-center Control del riesgo
-          p.text-small.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
+          p.text-center.mb-0 Aplica medidas para eliminar el peligro o reducir sus posibles efectos.
       .col-sm-6.col-lg-3
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -254,7 +254,7 @@
                 img.icono(src="@/assets/curso/temas/t3/i11.svg" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t3/o4.svg" alt="")
           h3.text-center Prevención
-          p.text-small.text-center.mb-0 Implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.
+          p.text-center.mb-0 Implementa acciones anticipadas para evitar accidentes y proteger a la primera infancia.
 
     p.mt-4(data-aos="fade-down") La aplicación articulada de estas acciones permite reducir la exposición a situaciones peligrosas y fortalecer la seguridad en los entornos de atención a la primera infancia.
 

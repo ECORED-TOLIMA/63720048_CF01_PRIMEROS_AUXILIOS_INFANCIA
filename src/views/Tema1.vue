@@ -141,7 +141,7 @@
                 img.icono(src="@/assets/curso/temas/t1/i6.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t1/o1.png" alt="")
           h3.text-center Comunicación calmada
-          p.text-small.text-center.mb-0 Utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
+          p.text-center.mb-0 Utilizar palabras sencillas y un tono de voz sereno para reducir el miedo y facilitar la atención.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -150,7 +150,7 @@
                 img.icono(src="@/assets/curso/temas/t1/i7.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t1/o2.png" alt="")
           h3.text-center Manejo de las emociones
-          p.text-small.text-center.mb-0 Conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
+          p.text-center.mb-0 Conservar la calma y reconocer las reacciones emocionales que pueden surgir durante la emergencia.
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -159,7 +159,7 @@
                 img.icono(src="@/assets/curso/temas/t1/i8.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t1/o3.png" alt="")
           h3.text-center Generación de confianza
-          p.text-small.text-center.mb-0 Mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
+          p.text-center.mb-0 Mantener una actitud cercana, respetuosa y empática que favorezca la sensación de seguridad.
       .col-sm-6.col-lg-3
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -168,7 +168,7 @@
                 img.icono(src="@/assets/curso/temas/t1/i9.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t1/o4.png" alt="")
           h3.text-center Protección integral
-          p.text-small.text-center.mb-0 Cuidar la integridad física y el bienestar emocional de la persona afectada durante la atención.
+          p.text-center.mb-0 Cuidar la integridad física y el bienestar emocional de la persona afectada durante la atención.
 
     p.mt-4(data-aos="fade-down") La aplicación de estos aspectos favorece una respuesta respetuosa, empática y acorde con las necesidades de la primera infancia.
 

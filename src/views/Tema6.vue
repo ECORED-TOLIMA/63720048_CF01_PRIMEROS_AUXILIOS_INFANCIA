@@ -453,7 +453,7 @@
                 img.icono(src="@/assets/curso/temas/t6/i17.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t6/o1.png" alt="")
           h3.text-center 1. Establecer una comunicación clara
-          p.text-small.text-center.mb-0 Explicar lo que ocurre mediante palabras sencillas, un tono de voz sereno y mensajes acordes con la edad.
+          p.text-center.mb-0 Explicar lo que ocurre mediante palabras sencillas, un tono de voz sereno y mensajes acordes con la edad.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -462,7 +462,7 @@
                 img.icono(src="@/assets/curso/temas/t6/i18.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t6/o2.png" alt="")
           h3.text-center 2. Manejar las emociones
-          p.text-small.text-center.mb-0 Reconocer el miedo, el llanto o la ansiedad sin minimizar estas manifestaciones ni emitir regaños.
+          p.text-center.mb-0 Reconocer el miedo, el llanto o la ansiedad sin minimizar estas manifestaciones ni emitir regaños.
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -471,7 +471,7 @@
                 img.icono(src="@/assets/curso/temas/t6/i19.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t6/o3.png" alt="")
           h3.text-center 3. Generar confianza
-          p.text-small.text-center.mb-0 Mantener una actitud calmada, respetuosa y empática que permita a la niña o al niño sentirse protegido durante la atención.
+          p.text-center.mb-0 Mantener una actitud calmada, respetuosa y empática que permita a la niña o al niño sentirse protegido durante la atención.
       .col-sm-6.col-lg-3
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
@@ -480,7 +480,7 @@
                 img.icono(src="@/assets/curso/temas/t6/i20.png" alt="")
                 img.icono-hover(src="@/assets/curso/temas/t6/o4.png" alt="")
           h3.text-center 4. Favorecer el acompañamiento
-          p.text-small.text-center.mb-0 Permitir, cuando las condiciones lo posibiliten, la presencia de una persona adulta responsable que brinde seguridad emocional.
+          p.text-center.mb-0 Permitir, cuando las condiciones lo posibiliten, la presencia de una persona adulta responsable que brinde seguridad emocional.
 
     p.mt-4(data-aos="fade-down") La aplicación de estas acciones contribuye a reducir el temor, facilita la valoración inicial y fortalece la colaboración de la niña o el niño. Así, la atención no se limita al manejo de la lesión, sino que también protege su bienestar emocional.
 
