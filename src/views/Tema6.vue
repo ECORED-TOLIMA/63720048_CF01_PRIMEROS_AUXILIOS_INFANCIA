@@ -516,8 +516,8 @@
           h5 Figura 2.
           span Proceso para la toma de decisiones en primeros auxilios
         figure(data-aos="fade-down")
-          img.d-none.d-md-block.m-auto(src="@/assets/curso/temas/t6/10.svg" alt="Ciclo de cinco acciones para tomar decisiones en primeros auxilios: observar, analizar, decidir, actuar y reevaluar. Estas acciones permiten responder oportunamente y brindar una atención inicial segura.")
-          img.d-block.d-md-none.m-auto.w-100(src="@/assets/curso/temas/t6/9.svg" alt="Ciclo de cinco acciones para tomar decisiones en primeros auxilios: observar, analizar, decidir, actuar y reevaluar. Estas acciones permiten responder oportunamente y brindar una atención inicial segura. " style="width: 1020px")
+          img.d-none.d-md-block.m-auto(src="@/assets/curso/temas/t6/10.svg" alt="En la figura 2 se representa el ciclo de cinco acciones para tomar decisiones en primeros auxilios: observar, analizar, decidir, actuar y reevaluar. Estas acciones permiten responder oportunamente y brindar una atención inicial segura. ")
+          img.d-block.d-md-none.m-auto.w-100(src="@/assets/curso/temas/t6/9.svg" alt="En la figura 2 se representa el ciclo de cinco acciones para tomar decisiones en primeros auxilios: observar, analizar, decidir, actuar y reevaluar. Estas acciones permiten responder oportunamente y brindar una atención inicial segura. " style="width: 1020px")
 
     p.mt-5(data-aos="fade-down") Estas acciones conforman un ciclo dinámico, porque las condiciones de la emergencia pueden cambiar durante la atención. Por ello, el primer respondiente debe mantener la observación y adaptar sus decisiones para proteger a la niña o al niño sin exceder sus límites de actuación.
 

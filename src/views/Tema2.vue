@@ -332,7 +332,9 @@
             p.mb-0 Activan rutas institucionales y brindan acompañamiento cuando existen situaciones que afectan la integridad de la infancia.
           .tarjeta.color-primario.p-3(x="89%" y="80%" numero="+")
             .h5.mb-2 6. Coordinación integral
-            p.mb-0 articula los servicios para atender la emergencia y garantizar la continuidad del cuidado hasta la recuperación.
+            p.mb-0 Articula los servicios para atender la emergencia y garantizar la continuidad del cuidado hasta la recuperación. 
+
+            
         figure.d-md-none
           img(src="@/assets/curso/temas/t2/8.svg" alt="").w-100
 
