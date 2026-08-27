@@ -280,7 +280,7 @@
             TarjetaAudio.tarjeta-audio--podcast(
               texto="Pódcast"
               tiempo
-              :audio="require_src('@/assets/curso/temas/t2/audios/63720048_CF01_Guion_podcast.mp3')")
+              :audio="require_src('@/assets/curso/temas/audio/63720048_CF01_Guion_podcast.mp3')")
 
     p.mt-4(data-aos="fade-down") La actuación responsable del primer respondiente contribuye a proteger la vida, prevenir complicaciones y brindar apoyo inicial a la niña o al niño afectado. Sin embargo, esta atención requiere la articulación con instituciones y servicios especializados; por ello, a continuación, se presentan las redes de atención y su importancia en la respuesta oportuna ante una emergencia.
 
