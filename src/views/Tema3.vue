@@ -85,43 +85,35 @@
                 th Aplicación en primeros auxilios
             tbody
               tr
-                td
-                  b Emergencia
+                td Emergencia
                 td Situación que pone en riesgo la vida de una persona y requiere atención inmediata.
                 td Permite priorizar la atención y actuar de forma urgente para preservar la vida.
               tr
-                td
-                  b Urgencia
+                td Urgencia
                 td Situación que requiere atención rápida, pero no compromete de manera inmediata la vida.
                 td Permite organizar la atención según la gravedad del caso.
               tr
-                td
-                  b Negligencia
+                td Negligencia
                 td Falta de cuidado o de atención ante una situación que lo requiere.
                 td Evitar omitir acciones necesarias en la atención de la persona afectada.
               tr
-                td
-                  b Imprudencia
+                td Imprudencia
                 td Actuar sin precaución o sin considerar los riesgos.
                 td Evitar acciones apresuradas que puedan generar daño.
               tr
-                td
-                  b Impericia
+                td Impericia
                 td Falta de conocimiento o habilidad para realizar una acción.
                 td No realizar procedimientos para los cuales no se está capacitado.
               tr
-                td
-                  b Peligro
+                td Peligro
                 td Situación o condición con potencial de causar daño.
                 td Identificar riesgos en el entorno antes de intervenir.
               tr
-                td
-                  b Riesgo
+                td Riesgo
                 td Probabilidad de que un peligro cause daño.
                 td Evaluar la posibilidad de afectación para tomar decisiones.
               tr
-                td
-                  b Accidente
+                td Accidente
                 td Evento inesperado que causa lesión o daño.
                 td Reconocer situaciones que requieren atención inmediata.
               tr
@@ -184,10 +176,10 @@
               figure.mb-0
                 img(src="@/assets/curso/temas/t3/f2.png" alt="" style="width: 366px").r-10.m-auto
 
-    .row.align-items-start.mt-4(data-aos="fade-down")
+    .row.align-items-center.mt-4(data-aos="fade-down")
       .col-auto
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/i2.png" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/t3/i2.png" alt="" style="width: 104px")
       .col
         p.mb-0 La aplicación de estos fundamentos favorece la prevención de accidentes y orienta una actuación inicial segura, organizada y acorde con las necesidades de la primera infancia.
         p.mt-3.mb-0 A partir del reconocimiento de los conceptos y factores de riesgo, es necesario comprender las acciones orientadas a identificar, analizar y controlar las condiciones que pueden ocasionar daños. Por ello, a continuación, se aborda la gestión del riesgo.

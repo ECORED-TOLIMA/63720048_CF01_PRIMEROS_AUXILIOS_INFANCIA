@@ -116,38 +116,32 @@
                 th Aplicación en primeros auxilios
             tbody
               tr
-                td
-                  b Ley 1751
+                td Ley 1751
                 td 2015
                 td Establece la salud como derecho fundamental y garantiza el acceso a servicios de salud sin barreras.
                 td Obliga a brindar atención inmediata en urgencias, priorizando la vida y la integridad.
               tr
-                td
-                  b Ley 1098 (Código de Infancia y Adolescencia)
+                td Ley 1098 (Código de Infancia y Adolescencia)
                 td 2006
                 td Reconoce a niñas y niños como sujetos de especial protección.
                 td Exige actuación oportuna para proteger la vida, salud e integridad de la infancia.
               tr
-                td
-                  b Resolución 3100
+                td Resolución 3100
                 td 2019
                 td Define las condiciones de habilitación y calidad de los servicios de salud en Colombia.
                 td Garantiza que la atención de urgencias se realice bajo estándares de calidad y seguridad.
               tr
-                td
-                  b Resolución 3280
+                td Resolución 3280
                 td 2018
                 td Establece el modelo de atención integral en salud con enfoque preventivo y diferencial.
                 td Orienta la atención con enfoque en promoción, prevención y atención integral en infancia.
               tr
-                td
-                  b Sistema General de Seguridad Social en Salud (SGSSS)
+                td Sistema General de Seguridad Social en Salud (SGSSS)
                 td Vigente
                 td Regula la prestación de servicios de salud en Colombia.
                 td Garantiza la atención inicial de urgencias sin importar afiliación.
               tr
-                td
-                  b Sistema de Emergencias Médicas (SEM)
+                td Sistema de Emergencias Médicas (SEM)
                 td Vigente
                 td Organiza la respuesta ante emergencias mediante redes articuladas de atención.
                 td Permite activar servicios de emergencia a través de la línea 123 para respuesta oportuna.
@@ -205,13 +199,13 @@
 
     p El primer respondiente es la persona que brinda atención inicial en una situación de emergencia o urgencia antes de la llegada de los servicios de salud. Su actuación implica una responsabilidad fundamental orientada a proteger la vida, reducir riesgos y garantizar una atención adecuada dentro de sus capacidades.
 
-    .row.align-items-start(data-aos="fade-down")
+    .row.align-items-center(data-aos="fade-down")
       .col-lg-9
         
         .bg-1.p-4.mt-4
           p.mb-0 En el contexto de la primera infancia, esta responsabilidad adquiere mayor relevancia debido a la condición de vulnerabilidad de niñas y niños, quienes requieren una atención oportuna, segura y respetuosa de sus derechos. Por ello, el primer respondiente debe actuar con criterio, prudencia y responsabilidad, evitando intervenciones que puedan generar daño o agravar la situación.
 
-        p.mt-4(data-aos="fade-down") El primer respondiente debe reconocer las responsabilidades que orientan su actuación durante una emergencia. Estas permiten organizar la atención inicial, proteger a las personas involucradas y actuar dentro de los límites de su formación. A continuación, se presentan las principales responsabilidades y su alcance:
+        p.mt-2(data-aos="fade-down") El primer respondiente debe reconocer las responsabilidades que orientan su actuación durante una emergencia. Estas permiten organizar la atención inicial, proteger a las personas involucradas y actuar dentro de los límites de su formación. A continuación, se presentan las principales responsabilidades y su alcance:
       .col-lg-3.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/temas/t2/f6.png" alt="" style="width: 292px").r-10.m-auto

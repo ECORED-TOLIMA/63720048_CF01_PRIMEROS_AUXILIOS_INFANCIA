@@ -226,24 +226,29 @@
               AcordionA.acordion--principios(tipo="b")
                 .row(titulo="Seguridad")
                   .col-12
-                    p.mb-0 Consiste en verificar que el lugar no presente peligros para la persona afectada, el primer respondiente ni quienes acompañan la atención. Ejemplo: si una niña cae cerca de una instalación eléctrica en un jardín infantil, se debe suspender la energía antes de acercarse y solicitar ayuda de inmediato.
+                    p  Consiste en verificar que el lugar no presente peligros para la persona afectada, el primer respondiente ni quienes acompañan la atención. 
+                    p Ejemplo: si una niña cae cerca de una instalación eléctrica en un jardín infantil, se debe suspender la energía antes de acercarse y solicitar ayuda de inmediato.
                 .row(titulo="Oportunidad")
                   .col-12
-                    p.mb-0 Implica actuar con rapidez, calma y organización, de acuerdo con las necesidades identificadas y sin retrasar la solicitud de ayuda especializada. Ejemplo: si un niño presenta dificultad para respirar en un hogar comunitario colombiano, se activa inmediatamente la línea 123 y se aplican únicamente las acciones conocidas y seguras.
+                    p  Implica actuar con rapidez, calma y organización, de acuerdo con las necesidades identificadas y sin retrasar la solicitud de ayuda especializada. 
+                    p Ejemplo: si un niño presenta dificultad para respirar en un hogar comunitario colombiano, se activa inmediatamente la línea 123 y se aplican únicamente las acciones conocidas y seguras.
                 .row(titulo="Eficacia")
                   .col-12
-                    p.mb-0 Consiste en aplicar acciones pertinentes, seguras y acordes con la situación para favorecer una respuesta adecuada, sin realizar procedimientos innecesarios. Ejemplo: ante una herida leve durante una actividad escolar, se controla el sangrado con una gasa limpia y se informa a la familia y al personal responsable.
+                    p  Consiste en aplicar acciones pertinentes, seguras y acordes con la situación para favorecer una respuesta adecuada, sin realizar procedimientos innecesarios. 
+                    p Ejemplo: ante una herida leve durante una actividad escolar, se controla el sangrado con una gasa limpia y se informa a la familia y al personal responsable.
                 .row(titulo="Responsabilidad")
                   .col-12
-                    p.mb-0 Implica actuar según los conocimientos del primer respondiente, reconocer sus límites y solicitar apoyo especializado cuando sea necesario. Ejemplo: si una niña pierde el conocimiento en un parque colombiano, no se le administran medicamentos; se verifica su estado, se activa la línea 123 y se acompaña hasta recibir ayuda.
+                    p  Implica actuar según los conocimientos del primer respondiente, reconocer sus límites y solicitar apoyo especializado cuando sea necesario. 
+                    p Ejemplo: si una niña pierde el conocimiento en un parque colombiano, no se le administran medicamentos; se verifica su estado, se activa la línea 123 y se acompaña hasta recibir ayuda.
                 .row(titulo="No causar daño")
                   .col-12
-                    p.mb-0 Significa evitar maniobras, medicamentos o procedimientos que puedan agravar la condición de la persona afectada o generar riesgos. Ejemplo: si un niño sufre una posible fractura durante una actividad deportiva, no se mueve la extremidad; se mantiene en reposo y se solicita atención especializada inmediatamente.
+                    p  Significa evitar maniobras, medicamentos o procedimientos que puedan agravar la condición de la persona afectada o generar riesgos. 
+                    p Ejemplo: si un niño sufre una posible fractura durante una actividad deportiva, no se mueve la extremidad; se mantiene en reposo y se solicita atención especializada inmediatamente.
 
-    .row.align-items-start.mt-4(data-aos="fade-down")
+    .row.align-items-center.mt-4(data-aos="fade-down")
       .col-auto
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/i12.png" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/t1/i12.png" alt="" style="width: 104px")
       .col
         p.mb-0 La aplicación conjunta de estos principios permite brindar una respuesta inicial segura y pertinente, proteger la integridad de la población infantil y reconocer cuándo se requiere la intervención de los servicios especializados.
         p.mt-3.mb-0 La aplicación de estos principios orienta una respuesta inicial segura, responsable y adecuada ante una emergencia. Para fortalecer esta actuación, es necesario reconocer las características que debe reunir la atención inicial y la manera en que estas contribuyen a proteger a la persona afectada.
@@ -263,11 +268,13 @@
         figure
           img(src="@/assets/curso/temas/t1/i13.png" alt="" style="width: 292px").m-auto
 
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
-      h5 Figura 1.
-      span Ruta de actuación del primer respondiente
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mt-5
+          h5 Figura 1.
+          span Ruta de actuación del primer respondiente
 
-    .row.bg-fondo-3
+    .row.bg-fondo-3(style="margin-top: -30px;")
       .col-12
         .p-5
           .row.justify-content-center
@@ -356,6 +363,11 @@
           img(src="@/assets/curso/temas/t1/i14.png" alt="" style="width: 84px")
       .col
         p.mb-0 La aplicación conjunta de estos principios permite brindar una respuesta segura, oportuna y responsable, acorde con las necesidades de la persona afectada y las condiciones de la emergencia. Para complementar esta actuación, es necesario reconocer las disposiciones legales y los criterios éticos que orientan la atención y establecen los límites de intervención del primer respondiente.
+
+
+
+        
+
 
 </template>
 

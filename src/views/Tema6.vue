@@ -114,26 +114,22 @@
                 th Aplicación en primeros auxilios
             tbody
               tr
-                td
-                  b Emergencias médicas
+                td Emergencias médicas
                 td Alteraciones del estado de salud sin causa externa evidente.
                 td Convulsiones, fiebre alta, dificultad respiratoria, pérdida de conciencia.
                 td Permiten identificar condiciones críticas que requieren atención inmediata y activación del sistema de emergencias.
               tr
-                td
-                  b Emergencias traumáticas
+                td Emergencias traumáticas
                 td Lesiones causadas por agentes externos.
                 td Caídas, golpes, heridas, quemaduras.
                 td Facilitan la atención inicial de lesiones físicas y el control de daños visibles.
               tr
-                td
-                  b Emergencias ambientales
+                td Emergencias ambientales
                 td Situaciones relacionadas con factores del entorno.
                 td Incendios, exposición al humo, sustancias peligrosas.
                 td Permiten identificar riesgos externos y asegurar la escena antes de intervenir.
               tr
-                td
-                  b Emergencias por intoxicación o asfixia
+                td Emergencias por intoxicación o asfixia
                 td Situaciones derivadas de ingestión de sustancias u obstrucción de la vía aérea.
                 td Atragantamiento, ingestión de objetos o sustancias tóxicas.
                 td Requieren actuación inmediata para evitar compromiso vital.
@@ -274,7 +270,7 @@
           img(src="@/assets/curso/temas/t6/i23.png" alt="" style="width: 292px").m-auto
       .col-lg-9
         .row.align-items-start
-          p La aplicación de estas acciones permite controlar las condiciones del escenario y brindar una atención inicial organizada. Si el peligro no puede eliminarse de forma segura, se debe evitar la intervención directa y solicitar apoyo especializado. preparando el camino para la activación del sistema de emergencias.
+          p La aplicación de estas acciones permite controlar las condiciones del escenario y brindar una atención inicial organizada. Si el peligro no puede eliminarse de forma segura, se debe evitar la intervención directa y solicitar apoyo especializado, preparando el camino para la activación del sistema de emergencias.
           .col-auto
             figure.mb-0
               img(src="@/assets/curso/temas/t6/i4.png" alt="" style="width: 84px")
@@ -436,10 +432,10 @@
             .col-12
               p.mb-0 Implica reconocer el miedo, brindar tranquilidad y mantener una presencia cercana durante la emergencia. Por ejemplo, si una niña llora después de una caída, se le habla con calma, se evitan regaños y se permite el acompañamiento de una persona adulta de confianza.
 
-    .row.align-items-start.mt-4(data-aos="fade-down")
+    .row.align-items-center.mt-4(data-aos="fade-down")
       .col-auto
         figure.mb-0
-          img(src="@/assets/curso/temas/t6/i6.png" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/t6/i6.png" alt="" style="width: 104px")
       .col
         p.mb-0 El reconocimiento de estos aspectos permite adaptar la atención a las características de la primera infancia y reducir los factores que pueden agravar la situación. De igual manera, favorece una intervención respetuosa, comprensible y adecuada para las necesidades de cada niña o niño.
         p.mt-3.mb-0 Además de controlar los riesgos y reconocer las características del desarrollo infantil, el primer respondiente debe generar condiciones emocionales que faciliten la atención. Para lograrlo, se recomienda aplicar las siguientes acciones de manera organizada:
