@@ -274,7 +274,7 @@
         //- (1020x160) tienen el MISMO ancho y no hay padding lateral. El `.p-4` sólo envuelve la
         //- tarjeta blanca de dentro, como en el ejemplo del catálogo.
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/f7.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/f7.svg" alt="").w-100
         .bg-4.p-4
           .tarjeta.bg-white.p-4
             TarjetaAudio.tarjeta-audio--podcast(
