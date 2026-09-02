@@ -522,7 +522,7 @@
         .cajon.color1.p-4
           p.mb-0 En el contexto de la primera infancia, la toma de decisiones requiere un nivel adicional de atención, debido a la vulnerabilidad de niñas y niños y a la posibilidad de cambios rápidos en su estado de salud. Esto implica actuar con mayor precaución, evitando intervenciones innecesarias y priorizando siempre la seguridad y el bienestar del menor.
 
-        p.mt-4(data-aos="fade-down") De esta manera, la toma de decisiones se convierte en un elemento transversal en la atención de primeros auxilios, ya que orienta la actuación del primer respondiente hacia intervenciones seguras, pertinentes y responsables, sin sustituir la atención médica especializada.
+    p.mt-4(data-aos="fade-down") De esta manera, la toma de decisiones se convierte en un elemento transversal en la atención de primeros auxilios, ya que orienta la actuación del primer respondiente hacia intervenciones seguras, pertinentes y responsables, sin sustituir la atención médica especializada.
 
 </template>
 
